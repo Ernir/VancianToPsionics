@@ -1,0 +1,82 @@
+\documentclass[a4paper,10pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{scalefnt}
+\usepackage[top=0.9in, bottom=1in, left=0.9in, right=0.9in]{geometry}
+\usepackage{multirow}
+\usepackage[table]{xcolor}
+\usepackage{amsmath}
+\usepackage{textcomp}
+\usepackage{multicol}
+\usepackage{graphicx}
+\usepackage{tabularx}
+\usepackage{titlesec}
+%\usepackage{stfloats}
+%\usepackage{parskip}
+%\usepackage{helvetica}
+\usepackage{times} %Times font
+\usepackage[pdftex,bookmarks=true,colorlinks=true,linkcolor=blue,pdfauthor={Eirikur Ernir Thorsteinsson},pdftitle={From Vancian to Psionic}]{hyperref}
+\usepackage[all]{hypcap}
+
+\setlength{\parskip}{1ex plus 0.2ex minus 0.2ex}
+\titlespacing*{\subsubsection}{0pt}{3.25ex plus 0.2ex minus .2ex}{1.5ex plus .2ex}
+\titlespacing*{\paragraph} {0pt}{1ex plus 0.2ex minus 0.2ex}{1em}
+\titlespacing*{\subparagraph} {\parindent}{1ex plus 0.2ex minus 0.2ex}{1em}
+
+\setcounter{topnumber}{2}
+\setcounter{bottomnumber}{1}
+\setcounter{totalnumber}{2}
+\setcounter{dbltopnumber}{2} %2column
+\renewcommand{\topfraction}{0.85}
+\renewcommand{\dbltopfraction}{0.85}
+\renewcommand{\bottomfraction}{0.85}
+\renewcommand{\textfraction}{0.15}
+\renewcommand{\floatpagefraction}{0.7}
+\renewcommand{\dblfloatpagefraction}{0.7}
+
+\setcounter{secnumdepth}{-1} 
+\hyphenpenalty=5000
+\interfootnotelinepenalty=10000
+\frenchspacing
+\title{From Vancian to Psionic}
+\date{}
+\author{}
+
+\begin{document}
+\begin{titlepage}
+\maketitle
+\thispagestyle{empty}
+\includegraphics[width=\textwidth]{Pics/TripleSpiral.png}
+\vfill
+\begin{flushright} \large
+\emph{Version:} \\
+Beta 1.10
+\end{flushright}
+\end{titlepage}
+\section{Table of Contents}
+\setlength{\columnsep}{0.5in}
+\begin{multicols}{2}
+\scriptsize
+\tableofcontents
+\listoftables
+\listoffigures
+\normalsize
+\end{multicols}
+\newpage
+%\fontsize{9}{12} \selectfont
+\begin{multicols}{2}
+\input{IntroPsi.tex} \newpage
+\input{Races.tex} \newpage
+\input{ClassesPsi.tex} \newpage
+\input{SkillsPsi.tex} \newpage
+\input{FeatsPsi.tex}\newpage
+\input{SpellListing.tex}
+\input{Spells.tex}\newpage
+\input{MagicalCreatures.tex}\newpage
+\input{Monsters.tex}\newpage
+\input{MagicItems.tex}\newpage
+%\input{ItemsPsi.tex}\newpage
+\input{OtherClasses.tex}\newpage
+\input{Ogl.tex}
+\end{multicols}
+\end{document}

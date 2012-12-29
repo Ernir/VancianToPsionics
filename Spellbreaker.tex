@@ -1,0 +1,305 @@
+\subsection[Spellbreaker]{The Spellbreaker}
+\label{sec:Spellbreaker}
+\begin{quote}
+\emph{``Here, here. Bring me your hand. I can tell much about a person from the lines in their palms.}
+-Amma, human Spellbreaker
+\end{quote}
+
+\paragraph{Hit Die:} d10
+\paragraph{Class skills:}
+The Spellbreaker's class skills (and the key ability for each skill) are Balance (Dex), Bluff (Cha), Climb (Str), Concentration (Con), Craft (Int), Diplomacy (Cha), Disguise (Cha), Gather Information (Cha), Intimidate (Cha), Jump (Str), Knowledge (all skills, taken individually) (Int), Listen (Wis), Profession (Wis), Sense Motive (Wis), Spellcraft (Int), Spot (Wis), Swim (Str), Tumble (Dex).
+
+\paragraph{Skill Points at 1st Level:} (4 + Int modifier) $\times$ 4.
+\paragraph{Skill Points at each additional Level:} 4 + Int modifier.
+
+%[01:11:51 GMT] Ërnir: Langaði til að sjá ýmislegt frá Spellbreakerunum í WC3. Magic immunity/resistance thingy, feedback/mana burn (lemur caster, hann missir galdramojo og tekur auka skaða), stela buffum/tennisa debuffs til baka, stela summons.
+%[01:13:04 GMT] Ërnir: Það sem mig langaði til að bæta við er stuff til að leech-a frá göldrum sem er castað nálægt honum (ó, castaðirðu transmutation galdri? Þá læri ég að fljúga í smá stund), og það að stela concentration göldrum eins og Incantatrix.
+
+\begin{table*}
+\caption{The Spellbreaker}
+\label{tab:Spellbreaker}
+%\rowcolors{1}{white}{lightgray}
+\makebox[\textwidth]{
+\begin{tabular}{|l|l|c|c|c|l|c|c|}
+\hline
+\multirow{2}{*}{\textbf{Level}}&\multirow{2}{*}{\textbf{BAB}}&\textbf{Fort}&\textbf{Ref}&\textbf{Will}&\multirow{2}{*}{\textbf{Special}}&\multirow{2}{*}{\textbf{SP cap}}&\textbf{Max}\\
+&&\textbf{save}&\textbf{save}&\textbf{save}&&&\textbf{level}\\
+\hline
+1st  &+1 		&+2 &+0 &+2	&Siphon Energy, Spell Resistance&0 &1st\\
+2nd  &+2 		&+3 &+0 &+3 	&-			&1 &1st\\
+3rd  &+3 		&+3 &+1 &+3 	&Leech Magic		&3 &1st\\
+4th  &+4 		&+4 &+1 &+4 	&Selective Resistance	&5 &1st\\
+5th  &+5 		&+4 &+1 &+4 	&Dispel Magic (standard)&7 &2nd\\
+6th  &+6/+1 		&+5 &+2 &+5 	&-			&11 &2nd\\
+7th  &+7/+2 		&+5 &+2 &+5 	&Manipulate Magic	&15 &2nd\\
+8th  &+8/+3 		&+6 &+2 &+6 	&-			&19 &2nd\\
+9th  &+9/+4 		&+6 &+3 &+6 	&-			&23 &3rd\\
+10th &+10/+5		&+7 &+3 &+7 	&-			&27 &3rd\\
+11th &+11/+6/+1		&+7 &+3 &+7 	&Antimagic Affinity	&35 &3rd\\
+12th &+12/+7/+2		&+8 &+4 &+8 	&-			&43 &3rd\\
+13th &+13/+8/+3		&+8 &+4 &+8 	&-			&51 &4th\\
+14th &+14/+9/+4		&+9 &+4 &+9 	&Dispel Magic (swift)	&59 &4th\\
+15th &+15/+10/+5	&+9 &+5 &+9 	&-			&67 &4th\\
+16th &+16/+11/+6/+1	&+10&+5 &+10 	&-			&79 &4th\\
+17th &+17/+12/+7/+2	&+10&+5 &+10 	&-			&91 &5th\\
+18th &+18/+13/+8/+3	&+11&+6 &+11 	&-			&103 &5th\\
+19th &+19/+14/+9/+4	&+11&+6 &+11 	&Dispel Magic (immediate)&115 &5th\\
+20th &+20/+15/+10/+5	&+12&+6 &+12 	&Arcanist's Doom	&127 &5th\\
+\hline
+\end{tabular}}
+\end{table*}
+
+\subsubsection{Class Features}
+All the following are class features of the Spellbreaker.
+
+\paragraph{Weapon and Armor Proficiency:} 
+Spellbreakers are proficient with all simple and martial weapons, with light and medium armor, and with shields (including tower shields, but not exotic shields).
+
+%\paragraph{Countermeasures (Ex):} At a Spellbreaker's option, creatures within his threatened space can not use the \nameref{sec:Concentration} skill to cast spells or use spell-like abilities defensively. The creatures are aware of this limitation.
+
+\paragraph{Spell Resistance (Ex):} A Spellbreaker has spell resistance equal to 12 + his class level. If he already has spell resistance from another source (such as from his race), use the higher value with a +2 bonus. %This power comes at a cost, however - your caster level for all your spells, if any, is reduced by 4, to a minimum of 0. The caster level of your spell-like abilities is not affected.
+
+\paragraph{Spells Known:} Although many are reluctant to admit so, Spellbreakers themselves are capable of casting spells.
+A Spellbreaker can cast any spell on the Spellbreaker class list that has a spell point cost equal to or lower than his caster level, and is equal to or below the maximum spell level given on the \nameref{tab:Spellbreaker} table. He does not need to spend effort learning his spells, in effect, his list of spells known is equal to his class spell list. (Exception: The feats Expanded Knowledge and Epic Expanded Knowledge do allow a Spellbreaker to learn spells of other spell lists.) 
+The number of times a Spellbreaker can cast spells in a day is limited only by his spell points. 
+The Difficulty Class for saving throws against Spellbreaker spells is 10 + one-half the number of spell points spent on the spell (round up) + the Spellbreaker's Intelligence modifier.
+
+Spells learned via the Spellbreaker class are arcane spells.
+\paragraph{Spell Points:} A Spellbreaker's ability to cast spells is limited by the spell points he has available. 
+Unlike most spellcasters, a Spellbreaker can \emph{not} regain spell points simply by concentrating at the start of the day - the only way a Spellbreaker can regain spent spell points is using his class features to leech them from other spellcasters.
+His base spell point capacity is given on the \nameref{tab:Spellbreaker} table. In addition, he receives bonus spell points per day if he has a high Intelligence score.
+Provided he can obtain the required spell points, a Spellbreaker has no daily limit on the number of spells he can cast.
+
+\paragraph{Siphon Energy (Su):} Whenever a Spellbreaker strikes a spellcasting opponent with a weapon, the Spellbreaker steals some of his spell energy for himself. The opponent loses a number of spell points equal to the Spellbreaker's class level, the Spellbreaker gains a number of spell points equal to the number the opponent lost, and the opponent takes a number of points of damage equal to twice the number of spell points lost.
+
+Alternatively, a Spellbreaker can siphon any number of spell points from a willing spellcaster by touching him as a standard action (the spellcaster knows the number of spell points being siphoned). This use does not deal damage to the ''donating`` spellcaster.
+
+A spellcaster's spell point reserve can not be reduced below zero by the use of this ability.
+
+Using this ability does not require an action, it is activated as part of making the attack (or standard action) in question.
+\paragraph{Bonus Feat:} 
+\paragraph{Leech Magic (Su):} Starting at Spellbreaker level 3rd, you emit an aura that takes its toll on all spellcasting in your vicinity. Each spell cast within 30' has its spell point cost increased by 1. This additional spell point does not count towards the spell's augmentation or other potential benefits of increased spell point expenditure (such as the calculation of the spell's save DC), but it does count towards the limit of it being impossible to spend more spell points on a spell than the caster's caster level. This may make it impossible for a spellcaster to cast his highest level spells.
+
+Any spellcaster is aware of this dampening effect as soon as he enters the aura. Should he choose to cast a spell anyway, the additional spell point spent is added to your spell point pool.
+
+As a free action, you can prevent the aura from affecting specified spellcasters within range for one round. You must be aware of the spellcaster and his location to do so.
+\paragraph{Selective Resistance (Ex):} Starting at Spellbreaker level 4th, you can lower your spell resistance as an immediate action. You retain the ability to lower your spell resistance as a standard action, should you desire to do so.
+
+\paragraph{Dispel Magic (Sp):} Starting at Spellbreaker level 5th, a Spellbreaker can use \nameref{Spell:DispelMagic} at will as a standard action.
+
+At Spellbreaker level 14th, you can use this ability as a swift action three times per day.
+
+At Spellbreaker level 19th, you can use this ability as an immediate action. You can use the ability as a swift action or as an immediate action a combined number of three times per day.
+\paragraph{Manipulate Magic (Su):} Starting at Spellbreaker level 7th, whenever you succeed on a dispel check to dispel an ongoing spell effect affecting a creature, you can instead move the spell to a different creature. The spell continues to affect its new recipient, as if it had been cast on that creature originally.
+
+The spell's recipient must be within 30' of both you and the creature it affected originally (the target of the dispelling effect).
+The recipient must be a legal target for the spell in question. You can not move spells with a range of Personal. If the spell being moved allows saving throws and/or spell resistance, the recipient is allowed to apply those defenses as normal. In the case of spells that establish a special connection between the spell's target and its caster (for example: \nameref{Spell:Charm} and \nameref{Spell:ShieldOther}), you are thereafter considered to be the spell's caster.
+
+The spell's duration, caster level, augmentations, metamagic effects, and other variable factors are not reset or changed when the spell is moved.
+\paragraph{Steal Control (Su):} Starting at Spellbreaker level Nth, whenever you succeed on a dispel check to dispel an ongoing Conjuration (Summoning) spell that summoned a creature, you can instead assume control of the spell. The spell is then not dispelled, continuing to function as normal, with the exception that it now serves you and obeys your commands as it obeyed the spell's original caster.
+
+\paragraph{Antimagic Affinity (Ex):} Starting at Spellbreaker level 11th, you can use the Supernatural abilities granted by the Spellbreaker class inside the area of an \nameref{Spell:AntimagicField} (or in similar locations, such as planes with dead magic). 
+
+You also gain the ability to shield one of your magic items from the effects of an Antimagic Field as a swift action. The shield lasts for one round. While shielded, the item functions normally. If the item leaves your possession for the duration of the effect, the shield instantly ends.
+
+You continue to lose accesss to your spellcasting, spell-like abilities, and other supernatural abilities while within an Antimagic Field, as normal.
+\paragraph{Arcane Vigor (Su):} Starting at Spellbreaker level Nth, whenever a caster fails to affect you due to your spell resistance class feature, you gain temporary hit points equal to twice the number of spell points spent on the spell. These temporary hit points last for a number of rounds equal to your Spellbreaker class level.
+
+\paragraph{Arcanist's Doom (Su):} At Spellbreaker level 20th, you learn to forever destroy a spellcaster's ability to do magic.
+Using this ability requires touching the spellcaster throughout one minute of concentration. If carried out to completion, the spellcaster instantly loses all of his spell points, and permanently loses his ability to regain them. Only a \nameref{Spell:Wish} or \nameref{Spell:Miracle} spell can restore the spellcaster's ability to regain spell points.
+\subsubsection{Spellbreaker Spell List}
+\paragraph{1st-Level Spellbreaker Spells}
+\begin{list}{\labelitemi}{\leftmargin=1em}
+  \item \nameref{Spell:ArcaneFlux}*: Causes spellcaster to lose concentration.
+  \item \nameref{Spell:Bloodhound}*: Grants one creature the scent special ability.
+  \item \nameref{Spell:DiscernSpellcaster}*: Reveals whether target creature is a spellcaster.
+  \item \nameref{Spell:ExpeditiousRetreat}: Your speed increases by 30 ft.
+  \item \nameref{Spell:InsightfulStrikes}*: Your magical insight grants you vision enough into the future to strike more effectively.
+  \item \nameref{Spell:MagicAura}: Alters object's magic aura.
+  \item \nameref{Spell:MagicWeapon}: Weapon gains +1 bonus.
+  \item \nameref{Spell:TrueStrike}: +20 on your next attack roll.
+  \item \nameref{Spell:WingedWeapon}*: Allows weapon to fly for one round.
+\end{list}
+\paragraph{2nd-Level Spellbreaker Spells}
+\begin{list}{\labelitemi}{\leftmargin=1em}
+  \item \nameref{Spell:Resistance} : Grants a Resistance bonus on saving throws.
+  \item \nameref{Spell:ResistEnergy}: Ignores first 10 (or more) points of damage/attack from specified energy type.
+  \item \nameref{Spell:Silence}: Negates sound in 20-ft. radius.
+  \item \nameref{Spell:SwiftFly}*: Fly for a few moments.
+  \item \nameref{Spell:SwiftHaste}*: Act with increased speed for a few moments.
+  \item \nameref{Spell:SwiftSeeInvisibility}*: See the invisible for a few moments.
+  \item \nameref{Spell:WombatsBoost}: Subject gains +4 to an ability score for 1 min./level.
+\end{list}
+\paragraph{3rd-Level Spellbreaker Spells}
+\begin{list}{\labelitemi}{\leftmargin=1em}
+  \item \nameref{Spell:DispelMagic}: Cancels magical spells and effects.
+  \item \nameref{Spell:KeenEdge}: Doubles normal weapon's threat range.
+  \item \nameref{Spell:MagicVestment}: Armor or shield gains +2 enhancement bonus.
+  \item \nameref{Spell:Nondetection}: Masks object or creature against scrying.
+  \item \nameref{Spell:Piggyback}*: Latch on to a creature as it teleports, retaining your relative position.
+  \item \nameref{Spell:RemoveCurse}: Frees object or person from curse.
+  \item \nameref{Spell:Roguespace}*: Allows you to completely dodge certain effects that allow a reflex save.
+  \item \nameref{Spell:SuppressMagic}*: Renders willing spellcaster incapable of casting spells.
+\end{list}
+\paragraph{4th-Level Spellbreaker Spells}
+\begin{list}{\labelitemi}{\leftmargin=1em}
+  \item \nameref{Spell:DetectScrying}: Alerts you of magical eavesdropping.
+  \item \nameref{Spell:DimensionDoor}: Teleports you short distance.
+  \item \nameref{Spell:DimensionalAnchor}: Bars extradimensional movement.
+  \item \nameref{Spell:GlobeOfInvulnerability}: Stops low-powered spell effects.
+  \item \nameref{Spell:Stoneskin}: Ignore 7 points of damage per attack.
+\end{list}
+\paragraph{5th-Level Spellbreaker Spells}
+\begin{list}{\labelitemi}{\leftmargin=1em}
+  \item \nameref{Spell:AntimagicField}: Negates magic within 10 ft.
+  \item \nameref{Spell:Dismissal}: Forces a creature to return to native plane.
+  \item \nameref{Spell:DweomerBlockade}*: You cut a creature off from all magic.
+  \item \nameref{Spell:SpellResistance}: Subject gains SR 12 + level.
+\end{list}
+\subsubsection{Arcane Flux}
+\label{Spell:ArcaneFlux}
+Abjuration
+\\ \textbf{Level:} Spellbreaker 1
+\\ \textbf{Components:} V
+\\ \textbf{Casting Time:} 1 immediate action
+\\ \textbf{Range:} Close (25 ft. + 5 ft./2 levels)
+\\ \textbf{Target:} One creature
+\\ \textbf{Duration:} Instantaneous
+\\ \textbf{Saving Throw:} Special
+\\ \textbf{Spell Resistance:} Yes
+\\ \textbf{Spell Points:} 1
+
+\emph{``You cause a momentary disruption in the normal flows of magic surrounding a creature, causing spellcasters trouble.''}
+
+A creature affected by this spell while casting a spell is distracted. It must succeed on a \nameref{sec:Concentration} skill check against the spell's save DC or lose the spell.
+\subsubsection{Discern Spellcaster}
+\label{Spell:DiscernSpellcaster}
+Divination
+\\ \textbf{Level:} Spellbreaker 1
+\\ \textbf{Components:} V
+\\ \textbf{Casting Time:} 1 standard action
+\\ \textbf{Range:} Close (25 ft. + 5 ft./2 levels)
+\\ \textbf{Target:} One creature
+\\ \textbf{Duration:} Instantaneous
+\\ \textbf{Saving Throw:} Will negates
+\\ \textbf{Spell Resistance:} Yes
+\\ \textbf{Spell Points:} 1
+
+\emph{``A WITCH! BURN HER!''}
+
+This spell reveals to you whether the target of the spell has any spellcasting ability. Spell-like and Supernatural abilities do not register.
+
+If the subject resists the spell with a successful Will save or you fail to overcome its spell resistance, the spell reveals no information. Otherwise, the spell reveals an absolute answer (either ``no spellcasting ability'' or ``spellcasting ability'').
+
+\paragraph{Augment:} For every additional spell point you spend, this spell can affect an additional target within range.
+\subsubsection[Swift Fly]{Fly, Swift}
+\label{Spell:SwiftFly}
+Transmutation
+\\ \textbf{Level:} Spellbreaker 2
+\\ \textbf{Components:} V, S
+\\ \textbf{Casting Time:} 1 swift action
+\\ \textbf{Range:} Personal
+\\ \textbf{Target:} You
+\\ \textbf{Duration:} 2 rounds
+\\ \textbf{Spell Points:} 3
+
+\emph{You rise from the ground in a swirl of rapidly burning arcane energy.}
+
+This spell functions as the \nameref{Spell:Fly} spell (excluding augmentation options), except as noted here.
+
+If the spell expires while the target is still aloft, it only floats for one round, rather than 1d6 rounds.
+
+\paragraph{Augment:} For every 2 additional spell points you spend, this spell's duration is increased by one round.
+\subsubsection[Swift Haste]{Haste, Swift}
+\label{Spell:SwiftHaste}
+Transmutation
+\\ \textbf{Level:} Spellbreaker 2
+\\ \textbf{Components:} V
+\\ \textbf{Casting Time:} 1 swift action
+\\ \textbf{Range:} Personal
+\\ \textbf{Targets:} You
+\\ \textbf{Duration:} 2 rounds
+\\ \textbf{Spell Points:} 3
+
+This spell functions as the \nameref{Spell:Haste} spell (excluding augmentation options), except as noted here.
+
+\paragraph{Augment:} For every 2 additional spell points you spend, this spell's duration is increased by one round.
+\subsubsection{Insightful Strikes}
+\label{Spell:InsightfulStrikes}
+Divination
+\\ \textbf{Level:} Arcane Archer 1\footnote{Add the spell to the list of spells available to the class through its Advanced Learning class feature.}, Spellbreaker 1
+\\ \textbf{Components:} V
+\\ \textbf{Casting Time:} 1 swift action
+\\ \textbf{Range:} Personal
+\\ \textbf{Target:} You
+\\ \textbf{Duration:} 1 round
+\\ \textbf{Spell Points:} 1
+
+\emph{Your magical foresight allows you to strike far more effectively than mundane warriors can.}
+
+For the duration of this spell, you gain an insight bonus on weapon attacks (including ranged attacks, but not your spells, spell-like abilities, or supernatural abilities) equal to your Intelligence modifier.
+
+\paragraph{Augment:} You can augment this spell in one of the following ways:
+\begin{enumerate}
+ \item If you spend four additional spell points, the insight bonus becomes equal to twice your Intelligence modifier.
+ \item If you spend eight additional spell points, the insight bonus becomes equal to three times your Intelligence modifier.
+ \item If you spend twelve additional spell points, the insight bonus becomes equal to four times your Intelligence modifier.
+ \item If you spend sixteen additional spell points, the insight bonus becomes equal to five times your Intelligence modifier.
+\end{enumerate}
+
+\emph{Special:} Casting this spell does not provoke Attacks of Opportunity.
+\subsubsection{Roguespace}
+\label{Spell:Roguespace}
+Conjuration (Teleportation)
+\\ \textbf{Level:} Spellbreaker 3
+\\ \textbf{Components:} V
+\\ \textbf{Casting Time:} 1 immediate action
+\\ \textbf{Range:} Personal
+\\ \textbf{Target:} You
+\\ \textbf{Duration:} Instantaneous
+\\ \textbf{Spell Points:} 5
+
+\emph{You instantaneously slide into a pocket dimension, allowing you to avoid harmful effects.}
+
+When you cast this spell in conjunction with making a successful Reflex save against an attack that normally deals half damage on a successful save, you instead take no damage.
+
+You can cast this spell with an instant word, quickly enough to save yourself if you unexpectedly come within range of a dangerous effect.
+
+\paragraph{Augment:} If you spend 4 additional spell points, you take only half damage on a failed Reflex save.
+\subsubsection[Swift See Invisibility]{See Invisibility, Swift}
+\label{Spell:SwiftSeeInvisibility}
+Divination
+\\ \textbf{Level:} Spellbreaker 2
+\\ \textbf{Components:} V
+\\ \textbf{Casting Time:} 1 swift action
+\\ \textbf{Range:} Personal
+\\ \textbf{Target:} You
+\\ \textbf{Duration:} 2 rounds
+\\ \textbf{Spell Points:} 3
+
+\emph{Hidden things reveal themselves to you in a flash, but the vision fades rapidly.}
+
+This spell functions as the \nameref{Spell:SeeInvisibility} spell (excluding augmentation options), except as noted here.
+
+\paragraph{Augment:} For every 2 additional spell points you spend, this spell's duration is increased by one round.
+
+\subsubsection{Winged Weapon}
+\label{Spell:WingedWeapon}
+Transmutation
+\\ \textbf{Level:} Spellbreaker 1
+\\ \textbf{Components:} V
+\\ \textbf{Casting Time:} 1 swift action
+\\ \textbf{Range:} Touch
+\\ \textbf{Target:} One melee weapon
+\\ \textbf{Duration:} 1 round
+\\ \textbf{Saving Throw:} Will negates (harmless, object)
+\\ \textbf{Spell Resistance:} Yes (harmless, object)
+\\ \textbf{Spell Points:} 1
+
+\emph{The weapon grows golden, faintly translucent wings that flutter rapidly.}
+
+The touched weapon gains the benefits of the Throwing and Returning enhancements for the duration of the spell.
+
+\paragraph{Augment:} For every 2 additional spell points you spend, this spell's duration is increased by one round.
+
+

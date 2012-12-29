@@ -1,0 +1,1097 @@
+\section{Magic Items}
+\subsection{Overview}
+Due to changes in the underlying magic system, many magic items must be updated.
+Those items that directly affect the casting of spells (such as scrolls and wands) are wholly altered.
+Some magic items that replicate the effects of spells have been updated, others stand unchanged.
+Note that even if the rules text of a magic item that references a spell mechanic is unchanged, the rules text of the spell the item references may not be.
+
+Unless noted otherwise in this chapter, use the rules text presented in the \href{http://www.wizards.com/default.asp?x=d20/article/srd35}{d20 srd}. See \nameref{sec:MissingItems} for a summary on the changes from the d20 SRD.
+\subsubsection{Augments}
+\subsubsection{Augments}
+Unless otherwise noted, assume that any item that refers to a spell refers to the unaugmented form of that spell.
+\subsubsection{Saving throws}
+Some items duplicate spells that allow saving throws (or allow the casting of such spells directly). Unless otherwise noted, the DC for such a saving throw is calculated as if it were cast using the number of spell points spent on the spell (the minimum, unless otherwise noted) by a spellcaster with a key ability score equal to 10+the total number of spell points spent on the spell.
+
+For example, an item duplicating an unaugmented \nameref{Spell:FlameStrike} would have a default save DC of 14 (the base for a spell costing 7 spell points) + 3 (the key ability modifier of a spellcaster with a $10 + 7 = 17$ in his key ability score) = 17.
+
+Were the Flame Strike augmented to cost 10 spell points, the default save DC for the item would be 15 (the base for a spell costing 10 spell points) + 5 (the key ability modifier of a spellcaster with a $10 + 10 = 20$ in his key ability score) = 20.
+\subsection{Special Magical Materials}
+\subsubsection{Spellsteel}
+Iron (particularly cold iron) is usually disruptive to the flow of magical energies, to the point where Fey and some other supernatural creatures are harmed by it. 
+Spellsteel is the exception. 
+When iron is mined close to a powerful nexus of ley lines, spellcasters have found that sometimes the ambient magic has imprinted the metal, fundamentally altering the properties it has when forged to form steel. While a weapon made of spellsteel is no different from a mundane steel weapon for a nonmagical character, a spellcaster who wields a spellsteel weapon can focus magical power through it, increasing the damage that weapon deals.
+ 
+As a free action that does not provoke attacks of opportunity, the wielder can channel magical power into a melee weapon or ranged weapon made of spellsteel. For 2 spell points, the spellsteel weapon deals an extra 2d6 points of damage. The weapon will stay charged for 1 minute or until it scores its next hit. Bows, crossbows, and slings bestow this power on their ammunition. All missile weapons lose this effect if they miss. However, they may be recovered and charged again.
+
+Any weapon made of spellsteel costs 1,000 gp more than its mundane counterpart. Any item that can be made out of ordinary steel could potentially be made out of spellsteel. 
+
+Spellsteel has 30 hit points per inch of thickness and a hardness of 10. 
+\subsubsection{Poisons}
+Most poisons affect all mortal creatures equally, causing everyone pain and illness. However, alchemists and hedge witches have long known of the powers of the forkroot. The forkroot, when ingested in sufficient amounts, gives anyone a strong feeling of drowsiness, but in addition, spellcasters feel their grip on magic slip away as the root takes hold.
+
+If a caster fails a saving throw against a forkroot poison's initial damage, his caster level is immediately reduced by the amount indicated on the \nameref{tab:Poisons} table for 1d4 hours, to a minimum of 0. 
+If multiple batches of a forkroot poison are consumed, the reduction stacks.
+Hiding more than one batch of forkroot poison in a single meal or drink is not feasible.
+The root has a bitter taste that is easily recognized by anyone who has experienced the poison before - but not before it has begun to take effect.
+\begin{table*}
+\label{tab:Poisons}
+\caption{Poisons}
+\centering
+\begin{tabular}{|l|l|l|l|l|}
+\hline
+\textbf{Poison}		&\textbf{Type}	&\textbf{Initial Damage}&\textbf{Secondary Damage}	&\textbf{Price}\\
+\hline
+Forkroot mash		&Ingested DC 14	&Caster level -1d2	&Unconsciousness		&100GP\\
+Forkroot powder		&Ingested DC 18	&Caster level -1d4	&Unconsciousness		&300GP\\
+Purified forkroot powder&Ingested DC 22	&Caster level -2d4	&Unconsciousness		&1000GP\\
+\hline
+\end{tabular}
+
+\end{table*}
+\subsection{Matrices, Potions, and Oils}
+\label{Item:Matrices}
+Matrices, potions, and oils are items that store a single charge of spell energy.
+The terms are interchangeable - any spell that could be stored in one type of the items could conceivably be stored in another.
+Of these, potions are best known and most common, but ``Matrix'' is the most general term. 
+For this reason, the whole family of items will be referred to as ``matrices'' throughout this chapter.
+
+Using a matrix is basically like casting a spell.
+It can be used only once, and then it is depleted.
+
+\paragraph{Physical Description:}
+Matrices can come in almost any shape and form, but they are always small (2 cubic inches at most), relatively fragile, and have negligible weight.
+They have AC 13, 1 hit point, hardness 1, and a break DC of 12.
+\begin{list}{\labelitemi}{\leftmargin=1em}
+ \item \emph{Potions and oils:} A typical potion or oil consists of 1 ounce of liquid held in a ceramic or glass vial fitted with a tight stopper. How to use the contents of the vial depends on the spell stored in it, but most are either drunk or smeared on to the target of the spell.
+ \item \emph{Other matrices:} Matrices other than potions and oils often take the form of lesser gems, animal parts (such as skulls or femurs), or something specific to the spell in question.
+\end{list}
+See \nameref{tab:MatrixAppearances} for examples on what matrices can look like.
+Regardless of their physical appearance, the activation mechanics of matrices remain the same.
+
+\begin{table*}
+\caption{Matrix appearances}
+\label{tab:MatrixAppearances}
+\centering
+\begin{tabular}{|l|l|l|}
+\hline
+\textbf{Spell name}&\textbf{Appearance}&\textbf{Usage example}\\
+\hline
+\nameref{Spell:BlackTentacles}	&Severed tentacle&Thrown, grows on impact\\
+\nameref{Spell:CureWounds}	&Vial of oil 	&Smeared on wounds\\
+\nameref{Spell:CureWounds}	&Small ruby 	&Touched to forehead of recipient\\
+\nameref{Spell:DivinePower}	&Skull		&Crushed in hand\\
+\nameref{Spell:Fireball}	&Glass bead	&Flies to target area and explodes\\
+\nameref{Spell:RemoveDisease}	&Potion		&Imbibed\\
+\hline
+\end{tabular}
+\end{table*}
+
+\paragraph{Identifying the Matrix:} 
+A matrix must be identified before a character can safely use it or know exactly what spell it contains. 
+Doing this requires a successful \nameref{sec:Spellcraft} check (DC 25) or a spell such as \nameref{Spell:Identify}. 
+Once a particular matrix has been identified, it is not necessary to do so again. 
+Identifying a matrix in advance lets a character proceed directly to the next step when the time comes to use it.
+Once the matrix is identified, the character becomes aware of what spell it stores within, and how to activate it. 
+Identifying a matrix via Spellcraft requires one minute of study.
+A failed check to identify a matrix may not be retried until the character gains another rank in spellcraft.
+
+An experienced character learns to identify matrices by memory - for example, the last time he tasted a liquid that reminded him of almonds, it turned out to be a potion of \nameref{Spell:CureWounds}.
+
+\paragraph{Activation:} 
+To safely activate a matrix, a caster must have identified it, as described above.
+To activate it blindly, the caster must make a DC 10 Wisdom check or suffer a mishap (see below).
+Once the matrix been identified (or successfully activated through guesswork), it is thereafter treated as a spell completion item.
+
+Using the stored spell of a matrix requires holding it and performing its specific rite of activation (which requires the same kind of action as casting the spell ordinarily).
+Activating matrix is subject to disruption just as casting a spell normally would be.
+Additionally, the user must meet the following requirements.
+\begin{list}{\labelitemi}{\leftmargin=1em}
+ \item The spell must be of the correct type (arcane or divine). Arcane spellcasters (Bards, Sorcerers, and Wizards) can only use matrices containing arcane spells, and divine spellcasters (Clerics, Paladins, and Rangers) can only use matrices containing divine spells. (The type of matrix a character creates is also determined by his or her class.)
+ \item The user must have the spell on his class list.
+ \item The user must have the requisite key ability score.
+\end{list}
+If the user meets these requirements and has a caster level at least equal to the spell's caster level, he can automatically cast the stored spell without a check. 
+If he meets all requirements but his own level is lower than the caster level of the matrix, she has to make a caster level check (1d20 + user's caster level), against a DC equal to the caster level of the matrix +1 to cast the spell successfully. 
+On a failure, the user must succeed on a DC 5 Wisdom check to avoid a mishap (see below).
+A natural roll of 1 on a check to avoid a mishap is always a failure.
+\paragraph{Determine Effect:} A spell successfully cast from a matrix works exactly as if cast normally. 
+Assume the caster level of the matrix is always the minimum level required to cast the spell for the character who infused the matrix, unless the creator specifically desires
+otherwise.
+\paragraph{Matrix Mishaps:} When a mishap occurs, the spell in the matrix has a reversed or harmful effect. Possible mishaps are given below.
+\begin{list}{\labelitemi}{\leftmargin=1em}
+ \item A surge of uncontrolled magical energy deals 1d6 points of damage per spell level to the matrix user.
+ \item Spell strikes the matrix user or an ally instead of the intended target, or a random target nearby if the matrix user was the intended recipient.
+ \item Spell takes effect at some random location within spell range.
+ \item Spell's effect on the target is contrary to the spell's normal effect.
+ \item The matrix user suffers some minor but bizarre effect related to the spell in some way. Most such effects should last only as long as the original spell's duration, or 2d10 minutes for instantaneous spells.
+ \item Some innocuous item or items appear in the spell's area.
+ \item Spell has delayed effect. Sometime within the next 1d12 hours, the spell activates. If the matrix user was the intended recipient, the spell takes effect normally. If the user was not the intended recipient, the spell goes off in the general direction of the original recipient or target, up to the spell's maximum range, if the target has moved away.
+\end{list}
+
+\begin{table*}
+\caption{Matrices}
+\label{tab:Matrices}
+\centering
+\begin{tabular}{|c|r|r|}
+\hline
+\textbf{Spell level}&\textbf{Market Price}$^1$&\textbf{Cost to Create}$^2$\\
+\hline
+1&	25gp	&12gp 5sp, 1XP\\
+2&	150gp	&75gp, 6XP\\
+3&	375gp	&187gp 5sp, 15XP\\
+4&	700gp	&350gp, 28XP\\
+5&	1125gp	&562gp 5sp, 45XP\\
+6&	1650gp	&825gp, 66XP\\
+7&	2275gp	&1137gp 5sp, 91XP\\
+8&	3000gp	&1500gp, 120XP\\
+9&	3825gp	&1912gp 5sp, 153XP\\
+\hline
+\end{tabular}
+\scriptsize
+\begin{enumerate}
+ \item Any matrix that contains a spell with an experience point cost costs an additional 5 GP for each point of XP required.
+ \item Any matrix that contains a spell with an experience point cost also has that experience cost in addition to that noted here.
+\end{enumerate}
+\end{table*}
+\paragraph{Foolproof Matrices}
+\label{Item:FoolproofMatrices}
+Some matrices are ``foolproof''. These cost twice the amount indicated on the \nameref{tab:Matrices} table, but are usable by anyone, regardless of class, ability scores, and level.
+Using such a matrix requires no special skill, they are use-activated rather than spell completion items.
+It is always obvious how to use a Foolproof Matrix.
+
+However, not any spell can be squeezed into a Foolproof Matrix. A Foolproof Matrix must fulfill all of the following requirements:
+\begin{list}{\labelitemi}{\leftmargin=1em}
+ \item The spell must be of 3rd level or below.
+ \item The spell must target one or more creatures.
+ \item The spell must have a range of Personal or Touch.
+\end{list}
+Most Foolproof Matrices are potions or oils.
+\subsection{Scrolls}
+\label{Item:Scrolls}
+More than a mundane inscription, a scroll is a magical item that, when read by a character with the appropriate knowledge, bestows complete information on how to cast a certain spell (or collection of spells) upon the reader.
+% A stored spell can be used only once. Using a scroll is
+% basically like casting a spell.\footnote{Instead of activating a scroll directly, 
+% it is possible to use the knowledge contained on it to cast the spell using the caster's own spell point reserve.}
+
+\paragraph{Physical Description:} A scroll is a heavy sheet of fine vellum or high-quality paper. 
+An area about 8 1/2 inches wide and 11 inches long is sufficient to hold one spell. 
+The sheet is reinforced at the top and bottom with strips of leather slightly longer than the sheet is wide. 
+A scroll holding more than one spell has the same width (about 8 1/2 inches) but is an extra foot or so long for each extra spell. 
+Scrolls that hold three or more spells are usually fitted with reinforcing rods at each end rather than simple strips of leather. 
+A scroll has AC 9, 1 hit point, hardness 0, and a break DC of 8.
+
+To protect it from wrinkling or tearing, a scroll is rolled up from both ends to form a double cylinder. 
+(This also helps the user unroll the scroll quickly.)
+The scroll is placed in a tube of ivory, jade, leather, metal, or wood.
+Most scroll cases are inscribed with magic symbols which often identify the owner or the spells stored on the scrolls inside. 
+The symbols often hide magic traps.
+
+\paragraph{Deciphering the Scroll:} 
+A scroll must be deciphered before a character can use it or know exactly what spell it contains. 
+Doing this requires a successful \nameref{sec:Spellcraft} check (DC 15 + spell level) or the use of \nameref{sec:Cantrips}. 
+Once a particular scroll has been deciphered, it is not necessary to do so again. 
+Deciphering a scroll in advance lets a character proceed directly to the next step when the time comes to use it.
+Once the scroll is deciphered, the character becomes aware of all the spells stored on the scroll. 
+Deciphering a scroll requires one minute of study (or one standard action, if \nameref{sec:Cantrips} are used).
+A failed check to decipher a scroll may be retried once per day.
+
+% \paragraph{Activation:} To activate a scroll, a caster must have deciphered
+% it, as described above. 
+% Once the scroll has been deciphered, it is treated as a
+% spell completion item, except as noted below.
+% 
+% Using a scroll's stored spell after deciphering it requires holding
+% it and reading its inscription (a which requires the same kind of action as casting the spell ordinarily). 
+% Activating a scroll is subject to disruption just as
+% casting a spell normally would be.
+% Additionally, the user must meet the following requirements.
+% \begin{list}{\labelitemi}{\leftmargin=1em}
+%  \item The user must have the spell on his class list.
+%  \item The user must have the requisite key ability score.
+% \end{list}
+% If the user meets these requirements and has a caster level at least equal
+% to the spell's caster level, he can automatically cast the stored spell
+% without a check. 
+% If he meets both requirements but his own level is lower than
+% the scroll's caster level, she has to make a caster level check
+% (1d20 + user's level), against a DC equal to the scroll's caster level
+% +1 to cast the spell successfully. On a failure, the user must succeed on a
+% DC 5 Wisdom check to avoid a mishap (see below). A natural roll of 1 on this
+% check is always a failure.
+
+\paragraph{Activation:} 
+After deciphering the scroll, the spellcasting character must choose one of the spells available on the scroll and read it.
+As part of reading the spell, make a \nameref{sec:Spellcraft} check  (DC 15 + the spell's level) to see if the spell will be correctly cast. 
+If the spell is not on the caster's class list, he automatically fails this check.
+This check requires one full round, which provokes attacks of opportunity.
+
+Upon successfully making the check, the character can attempt to cast that spell normally on his next turn, even if he doesn't know it (assuming he has spell points left for the day). 
+He retains the ability to cast the selected spell for only 1 round. 
+If he doesn't cast the spell, fails the Spellcraft check, or casts a different spell, 
+he loses his chance to cast that spell unless the source is read again.
+
+\paragraph{Determine Effect:} 
+A spell successfully cast from a scroll works exactly as if cast normally. 
+Assume the scroll's caster level is always the minimum level required to cast the spell for the character who wrote the scroll, unless the creator specifically desires otherwise.
+
+\begin{table*}
+\caption{Scrolls}
+\label{tab:Scrolls}
+\centering
+\begin{tabular}{|c|r|r|}
+\hline
+\textbf{Spell point cost}&\textbf{Market Price}$^1$&\textbf{Cost to Create}$^2$\\
+\hline
+1&	1000gp	&500gp, 40XP\\
+3&	4000gp	&2000gp, 160XP\\
+5&	9000gp	&4500gp, 360XP\\
+7&	16000gp	&8000gp, 640XP\\
+9&	25000gp	&12500gp, 1000XP\\
+11&	36000gp	&18000gp, 1440XP\\
+13&	49000gp	&24500gp, 1960XP\\
+15&	64000gp	&32000gp, 2560XP\\
+17&	81000gp	&40500gp, 3240XP\\
+\hline
+\end{tabular}
+\scriptsize
+\begin{enumerate}
+ \item Any scroll that has a spell with an experience point cost written on it costs an additional 5 GP for each point of XP spent.
+ \item Any scroll that has a spell with an experience point cost written on it also has an XP cost in addition to that noted here.
+\end{enumerate}
+\end{table*}
+\subsection{Rings}
+\subsubsection{Animal Friendship}
+\label{Item:AnimalFriendship}
+   \textbf{Price:} 10800gp
+\\ \textbf{Body Slot:} Finger
+\\ \textbf{Caster Level:} 3rd
+\\ \textbf{Activation:} -
+\\ \textbf{Weight:} -
+
+While wearing this ring, you gain the \nameref{sec:WildEmpathy} class feature, as a 3rd-level Ranger. If you already have the class feature, you instead gain a +3 bonus on Wild Empathy checks.
+
+%\paragraph{Physical Description:} STUFF
+
+\paragraph{Prerequisites:} \nameref{Feat:ForgeRing}, \nameref{sec:WildEmpathy} class feature
+
+\paragraph{Cost to Create:} 5400gp, 432 XP
+% \subsubsection{Djinni Calling}
+% \label{Item:DjinniCalling}
+%    \textbf{Price:} 50000gp
+% \\ \textbf{Body Slot:} Finger
+% \\ \textbf{Caster Level:} 17th
+% \\ \textbf{Activation:} Standard (Command)
+% \\ \textbf{Weight:} -
+% 
+% One of the many rings of fable, this ``genie'' ring is most useful indeed. It serves as a special gate by means of which a specific djinni can be called from the Elemental Plane of Air. When the ring is rubbed (a standard action), the call goes out, and the djinni appears on the next round. The djinni faithfully obeys and serves the wearer of the ring, but never for more than 1 hour per day. If the djinni of the ring is ever killed, the ring becomes nonmagical and worthless.
+% 
+% \paragraph{Prerequisites:} \nameref{Feat:ForgeRing}, \nameref{Spell:Gate}
+% 
+% \paragraph{Cost to Create:} 2500gp, 2000 XP
+
+\subsubsection{Elemental Command}
+\label{Item:ElementalCommand}
+   \textbf{Price:} 200000gp
+\\ \textbf{Body Slot:} Finger
+\\ \textbf{Caster Level:} 15th
+\\ \textbf{Activation:} see text
+\\ \textbf{Weight:} -
+
+All four kinds of elemental command rings are very powerful. 
+Each appears to be nothing more than a lesser magic ring until fully activated (by meeting a special condition, such as single-handedly slaying an elemental of the appropriate type or exposure to a sacred material of the appropriate element), but each has certain other powers as well as the following common properties.
+
+Elementals of the plane to which the ring is attuned can't attack the wearer, or even approach within 5 feet of him. If the wearer desires, he may forego this protection and instead attempt to charm the elemental (as \nameref{Spell:Charm}, Will DC 17 negates). If the charm attempt fails, however, absolute protection is lost and no further attempt at charming can be made.
+
+Creatures from the plane to which the ring is attuned who attack the wearer take a -1 penalty on their attack rolls. 
+The ring wearer makes applicable saving throws from the extraplanar creature's attacks with a +2 resistance bonus. 
+He gains a +4 morale bonus on all attack rolls against such creatures. 
+Any weapon he uses bypasses the damage reduction of such creatures, regardless of any qualities the weapon may or may not have.
+
+The wearer of the ring is able to converse with creatures from the plane to which his ring is attuned. 
+These creatures recognize that he wears the ring. 
+They show a healthy respect for the wearer if alignments are similar. 
+If alignments are opposed, creatures fear the wearer if he is strong. If he is weak, they hate and desire to slay him.
+
+In addition to the powers described above, each specific ring gives its wearer the following abilities according to its kind.
+
+\paragraph{Ring of Elemental Command (Air)}
+\begin{list}{\labelitemi}{\leftmargin=1em}
+\item \nameref{Spell:ControlFall} (unlimited use, wearer only)
+\item \nameref{Spell:ResistEnergy} (electricity only) (unlimited use, wearer only)
+\item \nameref{Spell:GustOfWind} (twice per day)
+\item \nameref{Spell:WindWall} (unlimited use)
+\item \nameref{Spell:AirWalk} (once per day, wearer only)
+\item \nameref{Spell:ChainLightning} (once per day, electricity only)
+\end{list}
+The ring appears to be a ring of \nameref{Item:FeatherFall} until a certain condition is met to activate its full potential. It must be reactivated each time a new wearer acquires it.
+
+\paragraph{Ring of Elemental Command (Earth)}
+\begin{list}{\labelitemi}{\leftmargin=1em}
+\item \nameref{Spell:MeldIntoStone} (unlimited use, wearer only)
+\item \nameref{Spell:SoftenEarthAndStone} (unlimited use)
+\item \nameref{Spell:MoldMaterial} (twice per day)
+\item \nameref{Spell:Stoneskin} (once per week, wearer only)
+\item \nameref{Spell:WallOfStone} (once per day)
+\end{list}
+The ring appears to be a ring of meld into stone until the established condition is met.
+
+\paragraph{Ring of Elemental Command (Fire)}
+\begin{list}{\labelitemi}{\leftmargin=1em}
+\item \nameref{Spell:ResistEnergy} (fire only) (as a major ring of energy resistance [fire])
+\item \nameref{Spell:ShockingGrasp} (fire only)
+\item \nameref{Spell:FlamingSphere} (twice per day)
+\item \nameref{Spell:Pyrotechnics} (twice per day)
+\item \nameref{Spell:WallOfFire}  (once per day)
+\item \nameref{Spell:FlameStrike} (twice per week)
+\end{list}
+The ring appears to be a major ring of energy resistance (fire) until the established condition is met.
+
+\paragraph{Ring of Elemental Command (Water)}
+\begin{list}{\labelitemi}{\leftmargin=1em}
+\item \nameref{Spell:WaterWalk} (unlimited use)
+\item \nameref{sec:CreateWater}, as the Water Domain ability (unlimited use). Does not work if you do not possess a magical focus.
+\item \nameref{sec:WaterBreathing}, as the Water Domain ability (unlimited use)
+\item \nameref{Spell:WallOfIce} (once per day)
+\item \nameref{Spell:IceStorm} (twice per week)
+\item \nameref{Spell:ControlWater} (twice per week)
+\end{list}
+The ring appears to be a ring of water walking until the established condition is met.
+
+\paragraph{Prerequisites:} \nameref{Feat:ForgeRing}, appropriate elemental summoning spell, all appropriate spells.
+
+\paragraph{Cost to Create:} 100000gp, 8000 XP
+\subsubsection{Feather Fall}
+\label{Item:FeatherFall}
+   \textbf{Price:} 2200gp
+\\ \textbf{Body Slot:} Finger
+\\ \textbf{Caster Level:} 1st
+\\ \textbf{Activation:} -
+\\ \textbf{Weight:} -
+
+Whenever the wearer of this ring falls more than 5', this ring protects him as if by a \nameref{Spell:ControlFall} spell. However, the wearer does not gain a bonus on jump checks.
+
+\paragraph{Physical Description:} The ring is crafted with a feather pattern all around its edge.
+
+\paragraph{Prerequisites:} \nameref{Feat:ForgeRing}, \nameref{Spell:ControlFall}
+
+\paragraph{Cost to Create:} 1100gp, 88 XP
+\subsubsection{Mind Shielding}
+\label{Item:MindShielding}
+   \textbf{Price:} 8000gp
+\\ \textbf{Body Slot:} Finger
+\\ \textbf{Caster Level:} 5th
+\\ \textbf{Activation:} -
+\\ \textbf{Weight:} -
+
+The wearer of this ring is continually immune to \nameref{Spell:ReadThoughts} and any attempt to magically discern his alignment, and takes only half the normal penalty on Bluff checks from \nameref{Spell:ZoneOfTruth}.
+
+\paragraph{Physical Description:} This ring is usually of fine workmanship and wrought from heavy gold.
+
+\paragraph{Prerequisites:} \nameref{Feat:ForgeRing}, \nameref{Spell:Nondetection}
+
+\paragraph{Cost to Create:} 4000gp, 320 XP
+\subsubsection{Ram}
+\label{Item:Ram}
+   \textbf{Price:} 8600gp
+\\ \textbf{Body Slot:} Finger
+\\ \textbf{Caster Level:} 5th
+\\ \textbf{Activation:} Standard (Command)
+\\ \textbf{Weight:} -
+
+The ring of the ram has three charges, which are renewed each day at dawn. It allows its wielder to use \nameref{Spell:ManeuveringHand}, as the spell, except that the force takes the shape of the head of a ram or a goat, and does not allow grapple or disarm attempts. Unlike simpler command-activated items, the power of the ram-like force depends on the number of charges expended at the time of activation:
+\begin{list}{\labelitemi}{\leftmargin=1em}
+\item \emph{1 charge:} The spell acts as a medium-sized creature with strength 20, for a total strength check modifier of +5.
+\item \emph{2 charges:} The spell acts as a large-sized creature with strength 20, for a total strength check modifier of +9.
+\item \emph{3 charges:} The spell acts as a huge-sized creature with strength 20, for a total strength check modifier of +13.
+\end{list}
+The spell lasts for 5 rounds, as normal.
+
+\paragraph{Physical Description:} The ring of the ram is an ornate ring forged of hard metal, usually iron or an iron alloy. It has the head of a ram as its device.
+
+\paragraph{Prerequisites:} \nameref{Feat:ForgeRing}, \nameref{Spell:ManeuveringHand}
+
+\paragraph{Cost to Create:} 4300gp, 344 XP
+\subsubsection{Regeneration, Minor}
+\label{Item:RegenerationMinor}
+   \textbf{Price:} 8000gp
+\\ \textbf{Body Slot:} Finger
+\\ \textbf{Caster Level:} 1st
+\\ \textbf{Activation:} -
+\\ \textbf{Weight:} -
+
+While worn, this ring grants its wearer Fast Healing 1.
+The ring must be worn for a 24 hours before it begins to work. If it is removed, the owner must wear it for another 24 hours to reattune it to himself.
+
+\paragraph{Physical Description:} This ring is forged of white gold, and feels warm to the touch.
+
+\paragraph{Prerequisites:} \nameref{Feat:ForgeRing}, \nameref{Spell:Regenerate}
+
+\paragraph{Cost to Create:} 4000gp, 320 XP
+
+\subsubsection{Regeneration, Major}
+\label{Item:RegenerationMajor}
+   \textbf{Price:} 40760gp
+\\ \textbf{Body Slot:} Finger
+\\ \textbf{Caster Level:} 13th
+\\ \textbf{Activation:} - and Standard (Command)
+\\ \textbf{Weight:} -
+
+As the Ring of \nameref{Item:RegenerationMinor}. In addition, an attuned wearer can use the \nameref{Spell:Regenerate} spell as a spell-like ability once per day.
+
+\paragraph{Physical Description:} This ring is forged of white gold, and feels warm and tingly to the touch.
+
+\paragraph{Prerequisites:} \nameref{Feat:ForgeRing}, \nameref{Spell:Regenerate}
+
+\paragraph{Cost to Create:} 20380gp, 1630 XP
+\subsubsection{Shooting Stars}
+\label{Item:ShootingStars}
+   \textbf{Price:} 43200gp
+\\ \textbf{Body Slot:} Finger
+\\ \textbf{Caster Level:} 12th
+\\ \textbf{Activation:} Standard (Command), free (mental); see text
+\\ \textbf{Weight:} -
+
+At will as a standard action, the wearer of this ring can use \nameref{Spell:MoonBolt}, as the spell. In addition, as a free action, he may cause his the ring to shed light as a torch. He can extinguish the light as another free action.
+
+\paragraph{Physical Description:} The ring is forged of pure silver, inset with a dark stone of unfamiliar material. When the ring's glow function is activated, it is the stone that shines. The light is as pale as starlight rather than reddish yellow like that of an open flame.
+
+\paragraph{Prerequisites:} \nameref{Feat:ForgeRing}, \nameref{Spell:MoonBolt}
+
+\paragraph{Cost to Create:} 21600gp, 1728 XP
+\subsubsection{Spell Storing, Minor}
+\label{Item:SpellStoringMinor}
+   \textbf{Price:} 18000gp
+\\ \textbf{Body Slot:} Finger
+\\ \textbf{Caster Level:} 5th
+\\ \textbf{Activation:} - and Standard (Command)
+\\ \textbf{Weight:} -
+
+A minor ring of spell storing contains one or more spells that the wearer can cast.  
+The user need not provide any components, or pay an XP cost to cast the spells. 
+The activation time for the ring is same as the casting time for the relevant spell, with a minimum of 1 standard action.
+
+A spellcaster can cast any spells into the ring, so long as the total spell point cost does not add up to more than five. 
+
+For a randomly generated ring, treat it as a matrix to determine what spells are stored in it. Each spell has spell points spent on it equal to the minimum needed to cast that spell (no augments).
+If you roll a spell that would put the ring over the five-spell point limit, ignore that roll; the ring has no more spells in it. (Not every newly discovered ring need be fully charged.)
+
+A spellcaster can use a matrix to put a spell into the minor ring of spell storing.
+
+The ring magically imparts to the wearer the names of all spells currently stored within it.
+
+%\paragraph{Physical Description:} STUFF
+
+\paragraph{Prerequisites:} \nameref{Feat:ForgeRing}, \nameref{Spell:ImbueWithSpellAbility}
+
+\paragraph{Cost to Create:} 9000gp, 720 XP
+\subsubsection{Spell Storing}
+\label{Item:SpellStoring}
+   \textbf{Price:} 50000gp
+\\ \textbf{Caster Level:} 9th
+
+As a \nameref{Item:SpellStoringMinor}, except it holds up to nine spell points.
+
+\paragraph{Cost to Create:} 25000gp, 2000 XP
+\subsubsection{Spell Storing, Major}
+\label{Item:SpellStoringMajor}
+   \textbf{Price:} 200000gp
+\\ \textbf{Caster Level:} 17th
+
+As a \nameref{Item:SpellStoringMinor}, except it holds up to nineteen spell points.
+
+\paragraph{Cost to Create:} 100000gp, 8000 XP
+\subsubsection{Spell Turning}
+\label{Item:SpellTurning}
+   \textbf{Price:} 98280gp
+\\ \textbf{Body Slot:} Finger
+\\ \textbf{Caster Level:} 13th
+\\ \textbf{Activation:} Standard (Command)
+\\ \textbf{Weight:} -
+
+Three times per day, the bearer of this ring can use \nameref{Spell:SpellTurning}, as the spell.
+
+%\paragraph{Physical Description:} STUFF
+
+\paragraph{Prerequisites:} \nameref{Feat:ForgeRing}, \nameref{Spell:SpellTurning}
+
+\paragraph{Cost to Create:} 49140gp, 3931 XP
+\subsubsection{Telekinesis}
+\label{Item:Telekinesis}
+   \textbf{Price:} 50400gp
+\\ \textbf{Body Slot:} Finger
+\\ \textbf{Caster Level:} 7th
+\\ \textbf{Activation:} Standard (Command)
+\\ \textbf{Weight:} -
+
+At will, the bearer of this ring can use \nameref{Spell:Telekinesis}, as the spell.
+
+%\paragraph{Physical Description:} STUFF
+
+\paragraph{Prerequisites:} \nameref{Feat:ForgeRing}, \nameref{Spell:Telekinesis}
+
+\paragraph{Cost to Create:} 25200gp, 2016 XP
+\subsubsection{X-ray Vision}
+\label{Item:XRayVision}
+   \textbf{Price:} 16200gp
+\\ \textbf{Body Slot:} Finger
+\\ \textbf{Caster Level:} 9th
+\\ \textbf{Activation:} Standard (Command)
+\\ \textbf{Weight:} -
+
+Once per day, you can use \nameref{Spell:XRayVision}, as the spell.
+
+\paragraph{Physical Description:} The ring is unusually heavy for its size, and inset with a dull, metallic-looking stone. When in dark surroundings, it emits an almost imperceptible green glow.
+
+\paragraph{Prerequisites:} \nameref{Feat:ForgeRing}, \nameref{Spell:XRayVision}
+
+\paragraph{Cost to Create:} 8100gp, 648 XP
+\subsection{Rods}
+\subsubsection{Absorbtion}
+\textbf{Price:} 50000gp\\
+\textbf{Body Slot:} -\\
+\textbf{Caster Level:} 15th\\
+\textbf{Activation:} -\\
+\textbf{Weight:} 5lbs.
+
+This rod acts as a magnet, drawing spells or spell-like abilities into itself. 
+The magic absorbed must be a single-target spell or a ray directed at either the character possessing the rod or her gear. 
+The rod then nullifies the spell's effect and stores its potential until the wielder releases this energy in the form of spells of her own. 
+She can instantly detect the number of spell points spent on the spell as the rod absorbs that spell's energy. 
+Absorption requires no action on the part of the user if the rod is in hand at the time.
+
+A running total of absorbed (and used) spell points should be kept. 
+The wielder of the rod can use captured spell energy to cast any spell he knows.
+See \nameref{sec:UsingStoredSpellPoints} for more information.
+
+A rod of absorption absorbs a maximum of 200 spell points and can thereafter only discharge any remaining potential it might have. The rod cannot be recharged. The wielder knows the rod's remaining absorbing potential and current amount of stored energy.
+
+To determine the absorption potential remaining in a newly found rod, roll 2d\%. Then roll d\% again: On a result of 71-100, half the spell points already absorbed by the rod are still stored within.
+
+\paragraph{Prerequisites:} \nameref{Feat:CraftRod}, \nameref{Spell:SpellTurning}
+
+\paragraph{Cost to Create:} 25000gp, 2000 XP
+
+\subsubsection{Alertness}
+\textbf{Price:} 60000gp\\
+\textbf{Body Slot:} -\\
+\textbf{Caster Level:} 11th\\
+\textbf{Activation:} -\\
+\textbf{Weight:} 5lbs.
+
+This rod has eight flanges on its macelike head. 
+The rod bestows a +1 insight bonus on initiative checks. 
+If grasped firmly, the rod enables the holder to use \nameref{Spell:DetectMagic}, \nameref{Spell:DiscernAlignment}, \nameref{Spell:ZoneOfTruth}, \nameref{Spell:Light}, or \nameref{Spell:SeeInvisibility}, as the spells, a combined number of five times per day. 
+
+By concentrating on the rod (a standard action), you gain Blindsense out to 120' until the start of your next turn.
+
+\paragraph{Prerequisites:} \nameref{Feat:CraftRod}, \nameref{Spell:SpellTurning}
+
+\paragraph{Cost to Create:} 30000gp, 2400 XP
+\subsubsection{Guards and Wards}
+\textbf{Price:} 50000gp\\
+\textbf{Body Slot:} -\\
+\textbf{Caster Level:} 12th\\
+\textbf{Activation:} -; see text\\
+\textbf{Weight:} 5lbs.
+
+This powerful magic item is primarily used to defend your stronghold.
+It takes the form of a magic rod, which can be attuned to a location of a size of up to 2000 square feet (as much as 20 feet high), and shaped as you desire. 
+You can ward several stories of a stronghold by dividing the area among them.  
+Attuning the item to a location is a process that takes 30 minutes (and requires you be somewhere within the area to be warded).
+After it has been attuned, the ward creates the following magical effects within the warded area:
+\paragraph{Fog}
+Magical fog fills all corridors, obscuring all sight, including darkvision, beyond 5 feet. 
+A creature within 5 feet has concealment (attacks have a 20\% miss chance).
+Creatures farther away have total concealment (50\% miss chance, and the attacker cannot use sight to locate the target). 
+\emph{Saving Throw: None. Spell Resistance: No.}
+\paragraph{Arcane Locks}
+All doors in the warded area are arcane locked (as the augment of the \nameref{Spell:OpenClose} spell). \emph{Saving Throw: None. Spell Resistance: No.}
+\paragraph{Webs}
+Webs fill all stairs from top to bottom. These strands are identical with those created by the \nameref{Spell:Web} spell (DC 17), 
+except that they regrow in 10 minutes if they are burned or torn away while the guards and wards spell lasts. 
+\emph{Saving Throw: see text for web. Spell Resistance: No.}
+\paragraph{Confusion}
+Where there are choices in direction—such as a corridor intersection or side passage - 
+a minor confusion-type effect functions so as to make it 50\% probable that intruders believe they are going in the opposite direction from the one they actually chose. 
+This is an Illusion (phantasm), mind-affecting effect. \emph{Saving Throw: None. Spell Resistance: Yes.}
+\paragraph{Lost Doors}
+12 doors are covered by an \nameref{Spell:Image} spell (DC 16) to appear as if they were a plain wall. \emph{Saving Throw: Will disbelief (if interacted with). Spell Resistance: No.}
+
+In addition, you can place your choice of one of the following five magical effects:
+\begin{enumerate}
+\item Change in ambient light levels in four corridors. 
+You can designate a simple program that causes the light level changes to repeat as long as the guards and wards effect is in place. 
+\emph{Saving Throw: None. Spell Resistance: No.}
+\item A magic mouth in two places, as per the augment of the \nameref{Spell:Ventriloquism} spell. 
+\emph{Saving Throw: None. Spell Resistance: No.}
+\item A \nameref{Spell:NoxiousVapors} in two places (no augments in effect, save DC 17). 
+The vapors appear in the places you designate; they return within 10 minutes if dispersed by wind while the guards and wards effect is in place. 
+\emph{Saving Throw: see text for Noxious Vapors. Spell Resistance: No.}
+\item A \nameref{Spell:GustOfWind} in one corridor or room. Save DC 17, fires once per round.
+\emph{Saving Throw: see gust of wind. Spell Resistance: Yes.}
+\item A \nameref{Spell:Suggestion} in one place. 
+You select an area of up to 5 feet square, and any creature who enters or passes through the area receives the suggestion mentally. 
+\emph{Saving Throw: Will negates. Spell Resistance: Yes.}
+\end{enumerate}
+You can redesignate which of the magical effects is active (as well its location) by re-attuning the item to the area.
+
+A \nameref{Spell:DispelMagic} cast on a specific effect, if successful, removes only that effect. A successful \nameref{Spell:Disjunction} destroys the entire guards and wards effect. 
+
+\paragraph{Prerequisites:} \nameref{Feat:CraftRod}, \nameref{Spell:Light}, \nameref{Spell:Fog}, \nameref{Spell:OpenClose}, \nameref{Spell:Image}, \nameref{Spell:Web}, \nameref{Spell:HallOfMirrors},\nameref{Spell:Ventriloquism}, \nameref{Spell:NoxiousVapors}, \nameref{Spell:GustOfWind}, \nameref{Spell:Suggestion}, \nameref{sec:Cantrips} class feature.
+
+\paragraph{Cost to Create:} 25000gp, 2000 XP
+\subsubsection{Negation}
+\textbf{Price:} 37000gp\\
+\textbf{Body Slot:} -\\
+\textbf{Caster Level:} 15th\\
+\textbf{Activation:} Standard (Command)\\
+\textbf{Weight:} 5lbs.
+
+This device negates the spell or spell-like function or functions of magic items. 
+The wielder points the rod at the magic item, and a pale gray beam shoots forth to touch the target device, attacking as a ray (a ranged touch attack). 
+The ray functions as a \nameref{Spell:DispelMagic} spell, except it only affects magic items. 
+To negate instantaneous effects from an item, the rod wielder needs to have used a ready action. 
+The dispel check uses the rod's caster level (15th) and is augmented to cost 14 spell points, for a total bonus of +21. 
+The target item gets no saving throw, although the rod can't negate artifacts (even minor artifacts). 
+The rod can function three times per day.
+
+\paragraph{Prerequisites:} \nameref{Feat:CraftRod}, and \nameref{Spell:LimitedWish} or \nameref{Spell:Miracle}
+
+\paragraph{Cost to Create:} 18500gp, 1480 XP
+\subsubsection{Wonder}
+\textbf{Price:} 12000gp\\
+\textbf{Body Slot:} -\\
+\textbf{Caster Level:} 10th\\
+\textbf{Activation:} Standard (Command)\\
+\textbf{Weight:} 5lbs.
+
+A rod of wonder is a strange and unpredictable device that randomly generates any number of weird effects each time it is used.  Typical powers of the rod are shown on the \nameref{tab:RodOfWonder} table.
+
+If the rod's effect can't take place for some reason (such as due to the rod being pointed at an object when the effect requires targeting a creature, or the creature the rod is pointed at is out of range), the activation fails.
+
+\begin{table*}
+\caption{Rod of Wonder}
+\label{tab:RodOfWonder}
+\centering
+\begin{tabular}{|c|p{0.92\textwidth}|}
+\hline
+\textbf{d\%}&\textbf{Wondrous Effect}\\
+\hline
+01-05&\nameref{Spell:Slow} creature pointed at for 10 rounds (Will DC 16 negates).\\
+06-10&\nameref{Spell:FaerieFire}, centered on the target.\\
+11-15&Deludes wielder for 1 round into believing the rod functions as indicated by a second die roll (no save).\\
+16-20&\nameref{Spell:GustOfWind} in a line emanating out from the rod (strength DC 16).\\
+21-25&Wielder learns target's surface thoughts (as with \nameref{Spell:ReadThoughts}) for 1d4 rounds (no save).\\
+26-30&\nameref{Spell:NoxiousVapors} centered on target (Fortitude DC 16).\\
+31-33&Heavy rain falls for 1 round in 60-ft. radius centered on rod wielder.\\
+34-36&Summon an animal - a rhino (01-25 on d\%), elephant (26-50), or mouse (51-100). The animal disappears after one minute.\\
+37-46&Lightning bolt (70 ft. long, 5 ft. wide), 10d6 damage (Reflex DC 17 for half damage).\\
+47-49&Stream of 600 large butterflies pours forth and flutters around for 2 rounds, blinding everyone (including wielder) within 25 ft. (Reflex DC 14 negates blindness).\\
+50-53&Creature pointed at grows in size, as if by the \nameref{Spell:AlterSize} spell with the fourth augment (Fortitude DC 15 negates).\\
+54-58&\nameref{Spell:Darkness} centered on target.\\
+59-62&Grass grows in 160-sq.-ft. area before the rod, or grass existing there grows to ten times normal size.\\
+63-65&Turn ethereal any nonliving object of up to 1,000 lb. mass and up to 30 cu. ft. in size for one hour.\\
+66-69&Wielder is reduced in size, as if by the \nameref{Spell:AlterSize} spell with the fourth augment (Fortitude DC 15 negates).\\
+70-79&\nameref{Spell:Fireball} at target, fire version (Reflex DC 17 half).\\
+80-84&\nameref{Spell:Invisibility} covers rod wielder.\\
+85-87&Leaves grow from target if within 60 ft. of rod. These last 24 hours.\\
+88-90&10-40 gems, value 1 gp each, shoot forth in a 30-ft.-long line. Each gem deals 1 point of damage to any creature in its path: Roll 5d4 for the number of hits and divide them among the available targets.\\
+91-95&Shimmering colors dance and play over a 40-ft.-by-30-ft. area in front of rod. Creatures therein are blinded for 1d6 rounds (Fortitude DC 15 negates).\\
+96-97&Wielder (50\% chance) or target (50\% chance) turns permanently blue, green, or purple (no save). A \nameref{Spell:RemoveCurse} spell can restore the creature's original color.\\
+98-100&\nameref{Spell:TransmuteFleshAndStone} on target, \emph{Flesh to Stone} if the target is a creature made of flesh, \emph{Stone to Flesh} if the target is an object made of stone or a creature that is already petrified.\\
+\hline
+\end{tabular}
+\end{table*}
+The powers of the rod are Spell-like abilities if they duplicate the effects of spells, Supernatural abilities otherwise.
+
+\paragraph{Prerequisites:} \nameref{Feat:CraftRod}, \nameref{Spell:Confusion}, creator must be chaotic; 
+
+\paragraph{Cost to Create:} 6000gp, 480 XP
+\subsection{Wands}
+A wand is a slender piece of wood that contains a single spell. Each wand has 50
+charges when created, and each charge expended allows one use of that spell. A
+wand that runs out of charges is just a simple stick.
+
+\paragraph{Physical Description:} A typical wand is a piece of wood,
+between 8 inches and 10 inches long and about 1/2 inch thick, which
+can weigh up to 1/4 pound. Occasionally, a wand is decorated with carvings or
+inscribed runes. A typical wand has AC 7, 7 hit
+points, a hardness of 8, and a break DC of 18.
+
+\paragraph{Activation:} Wands use the spell trigger activation method, so casting a
+spell from a wand is usually a standard action that does not provoke attacks of
+opportunity. (If the spell being cast has a casting time longer than 1
+standard action, however, it takes that long to cast the spell from a
+wand.) The user must have the spell on his class list, even if he knows the
+command word. Additionally, to activate a wand, a character must hold it in
+hand and point it in the general direction of the target or area to be affected.
+Wands are normally created at the minimum caster level required to cast
+the spell, and spells that can be augmented are not augmented when stored in a
+wand. A wand's wielder cannot augment the spell contained within the wand.
+However, wands can be created at a higher caster level than required to
+cast the spell. In this case, the wand that holds an augmentable spell is
+augmented, to the limit of the caster level and the spell's augmentation
+maximums, if any. The caster level of a wand cannot be more than five
+higher than the minimum caster level to use the spell it contains.
+
+\begin{table*}
+\caption{Wands}
+\label{tab:Wands}
+\centering
+\begin{tabular}{|c|r|}
+\hline
+\textbf{Spell Level}$^1$&\textbf{Market Price}$^2$\\
+\hline
+1st&750gp\\
+2nd&4500gp\\
+3rd&11250gp\\
+4th&21000gp\\
+5th&33750gp\\
+6th&49500gp\\
+7th&68250gp\\
+8th&90000gp\\
+9th&114750gp\\
+\hline
+\end{tabular}
+\scriptsize
+\begin{enumerate}
+ \item Some wands have higher caster levels than the minimum spell level, which gives them commensurately higher costs.
+ \item Any wand that stores a spell with an experience point cost also has an XP cost in addition to that noted here.
+\end{enumerate}
+\end{table*}
+\subsection{Wondrous Items}
+\subsubsection{Amulet of the Planes}
+   \textbf{Price:} 35000gp
+\\ \textbf{Body Slot:} Throat
+\\ \textbf{Caster Level:} 17th
+\\ \textbf{Activation:} Standard (Command)
+\\ \textbf{Weight:} -
+
+Once per day, the amulet allows its wearer to utilize the augmented version of \nameref{Spell:PlaneShift}.
+By speaking a command word, the amulet takes its wearer (and his companions, as described in the \nameref{Spell:PlaneShift} spell description) to the specific location on any plane that he wants. 
+However, this is a difficult item to master. The user must make a DC 15 Intelligence check in order to get 
+If she fails, the amulet transports her and all those traveling with her to the correct plane, but as if with an unaugmented \nameref{Spell:PlaneShift} or to a random plane (61-100).
+
+\paragraph{Physical Description:} This device usually appears to be a black circular amulet, although any character looking closely at it sees a dark, moving swirl of color.
+
+\paragraph{Activation:} Standard (Command).
+
+\paragraph{Prerequisites:} \nameref{Feat:CraftWondrousItem}, \nameref{Spell:PlaneShift}
+
+\paragraph{Cost to Create:} 17500gp, 1400 XP
+\subsubsection{Amulet of Proof against Detection and Location}
+   \textbf{Price:} 15000gp (lesser); 30000gp (standard); 60000gp (greater)
+\\ \textbf{Body Slot:} Throat
+\\ \textbf{Caster Level:} 5th (lesser); 10th (standard); 15th (greater)
+\\ \textbf{Activation:} -
+\\ \textbf{Weight:} -
+
+This amulet protects the wearer from scrying and magical location just as a \nameref{Spell:Nondetection} spell does. If a divination (Scrying) spell is attempted against the wearer, the caster of the divination must succeed on a caster level check (1d20 + caster level), as described in the \nameref{Spell:Nondetection} spell entry. The DC of the check varies according to the version of the amulet selected, DC 16 for the lesser version, DC 26 for the normal version, and DC 36 for the greater version (the increased DC is due to the standard and lesser versions duplicating augmented forms of the \nameref{Spell:Nondetection} spell).
+
+\paragraph{Physical Description:} A silver amulet.
+
+\paragraph{Activation:} None. The amulet provides its benefits continuously while worn, no activation required.
+
+\paragraph{Prerequisites:} \nameref{Feat:CraftWondrousItem}, \nameref{Spell:Nondetection}
+
+\paragraph{Cost to Create:} 7500gp, 600XP (lesser); 15000gp, 1200XP (standard); 30000gp, 2400XP (greater)
+
+\subsubsection{Bead of Force}
+   \textbf{Price:} 1400gp
+\\ \textbf{Body Slot:} -
+\\ \textbf{Caster Level:} 7th
+\\ \textbf{Activation:} Use-activated
+\\ \textbf{Weight:} -
+
+You use this bead as you would use a thrown weapon with which you are proficient, with a range increment of 20'. If you succeed on a ranged touch attack against a medium-sized or smaller creature, it must succeed on a reflex save (DC 17) or be trapped inside a \nameref{Spell:ResilientSphere}, as the spell.
+If you miss, or the creature is too large or otherwise incapable of being trapped inside a Resilient Sphere, the bead explodes, dealing 5d6 points of force damage to all creatures within a 10' radius burst (center of effect chosen by you, although the targeted creature must be within the burst). You may miss intentionally.
+
+The bead is completely destroyed upon impact, making this a one-use item.
+
+Moderate evocation; CL 10th; Craft Wondrous Item, resilient sphere; Price 3,000 gp.
+
+\paragraph{Physical Description:} This small black sphere appears to be a lusterless pearl.
+
+\paragraph{Activation:} Use-activated. Throw as you would a thrown weapon.
+
+\paragraph{Prerequisites:} \nameref{Feat:CraftWondrousItem}, \nameref{Spell:ResilientSphere}
+
+\paragraph{Cost to Create:} 700gp, 56XP
+\subsubsection{Magical Restraints}
+\textbf{Price:} See the \nameref{tab:MagicalRestraints} table\\
+\textbf{Body Slot:} -\\
+\textbf{Caster Level:} 16th\\
+\textbf{Activation:} -\\
+\textbf{Weight:} 1 lb.
+
+ These restraints limit the total number of spell points a magical creature wearing it can use in 1 round (regardless of the creature's total spell point reserve), or completely damps the ability to use magic. 
+All types of magical restraints prevent the free casting of spells, such as by Spell-Like abilities. Supernatural abilities are not affected.
+
+\paragraph{Physical Description:} Each of the various magical restraints is an iron cuff that cunningly locks around the wrist. Opening it without the key requires a DC 27 Open Lock check. The break and escape artist DCs, as well as the restraints' hit points and hardness are the same as those of masterwork manacles. The restraints are ineffective on creatures that do not have arms or armlike appendages.
+
+\paragraph{Activation:} None. The restraints function continuously while worn.
+
+\begin{table*}
+\caption{Magical Restraints}
+\label{tab:MagicalRestraints}
+\centering
+\begin{tabular}{|c|c|r|r|}
+\hline
+\textbf{Restraint Type}&\textbf{Allowed}&\textbf{Market Price}&\textbf{Cost to Create}\\
+&\textbf{ SP/round}&&\\
+\hline
+Lesser&5&1000gp&500gp, 40XP\\
+Average&3&6000gp&3000gp, 240XP\\
+Greater&1&12000gp&6000gp, 480XP\\
+Damping&0&24000gp&12000gp, 960XP\\
+\hline
+\end{tabular}
+\end{table*}
+
+\paragraph{Prerequisites:} \nameref{Feat:CraftWondrousItem}, \nameref{Spell:LimitedWish}, \nameref{Spell:DispelMagic}
+
+\paragraph{Cost to Create:} See the \nameref{tab:MagicalRestraints} table.
+
+
+\subsubsection{Pearl of Power}
+\label{Item:PearlOfPower}
+\textbf{Price:} See the \nameref{tab:PearlsOfPower} table.\\
+\textbf{Body Slot:} -\\
+\textbf{Caster Level:} Equal to maximum spell point storage\\
+\textbf{Activation:} -; see text\\
+\textbf{Weight:} -
+
+Pearls of Power store spell points that spellcasting characters can use to pay
+for casting their spells.
+
+\paragraph{Physical Description:} This is a pearl of average size.
+It looks normal, except for a faint glow (which is insufficient to provide real
+illumination). It has negligible weight, has AC 7, 10 hit points, a hardness of
+8, and a break DC of 16.
+
+\paragraph{Activation:} The user must merely hold or have a pearl on her person for a
+period of at least 10 minutes (which is long enough to attune oneself to the
+pearl). Thereafter, the owner can use spell points stored in the pearl to
+cast spells she knows.
+The maximum number of points a pearl of power can store is always an odd
+number and is never more than 17. It can store only as many spell points as its
+original maximum, set at the time of its creation. When a pearl of power's
+spell points are used up, the glow of the pearl dims. 
+However, the user can
+recharge it by paying spell points on a 1-for-1 basis. While doing this takes
+from the user's own spell point reserve for the day, those spell points remain
+available in the pearl of power until used.
+
+A user cannot directly replenish her personal spell points from those stored in
+a pearl of power, nor can he draw spell points from more than one source to
+cast a spell. See \nameref{sec:UsingStoredSpellPoints} for more information.
+
+\begin{table*}
+\caption{Pearls of Power}
+\label{tab:PearlsOfPower}
+\centering
+\begin{tabular}{|c|r|r|}
+\hline
+\textbf{Maximum SP Storage}&\textbf{Market Price}&\textbf{Cost to Create}\\
+\hline
+1&	1000gp	&500gp, 40XP\\
+3&	4000gp	&2000gp, 160XP\\
+5&	9000gp	&4500gp, 360XP\\
+7&	16000gp	&8000gp, 640XP\\
+9&	25000gp	&12500gp, 1000XP\\
+11&	36000gp	&18000gp, 1440XP\\
+13&	49000gp	&24500gp, 1960XP\\
+15&	64000gp	&32000gp, 2560XP\\
+17&	81000gp	&40500gp, 3240XP\\
+\hline
+\end{tabular}
+\end{table*}
+
+\paragraph{Prerequisites:} \nameref{Feat:CraftWondrousItem}
+
+\paragraph{Cost to Create:} See the \nameref{tab:PearlsOfPower} table.
+\subsubsection{Spell Focus}
+\textbf{Price:} 8000gp\\
+\textbf{Body Slot:} Throat\\
+\textbf{Caster Level:} 8th\\
+\textbf{Activation:} -\\
+\textbf{Weight:} -
+
+Every school of magic (Abjuration, Conjuration, Divination, Enchantment, Evocation, Illusion, Necromancy and Transmutation) has a type of spell focus associated with it. This focus is an item worn around the neck, and wearing one adds a +1 enhancement bonus to the save DCs of spells of the corresponding school.
+
+\paragraph{Physical Description:} Typical spell focuses are unobtrusive ornaments.
+
+\paragraph{Activation:} None. A spell focus provides its benefit continuously, no activation required.
+
+\paragraph{Prerequisites:} \nameref{Feat:CraftWondrousItem}, creator must be a Specialist Wizard in the relevant school of magic.
+
+\paragraph{Cost to Create:} 4000gp, 320 XP
+\subsubsection{Symbol}
+\textbf{Price:} See the \nameref{tab:Symbols} table\\
+\textbf{Body Slot:} -\\
+\textbf{Caster Level:} Varies; see the \nameref{tab:Symbols} table\\
+\textbf{Activation:} When triggered; see text\\
+\textbf{Weight:} -
+
+A symbol is a potent rune of power scribed upon a surface. 
+When triggered, a symbol has a particular, harmful effect on one or more creatures within 60 feet of the symbol (treat as a burst).
+The symbol affects the closest creatures first.%, skipping creatures with too many hit points to affect. 
+Once triggered, a symbol becomes active and glows, 
+lasting for 10 minutes per caster level, %or until it has affected 150 hit points' worth of creatures, whichever comes first.
+after which it is burned out and useless.
+Any creature that enters the area while the symbol is active is subject to its effect, 
+whether or not that creature was in the area when it was triggered. 
+A creature need save against the symbol only once as long as it remains within the area, 
+though if it leaves the area and returns while the symbol is still active, it must save again.
+
+Until it is triggered, the symbol of is inactive (though visible and legible at a distance of 60 feet). 
+To be effective, a symbol must always be placed in plain sight and in a prominent location. 
+Covering or hiding the rune renders the symbol ineffective, unless a creature removes the covering, in which case the symbol works normally.
+
+As a default, a symbol is triggered whenever a creature does one or more of the following, as you select: 
+looks at the rune; reads the rune; touches the rune; passes over the rune; or passes through a portal bearing the rune. 
+Regardless of the trigger method or methods chosen, a creature more than 60 feet from a symbol can't trigger it 
+(even if it meets one or more of the triggering conditions, such as reading the rune). 
+Once a symbol is created, its triggering conditions cannot be changed.
+
+In this case, ``reading`` the rune means any attempt to study it, identify it, or fathom its meaning. 
+Throwing a cover over a symbol to render it inoperative triggers it if the symbol reacts to touch. 
+% You can't use a symbol of death offensively; 
+% for instance, a touch-triggered symbol remains untriggered if an item bearing the symbol of death is used to touch a creature. 
+% Likewise, a symbol cannot be placed on a weapon and set to activate when the weapon strikes a foe.
+
+You can also set special triggering limitations of your own. 
+These can be as simple or elaborate as you desire. 
+Special conditions for triggering a symbol can be based on a creature's name, identity, or alignment, 
+but otherwise must be based on observable actions or qualities. 
+Intangibles such as level, class, Hit Dice, and hit points don't qualify.
+
+When scribing a symbol, you can specify a password or phrase that prevents a creature using it from triggering the effect. 
+Anyone using the password remains immune to that particular rune's effects so long as the creature remains within 60 feet of the rune. 
+If the creature leaves the radius and returns later, it must use the password again.
+
+You also can attune any number of creatures to the symbol. %, but doing this can extend the casting time. 
+These creatures must either be present at the time you scribe the symbol, or you must have some way of unambiguously identifying them
+for the purpose of this magic item.
+% Attuning one or two creatures takes negligible time, and attuning a small group (as many as ten creatures) extends the casting time to 1 hour. 
+% Attuning a large group (as many as twenty-five creatures) takes 24 hours. Attuning larger groups takes proportionately longer. 
+Any creature attuned to a symbol cannot trigger it and is immune to its effects, even if within its radius when triggered. 
+You are automatically considered attuned to your own symbols, and thus always ignore the effects and cannot inadvertently trigger them.
+
+% Read magic allows you to identify a symbol of death with a DC 19 Spellcraft check. 
+% Of course, if the symbol of death is set to be triggered by reading it, this will trigger the symbol.
+
+A symbol can be destroyed by a successful dispel magic targeted solely on the rune. 
+%An erase spell has no effect on a symbol of death.
+Destruction of the surface where a symbol is inscribed destroys the symbol but also triggers it. 
+
+The effects of each symbol is detailed below. See also \nameref{tab:Symbols}.
+
+\begin{list}{\labelitemi}{\leftmargin=1em}
+ \item \textbf{Symbol of Fire:} The viewer bursts into flames, taking 7d6+7 points of fire damage.
+ A successful reflex save halves the damage.
+ \item \textbf{Symbol of Sleep:} All viewers of 10 HD or less fall into catatonic slumber for
+ 3d6$\times$10 minutes. Unlike with the sleep spell, sleeping creatures cannot be awakened by nonmagical means before this time expires.
+ A successful will save negates the unconsciousness.
+ \item \textbf{Symbol of Pain:} The viewer suffers wracking pains that impose a -4 penalty on attack rolls, 
+ skill checks, and ability checks. These effects last for 1 hour after the creature moves farther than 60 feet from the symbol.
+ A successful fortitude save reduces the penalty to -2.
+ \item \textbf{Symbol of Persuasion:} The viewer becomes charmed by the caster, as if subjected to a version of the \nameref{Spell:Charm}
+ spell that can affect any type of creature.
+ A successful Will Save negates the charm.
+ \item \textbf{Symbol of Fear:} The viewer becomes panicked for one minute. A successful will save negates the fear.
+ \item \textbf{Symbol of Stunning:} The viewer is stunned for 1d6 rounds. A successful will save negates the stun.
+ \item \textbf{Symbol of Weakness:} The viewer takes 3d6 points of strength damage. A successful fortitude save negates the ability damage.
+ \item \textbf{Symbol of Insanity:} The viewer is rendered permanently confused, as if by an augmented Confusion spell. A successful will save negates the insanity.
+ \item \textbf{Symbol of Death:} The viewer dies. This is a [death] effect. A successful fortitude save negates the death effect.
+\end{list}
+
+\begin{table*}
+\caption{Symbols}
+\label{tab:Symbols}
+\centering
+\makebox[\textwidth]{
+\begin{tabular}{|l|l|l|c|c|l|}
+\hline
+\textbf{Symbol}&\textbf{Market}&\textbf{Cost to}&\textbf{Save DC}&\textbf{Caster}&\textbf{Associated}\\
+&\textbf{Price}&\textbf{Create}&&\textbf{Level}&\textbf{Spell}\\
+\hline
+Fire &		100gp	&50gp, 4XP	&19&7&Fireball\\
+Sleep&		1000gp	&500gp, 40XP	&22&9&Sleep\\
+Pain&		1000gp	&500gp, 40XP	&22&9&Crushing Despair\\
+Persuasion&	5000gp	&2500gp, 200XP	&24&11&Charm\\
+Fear&		1000gp	&500gp, 40XP	&24&11&Fear\\
+Stunning&	5000gp	&2500gp, 200XP	&25&13&Daze\\
+Weakness&	5000gp	&2500gp, 200XP	&25&13&Ray of Enfeeblement\\
+Insanity&	5000gp	&2500gp, 200XP	&27&15&Confusion\\
+Death&		5000gp	&2500gp, 200XP	&27&15&Finger of Death\\
+\hline
+\end{tabular}}
+\end{table*}
+\emph{Note:} Symbols are a form of magic traps. 
+A character with the Trapfinding class feature can use the Search skill to find a symbol and Disable Device to thwart it. 
+The DC in each case is 25 + 1/2 the symbol's caster level. 
+
+\paragraph{Prerequisites:} \nameref{Feat:CraftWondrousItem}, associated spell.
+
+\paragraph{Cost to Create:} 4000gp, 320 XP
+% \subsubsection{Torc of Spell Preservation}
+% \label{Item:TorcOfSpellPreservation}
+%    \textbf{Price:} 4000gp
+% \\ \textbf{Body Slot:} Throat
+% \\ \textbf{Caster Level:} 8th
+% \\ \textbf{Activation:} -
+% \\ \textbf{Weight:} -
+% 
+% Five times per day, you can cast a spell by paying spell points equal to the standard cost minus 1 (minimum 1).
+% 
+% Your caster level must still be high enough to pay the unmodified spell point cost.
+% 
+% \paragraph{Physical Description:} This item is a band inlaid with precious metal, worn around the neck or upper arm. This
+% choice does not affect the body slot the torc occupies.
+% 
+% \paragraph{Activation:} Activated as part of casting a spell, no action required.
+% 
+% \paragraph{Prerequisites:} \nameref{Feat:CraftWondrousItem}, \nameref{Spell:LimitedWish}
+% 
+% \paragraph{Cost to Create:} 2000gp, 160 XP
+\subsubsection{Tome of Inherent Improvement}
+\textbf{Price:} 27,500 gp (+1), 55,000 gp (+2), 82,500 gp (+3), 110,000 gp (+4), 137,500 gp (+5)\\
+\textbf{Body Slot:} -\\
+\textbf{Caster Level:} 17th\\
+\textbf{Activation:} See text\\
+\textbf{Weight:} 5lbs
+
+This book contains instruction on a specific form of self-improvement, but entwined within the words is a powerful magical effect. Each individual Tome is associated with one of the six ability scores. Anyone reading the book gains an inherent bonus of from +1 to +5 (depending on the type of tome) to the Tome's associated ability score. Alternatively, it can increase an existing inherent bonus to the associated ability score by the same amount, but never to more than a total of +5.
+
+Once the book is read, the magic disappears from the pages and it becomes a normal book.
+
+Tomes of Inherent Improvement are usually referred to by the names of their associated ability scores: A Tome associated with Strength is referred to as a Manual of Gainful Exercise, one associated with Dexterity is referred to as a Manual of Quickness of Action, with Constitution as Manual of Bodily Health, with Intelligence as Tome of clear thought, with Wisdom as Tome of understanding, and those associated with Charisma as Tome of leadership and influence.
+
+\paragraph{Physical Description:} Tomes of Inherent Improvement are simply large, heavy tomes. The inexpert eye is likely to miss one if hidden in library shelves.
+
+\paragraph{Activation:} Reading a Tome of Inherent Improvement takes a total of 48 hours over a minimum of six days.
+
+\paragraph{Prerequisites:} \nameref{Feat:CraftWondrousItem}, \nameref{Spell:Miracle} or \nameref{Spell:Wish}.
+
+\paragraph{Cost to Create:} 1,250 gp + 5,100 XP (+1), 2,500 gp + 10,200 XP (+2), 3,750 gp + 15,300 XP (+3), 5,000 gp + 20,400 XP (+4), 6,250 gp + 25,500 XP (+5);
+\subsection{Where's my favorite item?}
+\label{sec:MissingItems}
+To deal with the changes in the spell system (and for general ease of use), the item categories have been shuffled around.
+\begin{list}{\labelitemi}{\leftmargin=1em}
+ \item \textbf{Magic Arms and Armor} work mostly as before.
+ \item \textbf{Potions and Oils} have been folded into a new category of items called \emph{Matrices}, which also includes all single-use spell completion items.
+ \item \textbf{Rings} have been individually updated as appropriate. The Rings of Wizardry have been removed due to incompatability reasons.
+ \item \textbf{Rods} are mostly unchanged. However, metamagic rods will not be implemented, as they are a form of free metamagic. The Rod of Lordly Might and Rod of Thunder and Lightning have not been updated at this point, due to being supremely useless anyway.
+ \item \textbf{Scrolls} now serve as a way for spellcasters to increase their repertoire of spells known, rather than being one-use spell completion items.
+ \item \textbf{Staffs} no longer exist in their prior form. However, see Spellstaffs.
+ \item \textbf{Wondrous Items} have received individual conversions. Those that directly emulate radically changed spells have been rewritten (or will be). In addition, the following items have been removed:
+ \begin{list}{\labelitemii}{\leftmargin=1em}
+  \item Blessed Book. Does not exist due to Wizards no longer using spellbooks.
+  \item Candle of Invocation. Does not exist. Caster level increases such as those granted by the Candle of Invocation should not exist under this system.
+  %\item Does not exist (pending rewrite).
+  \item Ioun Stones. As normal, but Orange Prism Ioun Stone do not exist. Caster level increases such as those granted by the Orange Prism should not exist under this system.
+  \item Prayer Beads. As normal, but Bead of Karma does not exist. Caster level increases such as those granted by the Bead of Karma should not exist under this system.
+  \item 
+ \end{list}
+\end{list}
