@@ -625,6 +625,12 @@ Abjuration
 
 \emph{You feel as if your skin has become dead when you push aside all influence of magic in the area, including your own.}
 
+\begin{figure*}
+  \caption{A Wizard has cunningly trapped another inside an Antimagic Field.}
+  \centering
+    \includegraphics{Pics/AMF.png}
+\end{figure*}
+
 An invisible barrier surrounds you and moves with you. 
 The space within this barrier is impervious to most magical effects, including spells, spell-like abilities, and supernatural abilities. 
 Likewise, it prevents the functioning of any magic items or spells within its confines.
@@ -1148,9 +1154,9 @@ d\%&  Curse name&  Curse description\\
 26-38&Dead skin& The creature's skin turns pale and cold, and its sense of touch is greatly reduced. It takes a -3 penalty on Reflex saves.\\
 39-50&Hallucinations& The creature suffers from intermittent hallucinations, causing it difficulties in differentiating figment from reality. The creature takes a -3 penalty on Will saves.\\
 51-62&Headaches& The creature suffers from constant, distracting headaches. It takes a -2 penalty on Initiative checks and all intelligence-based skill checks.\\
-63-75&Social outcast& Intelligent creatures unconsciously dislike the subject. The initial attitude of all non-Evil non-player characters towards the subject is shifted one step towards hostile, and it takes a -6 penalty on Gather Information checks.\\
+63-75&Social outcast& Intelligent creatures subconsciously dislike the subject. The initial attitude of all non-Evil non-player characters towards the subject is shifted one step towards hostile, and it takes a -6 penalty on Gather Information checks.\\
 76-87&Undeath's taint& The creature's brush with death has left it vulnerable to sacred energies. It is treated as an undead creature when caught in the area of a \nameref{Feat:TurnUndead} effect, although it only takes half damage (and may save to halve that damage again). In addition, Necromancy (Healing) spells only heal the creature of half their normal number of hit points.\\
-88-100&Wrong smell& Nonintelligent creatures unconsciously dislike the subject. The initial response of all animals when encountering the subject is either try to flee or to attack it. It takes a -6 penalty on Handle Animal and Ride checks.\\
+88-100&Wrong smell& Nonintelligent creatures dislike the subject. The initial response of all animals when encountering the subject is either try to flee or to attack it. It takes a -6 penalty on Handle Animal and Ride checks.\\
 \hline
 \end{tabular}
 \end{table*}
@@ -1232,6 +1238,12 @@ Transmutation
 \\ \textbf{Spell Points:} 3
 
 \emph{The creature's skin toughens.}
+
+\begin{figure*}
+  \caption{Druid explains the virtue of his Barkskin spell to a Wizard buddy.}
+  \centering
+    \includegraphics{Pics/Barkskin.png}
+\end{figure*}
 
 Barkskin grants a +2 enhancement bonus to the creature's existing natural armor bonus.
 
@@ -2738,11 +2750,10 @@ Necromancy [Evil]
 
 \emph{''Rise, creature. You have a new purpose now.``}
 
-A much more potent spell than \nameref{Spell:AnimateDead}, 
-this evil spell allows you to create ghouls, and other more powerful kinds of undead.
+This spell functions as \nameref{Spell:AnimateDead} except as noted here, but is much more powerful. You can create ghouls rather than skeletons and zombies.
 
-Created undead are not automatically under the control of their animator. 
-If you are capable of commanding undead, you may attempt to command the undead creature as it forms.
+Undead created with this spell are not automatically under the control of their animator.
+If you are capable of commanding undead (such as by \nameref{Spell:CommandUndead} or \nameref{Spell:ControlUndead}), you may attempt to command the undead creature as it forms.
 
 This spell must be cast at night. 
 
@@ -4907,7 +4918,6 @@ result&\\
 \paragraph{Augment:} For every 2 additional spell points you spend, the subject is stunned for one additional round of the
 spell's duration, rather than just the first. A successful will save in a subsequent round still ends the spell.
 
-\input{FormOfTheX.tex}
 \subsubsection{Foresight}
 \label{Spell:Foresight}
 Divination
@@ -4936,6 +4946,8 @@ and the creature can be caught unprepared in the absence of such a warning.
 Shouting a warning, yanking a person back, and even telepathically communicating (via an appropriate spell) 
 can all be accomplished before some danger befalls the subject, provided you act on the warning without delay. 
 The subject, however, does not gain the insight bonus to AC and Reflex saves.
+
+\input{FormOfTheX.tex}
 \subsubsection{Fortune of the Gods}
 \label{Spell:FortuneOfTheGods}
 Evocation
@@ -9828,7 +9840,7 @@ Divination (Scrying)
 \\ \textbf{Components:} V, S
 \\ \textbf{Casting Time:} 1 hour
 \\ \textbf{Range:} See text
-\\ \textbf{Effect:} Magical sensor
+\\ \textbf{Effect:} Magical sensor next to a creature
 \\ \textbf{Duration:} 1 min./level
 \\ \textbf{Saving Throw:} Will negates
 \\ \textbf{Spell Resistance:} Yes
@@ -9838,17 +9850,13 @@ Divination (Scrying)
 
 You can see and hear some creature, which may be at any distance. 
 If the subject succeeds on a Will save, the scrying attempt simply fails. 
-The difficulty of the save depends on how well you know the subject and what sort of physical connection (if any) 
-you have to that creature (see the \nameref{tab:Scrying} table). 
-Furthermore, if the subject is on another plane, it gets a +5 bonus on its Will save.
+The difficulty of the save depends on how well you know the subject and what sort of physical connection (if any) you have to that creature (see the \nameref{tab:Scrying} table). 
 
-If the save fails, you can see and hear the subject and the subject's immediate surroundings 
-(approximately 10 feet in all directions of the subject). 
+If the save fails, you can see and hear the subject and the subject's immediate surroundings (approximately 10 feet in all directions of the subject). 
 If the subject moves, the scrying sensor follows, regardless of its speed.
-If it uses a teleportation spell or crosses planar boundaries, however, the spell ends.
+If it uses a teleportation spell to move more than 10 feet or crosses planar boundaries, however, the spell ends.
 
-The sensor has your full visual acuity,
-including any magical effects. %In addition, 
+The sensor has your full visual acuity, including any magical effects. %In addition, 
 %the following spells have a 5\% chance per caster level of operating through the sensor: 
 %detect chaos, detect evil, detect good, detect law, detect magic, and message.
 
@@ -9860,9 +9868,9 @@ If the save succeeds, you can't attempt to scry on that subject again for 24 hou
 \begin{center}
 \begin{tabular}{|l|c|}
 \hline
-Knowledge & Will Save Modifier\\
+Knowledge & Will Save Modifier$^1$\\
 \hline
-None*&+10\\
+None$^2$&+10\\
 Secondhand (you have heard of the subject)&+5\\
 Firsthand (you have met the subject)&+0\\
 Familiar (you know the subject well)&-5\\
@@ -9872,10 +9880,11 @@ Connection&Will Save Modifier\\
 Likeness or picture&-2\\
 Possession or garment&-4\\
 Body part, lock of hair, bit of nail, etc.&-10\\
+Subject is on another plane&+5\\
 \hline
+\multicolumn{2}{l}{\small $^1$Modifiers are cumulative.}\\
+\multicolumn{2}{l}{\small $^2$You must have some sort of connection to a creature you have no knowledge of.}\\
 \end{tabular}
-
-*You must have some sort of connection to a creature you have no knowledge of.
 \end{center}
 \end{table*}
 
