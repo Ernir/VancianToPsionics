@@ -627,8 +627,57 @@ Abjuration
 
 \begin{figure*}
   \caption{A Wizard has cunningly trapped another inside an Antimagic Field.}
+
   \centering
-    \includegraphics{Pics/AMF.png}
+
+  {}
+
+  \begin{tikzpicture}
+    % bubble
+    \draw [cyan] (6,0) arc [start angle=0, delta angle=180, radius=6];
+
+    { % left
+      % head circle
+      \draw [black,thick] (-2,3) circle [radius=0.5];
+      % body stick
+      \draw [black,thick] (-2,2.5) -- (-2,1);
+      % arms: left, right
+      \draw [black,thick] (-2,2) -- (-2.5,1.5);
+      \draw [black,thick] (-2,2) -- (-1.5,1.5);
+      % feet: left, right
+      \draw [black,thick] (-2,1) -- (-2.5,0);
+      \draw [black,thick] (-2,1) -- (-1.5,0);
+
+      % hat
+      \draw [black!40!blue,thick] (-2.5,3.4) -- (-1.5,3.4);
+      %\fill [black!40!blue] plot [domain=-0.3:0.3] (-2.3,4.4) -- plot [domain=-2.3:-1.7] (\x,3.4);
+      \fill [black!40!blue] plot [domain=0:1] ({-2.3+0.1*sin(180*\x)},3.4+\x) -- plot [domain=1:0] ({-2.3+0.6*cos(30+60*\x)/cos(30)},3.4+\x);
+
+      % speech text
+      \node [align=left] at (-3.6,3) {So\ldots\\What now?};
+    }
+
+    { % right
+      % head circle
+      \draw [black,thick] (0,3) circle [radius=0.5];
+      % body stick
+      \draw [black,thick] (0,2.5) -- (0,1);
+      % arms: left, right
+      \draw [black,thick] (0,2) -- (-0.5,1.5);
+      \draw [black,thick] (0,2) -- (0.5,1.5);
+      % feet: left, right
+      \draw [black,thick] (0,1) -- (-0.5,0);
+      \draw [black,thick] (0,1) -- (0.5,0);
+
+      % hat
+      \draw [black!40!green,thick] (-0.5,3.4) -- (0.5,3.4);
+      %\fill [black!40!green] plot [domain=-0.3:0.3] (0.3,4.4) -- plot [domain=-0.3:0.3] (\x,3.4);
+      \fill [black!40!green] plot [domain=0:1] ({0.3-0.1*sin(180*\x)},3.4+\x) -- plot [domain=1:0] ({0.3-0.6*cos(30+60*\x)/cos(30)},3.4+\x);
+
+      % speech text
+      \node [align=left] at (2.2,3) {I didn't really\\think this through.};
+    }
+  \end{tikzpicture}
 \end{figure*}
 
 An invisible barrier surrounds you and moves with you. 
