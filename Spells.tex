@@ -696,7 +696,7 @@ The subject becomes temporarily immune to poison.
 Any poison in its system or any poison to which it is exposed during the spell's duration does not affect the subject until the spell's duration has expired. 
 Antipoison does not cure any damage that poison may have already done.
 
-\paragraph{Augment:} If you spend 4 additional spell points, any poison the subject suffers for the spell's duration is fully neutralized, the subject not having to make saving throws against the poison at the end of the spell's duration.
+\paragraph{Augment:} If you spend 4 additional spell points, any poison in the subject's system as well as any poison it suffers for the spell's duration is fully neutralized, negating the need to make saving throws against the poison at the end of the spell's duration.
 \subsubsection{Arachnophobia}
 \label{Spell:Arachnophobia}
 Enchantment (Compulsion) [Fear, Mind-Affecting]
@@ -2864,7 +2864,8 @@ At the completion of the spell, and once per round thereafter, the target must s
 The target suffers the appropriate physical ability score penalties for aging, but does not gain any mental ability score bonuses.
 A venerable (naturally or not) target that fails its Fortitude save instantly dies. This is not a true death by old age, and the subject can thus be raised normally.
 
-Assuming the creature survives, its true age category is restored when the spell ends.
+%Assuming the creature survives, its true age category is restored when the spell ends.
+The age category advancement is instantaneous in nature, it is not reversed when the spell ends. A \nameref{Spell:RemoveCurse} spell can restore the creature's true age category, as can \nameref{Spell:LimitedWish}, \nameref{Spell:Miracle} or \nameref{Spell:Wish}.
 \subsubsection{Crushing the Essence}
 \label{Spell:CrushingTheEssence}
 Enchantment
@@ -2904,8 +2905,7 @@ Necromancy (Healing)
 
 \emph{''I have done what I can, for now. In time, he will recover.``}
 
-When laying your hand upon a living creature, 
-you channel positive energy that cures 2 points of damage.
+When laying your hand upon a living creature, you channel positive energy that cures 2 points of damage.
 
 Since undead are powered by negative energy, this spell deals damage to them instead of curing their wounds. 
 An undead creature can apply spell resistance, and can attempt a Will save to take half damage.
@@ -5285,16 +5285,13 @@ Conjuration (Creation)
 
 You create a finite plane with limited access: a demiplane. 
 Demiplanes created by this spell are very small, very minor planes. 
-This spell works best when cast while you are on the Astral Plane. 
+This spell works only when cast while you are on the Astral Plane. 
 The casting of this spell creates a local density fluctuation that precipitates the creation of a demiplane. 
-At first, the fledgling plane grows in radius at a rate of 1 foot per day to an initial maximum radius of 180 feet as it rapidly draws substance from the surrounding astral ectoplasm. 
-Once the new demiplane reaches its maximum size, it doesn't really stop growing, 
-but its growth rate decreases to only 1 foot per week (approximately a 50-foot increase in radius per year). 
-Once your demiplane is created, you can travel to it using \nameref{Spell:PlaneShift}, \nameref{Spell:Gate} 
-or some other spell or permanent link that you arrange for separately.
+The fledgling plane grows in radius at a rate of 1 foot per day to an initial maximum radius of 180 feet as it rapidly draws substance from the surrounding astral ectoplasm. 
+%Once the new demiplane reaches its maximum size, it doesn't really stop growing, but its growth rate decreases to only 1 foot per week (approximately a 50-foot increase in radius per year).
+Once your demiplane is created, you can travel to it using \nameref{Spell:PlaneShift}, \nameref{Spell:Gate} or some other spell or permanent link that you arrange for separately.
 
-You determine the environment within the demiplane when you cast genesis, 
-reflecting most any desire you can visualize. 
+You determine the environment within the demiplane when you cast genesis, reflecting most any desire you can visualize. 
 You determine factors such as atmosphere, water, temperature, and the general shape of the terrain. 
 This spell cannot create life (including vegetation), nor can it create construction (such as buildings, roads, wells, dungeons, and so forth). 
 You must add these details in some other fashion if you desire. 
@@ -5330,32 +5327,24 @@ Additionally, this spell makes transporting a fallen comrade more pleasant.
 
 The spell also works on severed body parts and the like.
 
-\paragraph{Augment:} If you spend an additional 10 spell points and 1000 experience points, 
-the corpse preserved gains an additional quality - the ability to become a receptacle for your soul,
-should you perish.
-If you die while you have a corpse preserved with this augmented version of the spell
-on the same plane as you are currently located, your soul does not travel to its resting place on the outer planes, 
-instead being transferred straight to the corpse. Since the soul does not have to undergo the wrenching
-interplanar journey, you lose no experience when you die in this manner.
+\paragraph{Augment:} If you spend an additional 10 spell points and 1000 experience points, the corpse preserved gains an additional quality - the ability to become a receptacle for your soul, should you perish.
+If you die while you have a corpse preserved with this augmented version of the spell on the same plane as you are currently located, your soul does not travel to its resting place on the outer planes, instead being transferred straight to the corpse. 
+Since the soul does not have to undergo the wrenching interplanar journey, you lose no experience when you die in this manner.
 After your soul has been transferred to the corpse, the corpse is considered your real body for all purposes.
-Your ``original'' body becomes a useless lump of flesh, which you can never return to again (unless you find it, 
-cast the augmented version of this spell on your original body, and die again in your new body).
-The corpse you used for this purpose is effectively destroyed, it is transformed to serve as your body in all ways
-(thus, the creature the corpse belonged to previously can never be restored to life via magic that requires a body
-to function, unless \nameref{Spell:Wish} or similarly powerful magic is used to create a new body for it).
+Your ``original'' body becomes a useless lump of flesh, which you can never return to again (unless you find it,  cast the augmented version of this spell on your original body, and die again in your new body).
+The corpse you used for this purpose is effectively destroyed, it is transformed to serve as your body in all ways (thus, the creature the corpse belonged to previously can never be restored to life via magic that requires a body to function, unless \nameref{Spell:Wish} or similarly powerful magic is used to create a new body for it).
 You gain the appearance of the corpse, but you retain your own statistics (including physical ability scores).
-You can only augment the spell in this manner when it is being applied to a corpse of your own race, and of a age
-category no younger than Adult.
+You can only augment the spell in this manner when it is being applied to a corpse of your own race, and of a age category no younger than Adult.
 When you rise after forcing your soul into the corpse, you are conscious, with a number of HP equal to your HD.
-Other conditions of your new body depend on how the new body died (in other words, how the corpse was transferred into its
-current state), rather than how your old body died.
+Other conditions of your new body depend on how the new body died (in other words, how the corpse was transferred into its current state), rather than how your old body died.
 Any ability scores damaged to 0 on the new body are raised to 1. 
-Normal poison and normal disease are cured, but magical diseases and curses are not undone. 
-While the spell closes mortal wounds and repairs lethal damage of most kinds, the corpse must be whole. 
+Normal poison and normal disease affecting the new body are cured, but magical diseases are not undone.
+Curses affecting you (in your old body) are transferred to your new body along with your soul.
+While the spell closes mortal wounds and repairs lethal damage of most kinds to the new body, the corpse must be whole. 
 Otherwise, missing parts are still missing when you rise in your new body. 
 None of your equipment or possessions are affected in any way by this spell.
+You can have only one body preserved in this way, casting the augmented version of this spell on a corpse causes all previous instances of the augmented spell (if any) to function as unaugmented instances only until they expire.
 Augmenting the spell in this way adds the [Evil] descriptor to the spell.
-
 
 \subsubsection{Ghoul Touch}
 \label{Spell:GhoulTouch}
@@ -5372,14 +5361,13 @@ Necromancy
 
 \emph{The stink of death momentarily fills the air.}
 
-Imbuing yourself with negative energy, 
-this spell allows you to \emph{paralyze} a single living humanoid for the duration of the spell 
-with a successful melee touch attack.
+Imbuing yourself with negative energy, this spell allows you to \emph{paralyze} a single living humanoid for the duration of the spell with a successful melee touch attack.
 
-Additionally, the paralyzed subject exudes a carrion stench that causes all living creatures (except you) 
-in a 10-foot-radius spread to become sickened (Fortitude negates). 
+Additionally, the paralyzed subject exudes a carrion stench that causes all living creatures (except you) in a 10-foot-radius spread to become sickened (Fortitude negates). 
 
-A neutralize poison spell removes the effect from a sickened creature, and creatures immune to poison are unaffected by the stench.
+An \nameref{Spell:Antipoison} spell removes the effect from a sickened creature, and creatures immune to poison are unaffected by the stench.
+
+Elves are immune to this spell.
 
 \paragraph{Augment:} If you spend 4 additional spell points, those that would become sickened by the stench instead become nauseated.
 
@@ -8849,9 +8837,7 @@ You force a helpless creature to answer three questions that you put to it. Unas
 
 The creature must be conscious and able to speak, or the spell fails.
 
-The creature gets an individual Will save against each question. On a successful save, it takes 2 points of Constitution damage. On a failed save, the creature takes 2 points of Wisdom damage and must answer that question truthfully (according to its knowledge) and in a manner that fully answers the question. A clever creature may be able to provide misleading but technically true answers.
-
-If the creature has been subject to Question within the past week, the new spell fails. 
+A creature unwilling to answer may attempt a Will save. On a successful save, it takes 2 points of Constitution damage and may answer (or not) as it will. On a failed save, the creature takes 2 points of Wisdom damage and must answer that question truthfully (according to its knowledge) and in a manner that fully answers the question. A clever creature may be able to provide misleading but technically true answers. If the creature has been subject to Question within the past 24 hours, the new spell fails. 
 
 \paragraph{Augment:} For every 2 additional spell points you spend, you can ask an additional question.
 \subsection{'R' Spells}
@@ -9288,8 +9274,7 @@ Abjuration
 \emph{Many magical maladies exist, and this is the cure for most of them.}
 
 Remove curse instantaneously removes all curses on an object or a creature. 
-Remove curse does not remove the curse from a cursed shield, weapon, or suit of armor, 
-although the spell typically enables the creature afflicted with any such cursed item to remove and get rid of it. 
+Remove curse does not remove the curse from a cursed shield, weapon, or suit of armor, although the spell typically enables the creature afflicted with any such cursed item to remove and get rid of it. 
 Certain special curses may not be countered by this spell or may be countered only by a caster of a certain level or higher.
 
 \paragraph{Augment:} If you spend 2 additional spell points, the spell can free victims from enchantments and transmutations in addition to curses.

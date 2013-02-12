@@ -11,27 +11,23 @@ The thing all Dread Knights have in common is that when one shows up, things are
 \paragraph{Alignment:} Any nongood
 \paragraph{Hit Die:} d10
 \paragraph{Class skills:}
-The Dread Knight's class skills (and the key ability for each skill) are
-Bluff (Cha), Concentration (Con), Craft (Int), Disguise (Cha), Forgery (Cha), Gather Information (Cha),
-Intimidate (Cha), Hide (Dex) Knowledge (Arcana) (Int), Knowledge (local) (Int),
-Knowledge (religion) (Int), Kn	owledge (the planes) (Int), Move Silently (Dex),
-Profession (Wis), Ride (Dex), Sense Motive (Wis), and Spellcraft (Int).
+The Dread Knight's class skills (and the key ability for each skill) are Bluff (Cha), Concentration (Con), Craft (Int), Disguise (Cha), Forgery (Cha), Gather Information (Cha), Intimidate (Cha), Hide (Dex) Knowledge (Arcana) (Int), Knowledge (local) (Int), Knowledge (religion) (Int), Knowledge (the planes) (Int), Move Silently (Dex), Profession (Wis), Ride (Dex), Sense Motive (Wis), and Spellcraft (Int).
 
 \paragraph{Skill Points at 1st Level:} (4 + Int modifier) $\times$ 4.
 \paragraph{Skill Points at each additional Level:} 4 + Int modifier.
-\begin{table}
+\begin{table*}
 %\centering
 \caption{The Dread Knight}
 \small
 \label{tab:DreadKnight}
 %\rowcolors{1}{white}{lightgray}
-\makebox[\textwidth]{\resizebox{1.2\textwidth}{!}{
-\begin{tabular}{|l|l|c|c|c|p{1.8cm}|c|c|c|}
+\makebox[\textwidth]{%\resizebox{1.2\textwidth}{!}{
+\begin{tabular}{|l|l|c|c|c|l|c|c|c|}
 \hline
 \multirow{2}{*}{\textbf{Level}}&\multirow{2}{*}{\textbf{BAB}}&\textbf{Fort}&\textbf{Ref}&\textbf{Will}&\multirow{2}{*}{\textbf{Special}}&\multirow{2}{*}{\textbf{SP/day}}&\textbf{Spells}&\textbf{Max}\\
 &&\textbf{save}&\textbf{save}&\textbf{save}&&&\textbf{known}&\textbf{level}\\
 \hline
-1st &+1			&+2 &+0 &+2 	&Bonus Feat, Dark Grace	&0 &1 &1st\\
+1st &+1			&+2 &+0 &+2 	&Bonus Feat, Dark Grace			&0 &1 &1st\\
 2nd &+2 		&+3 &+0 &+3 	&Bonus Feat 				&1 &2 &1st\\
 3rd &+3 		&+3 &+1 &+3 	&-    					&3 &3 &1st\\
 4th &+4 		&+4 &+1 &+4 	&-    					&5 &4 &2nd\\
@@ -52,8 +48,8 @@ Profession (Wis), Ride (Dex), Sense Motive (Wis), and Spellcraft (Int).
 19th &+19/+14/+9/+4 	&+11 &+6 &+11 	&-    					&115 &19 &6th\\
 20th &+20/+15/+10/+5	&+12 &+6 &+12 	&Bonus Feat   				&127 &20 &6th\\
 \hline
-\end{tabular}}}
-\end{table}
+\end{tabular}}%}
+\end{table*}
 \subsubsection{Class Features}
 All the following are class features of the Dread Knight.
 
@@ -136,3 +132,85 @@ Touch attack, no-save slow.
 Single-target damage + stun.
 \subsubsection{Rotting Curse}
 Con damage per hour.
+
+\subsubsection{Dread Knight Spell List}
+\paragraph{1st-Level Dread Knight Spells}
+\begin{list}{\labelitemi}{\leftmargin=1em}
+%\item \nameref{Spell:AlignedProtection}: +2 to AC and saves, counter mind control, hedge out elementals and outsiders.
+\item \nameref{Spell:Bane}: Enemies take -1 on attack rolls and saves against fear.% Instead of Bless
+\item \nameref{Spell:Blackfire}*: Fires shed light for you only. %Instead of Zone of Truth
+\item \nameref{Spell:CorruptWeapon}: Weapon bypasses the defenses of good foes. % Instead of Bless Weapon
+%\item \nameref{Spell:CureWounds}: Cures 1d8 damage +1/level.
+\item \nameref{Spell:CursedBlade}*: Wounds caused by weapon refuse to heal. %Instead of Armaments of Faith
+\item \nameref{Spell:DetectPoison}: Detects poison or disease in one creature or small object.
+%\item \nameref{Spell:DetectUndead}: Reveals the presence and strength and of undead creatures.
+%\item \nameref{Spell:DiscernAlignment}: Reveals the subject's alignment.
+%\item \nameref{Spell:DivineFavor}: You gain a luck bonus on attack and damage rolls.
+%\item \nameref{Spell:EndureElements}: Exist comfortably in hot or cold environments.
+\item \nameref{Spell:Fear}: One creature flees for 1d4 rounds. %Instead of Remove Fear
+\item \nameref{Spell:MagicWeapon}: Weapon gains +1 bonus.
+\item \nameref{Spell:UncannyAccuracy}*: Your underhanded attacks are surprisingly effective. %Instead of True Strike
+\item \nameref{Spell:SummonWeapon}*: Summons bonded weapon to your hand.
+\item \nameref{Spell:SurgeOfStrength}*: Gain temporary strength and hit points.
+\end{list}
+\paragraph{2nd-Level Dread Knight Spells}
+\begin{list}{\labelitemi}{\leftmargin=1em}
+%\item \nameref{Spell:AlignWater}*: Vial of water is imbued with the power of an alignment.
+\item \nameref{Spell:Blindness}: Negates one of the subject's senses. %Instead of Remove Blindness/Deafness
+%\item \nameref{Spell:CommandUndead}: Undead creature obeys your commands. %Instead of Aid
+\item \nameref{Spell:Darkvision}: See 30 ft. in total darkness. %Instead of Light
+%\item \nameref{Spell:FalseLife}: Gain 1d10 temporary hp. %Instead of Virtue
+%\item \nameref{Spell:DeathKnell}: Kill dying creature and gain 1d8 temporary hp, and +2 to Str and your key ability score. %Instead of Divine Footstep
+%\item \nameref{Spell:GhoulTouch}: Paralyzes one subject, which exudes stench that makes those nearby sickened. %Instead of Restoration
+%\item \nameref{Spell:LionsCharge}*: You can make full attack in same round you charge.
+%\item \nameref{Spell:MaskAlignment}: Protects subject's alignment from being revealed via divinations.
+\item \nameref{Spell:Resistance}: Grants a Resistance bonus on saving throws.
+%\item \nameref{Spell:ResistEnergy}: Ignores first 10 (or more) points of damage/attack from specified energy type.
+\item \nameref{Spell:StrikeOfPain}*: Attack deals additional damage, and sneak attack damage if you have it. %Instead of Searing Blade
+\item \nameref{Spell:WombatsBoost}: Subject gains +4 to an ability score for 1 min./level.
+\end{list}
+\paragraph{3rd-Level Dread Knight Spells}
+\begin{list}{\labelitemi}{\leftmargin=1em}
+%\item \nameref{Spell:Contagion}: Infects subject with chosen disease. %Instead of Remove Disease
+\item \nameref{Spell:DispelMagic}: Cancels magical spells and effects.
+%\item \nameref{Spell:FiendishFlight}*: Subject sprouts wings and flies at speed of 40 ft. %Instead of Celestial Flight
+%\item \nameref{Spell:GeasQuest}: Commands subject of 7 HD or less.
+%\item \nameref{Spell:GelugonsSpear}*: Creatures struck by your weapon must save or be slowed. %In place of Mace of the Astral Deva
+%\item \nameref{Spell:HealMount}: As Heal on your special mount.
+\item \nameref{Spell:KeenEdge}: Doubles normal weapon's threat range.
+\item \nameref{Spell:MagicVestment}: Armor or shield gains +2 enhancement bonus.
+%\item \nameref{Spell:Poison}: Creates a temporary batch of poison. %In place of Delay Poison
+%\item \nameref{Spell:Question}: Victim is compelled to answer questions truthfully. %Instead of Comprehend Languages
+\item \nameref{Spell:ShieldSelf}*: Subject takes half of your damage.
+\item \nameref{Spell:UnnaturalEdge}*: Critical hits by weapon become more dangerous. %Instead of Blade of the Sun
+\end{list}
+\paragraph{4th-Level Dread Knight Spells}
+\begin{list}{\labelitemi}{\leftmargin=1em}
+\item \nameref{Spell:BestowCurse}: -6 to an ability score; -4 on attack rolls, saves, and checks; or 50\% chance of losing each action. %Instead of Remove Curse
+%\item \nameref{Spell:DeathWard}: Grants immunity to death spells and negative energy effects.
+\item \nameref{Spell:DimensionDoor}: Teleports you short distance.
+%\item \nameref{Spell:FreedomOfMovement}: Subject moves normally despite impediments.
+\item \nameref{Spell:DenialOfDeathsEmbrace}*: Subject cannot die from hit point damage.
+\end{list}
+\paragraph{5th-Level Dread Knight Spells}
+\begin{list}{\labelitemi}{\leftmargin=1em}
+%\item \nameref{Spell:Atonement}: Removes burden of misdeeds from subject.
+%\item \nameref{Spell:BanishingWeapon}*: Melee weapon banishes outsiders.
+%\item \nameref{Spell:Commune}: Deity answers three yes-or-no questions.
+%\item \nameref{Spell:DispelAlignment}: Protects against creatures of the chosen alignment, discharge to drive creature away.
+\item \nameref{Spell:FormHorror}: Subject gains the form of a tentacled monstrosity. %Instead of Form of the Celestial.
+\item \nameref{Spell:WidowmakerBlade}*: Melee weapon culls out the weak. %Instead of Disruping Weapon
+%\item \nameref{Spell:AlignedSword}: Weapon becomes +5, deals +2d6 damage against one alignment.
+%\item \nameref{Spell:RighteousMight}: Your size increases, and you gain combat bonuses.
+\item \nameref{Spell:SlayLiving}: Touch attack kills subject. %Instead of Heal
+\item \nameref{Spell:TrueSeeing}: Lets you see all things as they really are.
+\end{list}
+\paragraph{6th-Level Dread Knight Spells}
+\begin{list}{\labelitemi}{\leftmargin=1em}
+\item \nameref{Spell:CrushingOnsetOfAge}*: Subject ages, withers, and dies before your eyes. %Instead of Assault of the Sevenfold Heaven
+\item \nameref{Spell:DweomerBlockade}*: You cut a creature off from all magic.%Instead of Bow of the Solar
+%\item \nameref{Spell:FormFiend}*: You assume the form of a terrifying fiend.
+\item \nameref{Spell:PersonalMindBlank}*: You are immune to scrying and mental effects.
+%\item \nameref{Spell:PlaneShift}: As many as eight subjects travel to another plane.
+%\item \nameref{Spell:WordOfGod}: Kills, paralyzes, hinders, or deafens subjects not of a selected alignment.
+\end{list}

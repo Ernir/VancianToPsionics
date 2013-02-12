@@ -1,0 +1,89 @@
+\subsection{Feat Descriptions}
+\begin{table*}
+\label{tab:NewFeats}
+\caption{New Feats}
+\makebox[\textwidth]{%\resizebox{\textwidth}{!}{
+\begin{tabular}{|p{0.20\textwidth}|p{0.3\textwidth}|p{0.42\textwidth}|}
+% \hline
+% \textbf{General Feats}&\textbf{Prerequisites}&\textbf{Benefit}\\
+% \hline
+\hline
+\textbf{Magical Feats}&\textbf{Prerequisites}&\textbf{Benefit}\\
+\hline
+\nameref{Feat:BondedWeapon}&Spellstaff User, character level 3rd&You can enchant your spellstaff as a weapon\\
+\nameref{Feat:CircleMagicLeader}&Caster level 3rd&You can lead a Circle of spellcasters\\
+\nameref{Feat:CircleMagicMaster}&Caster level 7th&You can form larger, more durable Circles\\
+\nameref{Feat:DeadlyDuelist}&BAB +1&Can forcefully begin lethal duels\\
+\nameref{Feat:MentalFortress}&No Man's Fool&Gain immunity to mind-affecting effects\\
+\nameref{Feat:NoMansFool}&-&Gain protection from mental control\\
+\nameref{Feat:WarMage}&BAB +1, martial weapon prof.&Evocation spells deal more damage\\
+\hline
+\end{tabular}}
+\end{table*}
+
+\subsubsection[Bonded Weapon]{Bonded Weapon [Magical]}
+\label{Feat:BondedWeapon}
+Your bonded item is a powerful arcane weapon.
+ 
+\paragraph{Prerequisite:} Spellstaff User, character level 3rd.
+ 
+\paragraph{Benefit:} You gain the ability to bestow your Spellstaff with magical enhancements, with respect to its use as a weapon. Its statistics as a creature are not affected. 
+In addition, your spellstaff does not use the statistics of a quarterstaff when used as a weapon, 
+but rather the statistics of any one weapon with which you are proficient, chosen at the time you take this feat.
+This weapon can be an exotic weapon or a weapon made out of unusual material, but it must be a masterwork weapon. 
+In any case, the cost of the base weapon is replaces the
+normal (300 gp) cost involved with summoning or replacing a Spellstaff, as described by the Spellstaff User feat.
+
+In order to enhance your Spellstaff, you must retreat to a peaceful location and disassemble magical items worth the difference between the market price of the magic item you are upgrading your Spellstaff
+into becoming and the market price of your Spellstaff as it was previously (which is more efficient than selling your lesser magical items at half value).
+You can also spend gold to cover the difference, although that requires access to a merchant capable of providing you with the necessary magical components.
+The upgrade process takes 8 hours.% for each 1000 gp of the difference.
+
+For example, an elven Wizard with this feat could upgrade his spell``staff'' from being a 
+\emph{masterwork adamantine longsword} into being a \emph{+1 Spell Storing adamantine longsword} by spending 8 hours and %days and
+disassembling a \emph{+2 Greataxe}, which was useless to him.
+Alternatively, he could have bought components worth 7000 gp, and disassembled one of his Pearls of Power capable of storing one spell point.
+
+\subsubsection[Circle Magic Leader]{Circle Magic Leader [Magical]}
+\label{Feat:CircleMagicLeader}
+You know how to contact the minds of other spellcasters to form a circle.
+\paragraph{Prerequisite:} Caster level 3rd.
+\paragraph{Benefit:} You can serve as a Circle Leader in \nameref{sec:CircleMagic}. Members of your Circle must remain with 20' of your location at all times, or lose the connection. Your Circle can have up to 7 members, including yourself.
+\paragraph{Normal:} You can only join Circles led by others, you cannot lead them yourself.
+
+\subsubsection[Circle Magic Master]{Circle Magic Master [Magical]}
+\label{Feat:CircleMagicMaster}
+You have great experience in leading the mental concert that is a magic Circle.
+\paragraph{Prerequisite:} Caster level 7th, \nameref{Feat:CircleMagicLeader}.
+\paragraph{Benefit:} Members of your Circle can stray out to 60' from your location without losing the connection. Your Circle can have up to 13 members, including yourself. You automatically succeed on all Concentration checks to maintain your circle.
+
+\subsubsection[Deadly Duelist]{Deadly Duelist [Magical]}
+\label{Feat:DeadlyDuelist}
+To you, \nameref{sec:MageDuels} are not just harmless sparring.
+
+\paragraph{Benefit:} You can expend your magical focus to start a mage duel with unwilling spellcasters. To do so, start the duel normally. However, the challenged must make a Will save (DC 10 + 1/2 your caster level + your key ability modifier) to be allowed to turn down the challenge.
+
+In addition, you can choose to deal lethal damage when you win or your opponent loses a Test of Power.
+\paragraph{Normal:} Mage duels are only performed between willing participants, and Tests of Power deal only nonlethal damage.
+
+\subsubsection[Mental Fortress]{Mental Fortress [Magical]}
+\label{Feat:MentalFortress}
+Sticks and stones may break your bones, but words will never hurt you.
+\paragraph{Prerequisite:} \nameref{Feat:NoMansFool}
+\paragraph{Benefit:} While magically focused, you are immune to all mind-affecting spells and effects.
+
+\subsubsection[No Man's Fool]{No Man's Fool [Magical]}
+\label{Feat:NoMansFool}
+You are not the kind of person to fall prey to cheap parlor tricks.
+\paragraph{Benefit:} While magically focused, you are protected from all forms of possession and mental control (including enchantment (charm) effects and enchantment (compulsion) effects that would grant the caster ongoing control over you, such as \nameref{Spell:Dominate}). 
+The protection does not prevent such effects from targeting you, but it suppresses the effect for as long as you are magically focused. 
+If you lose your magical focus before the effect granting mental control does, the would-be controller would then be able to mentally command you. 
+Gaining magical focus does not expel a possesing life force if it is in place before the focus is gained. 
+
+\subsubsection[War Mage]{War Mage [Magical]}
+\label{Feat:WarMage}
+You are no idle scholar, but a warrior whose chosen weapon happens to be destructive magic.
+
+\paragraph{Prerequisite:} Proficiency with at least one martial weapon, BAB +1
+
+\paragraph{Benefit:} Whenever you cast an Evocation spell that deals damage expressed in a number of dice, add 1 to the damage dealt by each die. 
