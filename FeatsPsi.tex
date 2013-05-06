@@ -25,16 +25,18 @@ Metamagic feats merely let you cast spells in different ways; they do not let yo
 \item Effects of Metamagic Feats on a Spell: 
 In all ways, a metamagic spell operates at its original spell level, even though it costs additional spell points. 
 The modifications to a spell made by a metamagic feat have only their noted effect on the spell. 
-A caster can't use a metamagic feat to alter a spell being cast from a potion, wand, or other device.
+A caster can't use a metamagic feat to alter a spell being cast from a matrix, wand, or other device.
 \end{list}
 Casting a spell modified by the Quicken Spell feat does not provoke attacks of opportunity.
 Some metamagic feats apply only to certain spells, as described in each specific feat entry.
 
-\emph{Magical Items and Metamagic Spells:} With the right item creation feat, 
-you can store a metamagic spell in a potion or wand. 
-Level limits for potions apply as if the spell point increase actually raised the level of the spell. 
-A character doesn't need the appropriate metamagic feat to activate an item in which a metamagic spell is stored, 
-but does need the metamagic feat to create such an item.
+\emph{Magical Items and Metamagic Spells:} With the right item creation feat, you can store a metamagic spell in a matrix or wand. 
+%Level limits for potions apply as if the spell point increase actually raised the level of the spell.
+A character doesn't need the appropriate metamagic feat to activate an item in which a metamagic spell is stored, but does need the metamagic feat to create such an item.
+
+Cost and other limits for matrices and wands apply as if the containing spell were of a level equal to the spell's original level plus one-half the spell point cost increase of the metamagic feat (if any) plus one. For example, a matrix of Extended \nameref{Spell:AlignedProtection} would cost as a spell of level $1 + 0/2 + 1 = 2$, and a matrix of Empowered \nameref{Spell:Fireball} would cost as a spell of level $2 + 2/2 + 1 = 4$.
+
+You can not apply more than one metamagic feat to a spell within a matrix or wand.
 \subsection{Companion Feats}
 \label{sec:CompanionFeats}
 The companions of spellcasters have focuses different from those of most adventurers, and a unique magical link to their master that grants them special powers.
@@ -323,15 +325,15 @@ You can create slender sticks called wands than cast spells when charges are exp
 Caster level 5th.
 
 \paragraph{Benefit:}
-You can create a wand of any spell you know (barring exceptions, as noted in a spell's description). 
+You can create a wand of any spell you know. %(barring exceptions, as noted in a spell's description). 
 Crafting a wand takes one day for each 1,000 gp in its base price. 
-The base price of a wand is its caster level $\times$ the power level $\times$ 750 gp. 
+The base price of a wand is its caster level $\times$ the spell level $\times$ 750 gp. 
 To craft a wand, you must spend 1/25 of this base price in XP and use up raw materials costing one-half of this base price.
 
 A newly created wand has 50 charges.
 
 Any wand that stores a spell with an XP cost also carries a commensurate cost. 
-In addition to the XP cost derived from the base price, you must pay fifty times the XP cost.
+In addition to the XP cost derived from the base price, you must pay fifty times the XP cost of the spell (once per charge of the wand).
 
 \subsubsection[Craft Wondrous Item]{Craft Wondrous Item [Item Creation]}
 \label{Feat:CraftWondrousItem}
@@ -433,7 +435,7 @@ You can cast spells that last longer than normal.
 \paragraph{Benefit:} To use this feat, you must expend your magical focus.
 You can cast an extended spell. An extended spell lasts twice as long as normal. 
 A spell with a duration of concentration, instantaneous, or permanent is not affected by this feat.
-Using this feat increases the spell point cost of the spell by 2. The spell's total cost cannot exceed your caster level.
+Using this feat does not increase the spell point cost of the spell.
 
 % \subsubsection{Fell Shot [Magical]}
 % You can strike your foe with a ranged weapon as if making a touch attack.
@@ -522,7 +524,7 @@ Caster level 1st.
 \paragraph{Benefit:}
 You can create \nameref{Item:Matrices} of any spell that you know. 
 Imbuing a matrix takes one day for each 1,000 gp in its base price. 
-The base price of a matrix is its spell level $\times$ its caster level $\times$ 25 gp, see the \nameref{tab:Matrices} table.
+The base price of a matrix is its spell level $\times$ its caster level $\times$ 25 gp.%, see the \nameref{tab:Matrices} table.
 To infuse a matrix, you must spend 1/25 of this base price in XP and use up raw materials costing one-half of this base price.
 
 Any matrix that stores a spell with an XP cost also carries a commensurate cost. 
@@ -632,7 +634,7 @@ When you make an attack of opportunity, you can use any spell you know with a ra
 Note that this metamagic feat does not increase your natural reach.
 Casting this spell is an immediate action.
 You cannot use this feat with a touch spell whose casting time is longer than 1 full-round action.
-Using this feat increases the spell point cost of the spell by 6. The spell's total cost cannot exceed your caster level.
+Using this feat increases the spell point cost of the spell by 4. The spell's total cost cannot exceed your caster level.
 
 \paragraph{Normal:} Attacks of opportunity can be made only with melee weapons.
 
@@ -680,7 +682,7 @@ Caster level 1st.
 \paragraph{Benefit:}
 You can create \nameref{Item:Scrolls} of any spell that you know. 
 Scribing a scroll takes one day for each 1,000 gp in its base price. 
-The base price of a scroll is its spell level squared times 1000 gp, see the \nameref{tab:Scrolls} table.
+The base price of a scroll is its spell level squared times 1000 gp.
 %The base price of a scroll is its spell level $\times$ its caster level $\times$ 25 gp.
 To scribe a scroll, you must spend 1/25 of this base price in XP and use up raw materials costing one-half of this base price.
 
