@@ -1,16 +1,5 @@
-\section{Magic Items}
-\subsection{Overview}
-\subsubsection{Augments}
-\subsubsection{Augments}
-Unless otherwise noted, assume that any item that refers to a spell refers to the unaugmented form of that spell.
-\subsubsection{Saving throws}
-Some items duplicate spells that allow saving throws (or allow the casting of such spells directly). Unless otherwise noted, the DC for such a saving throw is calculated as if it were cast using the number of spell points spent on the spell (the minimum, unless otherwise noted) by a spellcaster with a key ability score equal to 10+the total number of spell points spent on the spell.
-
-For example, an item duplicating an unaugmented \nameref{Spell:FlameStrike} would have a default save DC of 14 (the base for a spell costing 7 spell points) + 3 (the key ability modifier of a spellcaster with a $10 + 7 = 17$ in his key ability score) = 17.
-
-Were the Flame Strike augmented to cost 10 spell points, the default save DC for the item would be 15 (the base for a spell costing 10 spell points) + 5 (the key ability modifier of a spellcaster with a $10 + 10 = 20$ in his key ability score) = 20.
-\subsection{Special Magical Materials}
-\subsubsection{Spellsteel}
+\section{Special Magical Materials}
+\subsection{Spellsteel}
 Iron (particularly cold iron) is usually disruptive to the flow of magical energies, to the point where Fey and some other supernatural creatures are harmed by it. 
 Spellsteel is the exception. 
 When iron is mined close to a powerful nexus of ley lines, spellcasters have found that sometimes the ambient magic has imprinted the metal, fundamentally altering the properties it has when forged to form steel. While a weapon made of spellsteel is no different from a mundane steel weapon for a nonmagical character, a spellcaster who wields a spellsteel weapon can focus magical power through it, increasing the damage that weapon deals.
@@ -20,7 +9,7 @@ As a free action that does not provoke attacks of opportunity, the wielder can c
 Any weapon made of spellsteel costs 1,000 gp more than its mundane counterpart. Any item that can be made out of ordinary steel could potentially be made out of spellsteel. 
 
 Spellsteel has 30 hit points per inch of thickness and a hardness of 10. 
-\subsubsection{Poisons}
+\subsection{Poisons}
 Most poisons affect all mortal creatures equally, causing everyone pain and illness. However, alchemists and hedge witches have long known of the powers of the forkroot. The forkroot, when ingested in sufficient amounts, gives anyone a strong feeling of drowsiness, but in addition, spellcasters feel their grip on magic slip away as the root takes hold.
 
 If a caster fails a saving throw against a forkroot poison's initial damage, his caster level is immediately reduced by the amount indicated on the \nameref{tab:Poisons} table for 1d4 hours, to a minimum of 0. 
@@ -42,6 +31,17 @@ Purified forkroot powder&Ingested DC 22	&Caster level -2d4	&Unconsciousness		&10
 \end{tabular}
 
 \end{table*}
+\section{Magic Items}
+\subsection{Overview}
+\subsubsection{Augments}
+Unless otherwise noted, assume that any item that refers to a spell refers to the unaugmented form of that spell.
+\subsubsection{Saving throws}
+Some items duplicate spells that allow saving throws (or allow the casting of such spells directly). Unless otherwise noted, the DC for such a saving throw is calculated as if it were cast using the number of spell points spent on the spell (the minimum, unless otherwise noted) by a spellcaster with a key ability score equal to 10+the total number of spell points spent on the spell.
+
+For example, an item duplicating an unaugmented \nameref{Spell:FlameStrike} would have a default save DC of 14 (the base for a spell costing 7 spell points) + 3 (the key ability modifier of a spellcaster with a $10 + 7 = 17$ in his key ability score) = 17.
+
+Were the Flame Strike augmented to cost 10 spell points, the default save DC for the item would be 15 (the base for a spell costing 10 spell points) + 5 (the key ability modifier of a spellcaster with a $10 + 10 = 20$ in his key ability score) = 20.
+
 \subsection{Matrices, Potions, and Oils}
 \label{Item:Matrices}
 Matrices, potions, and oils are items that store a single charge of spell energy.
@@ -70,6 +70,7 @@ Regardless of their physical appearance, the activation mechanics of matrices re
 \hline
 \textbf{Spell name}&\textbf{Appearance}&\textbf{Usage example}\\
 \hline
+\nameref{Spell:AlignedProtection}&Scroll	&Read aloud\\
 \nameref{Spell:BlackTentacles}	&Severed tentacle&Thrown, grows on impact\\
 \nameref{Spell:CureWounds}	&Vial of oil 	&Smeared on wounds\\
 \nameref{Spell:CureWounds}	&Small ruby 	&Touched to forehead of recipient\\
@@ -122,34 +123,30 @@ otherwise.
  \item Spell has delayed effect. Sometime within the next 1d12 hours, the spell activates. If the matrix user was the intended recipient, the spell takes effect normally. If the user was not the intended recipient, the spell goes off in the general direction of the original recipient or target, up to the spell's maximum range, if the target has moved away.
 \end{list}
 
-\begin{table*}
-\caption{Matrices}
-\label{tab:Matrices}
-\centering
-\begin{tabular}{|c|r|r|}
+\paragraph{Cost:} The following table summarizes the market price of standard matrices at their minimum caster level.
+\begin{center}
+\begin{tabular}{|c|r|}
 \hline
-\textbf{Spell level}&\textbf{Market Price}$^1$&\textbf{Cost to Create}$^2$\\
+\textbf{Spell level}&\textbf{Market Price}\\
 \hline
-1&	25gp	&12gp 5sp, 1XP\\
-2&	150gp	&75gp, 6XP\\
-3&	375gp	&187gp 5sp, 15XP\\
-4&	700gp	&350gp, 28XP\\
-5&	1125gp	&562gp 5sp, 45XP\\
-6&	1650gp	&825gp, 66XP\\
-7&	2275gp	&1137gp 5sp, 91XP\\
-8&	3000gp	&1500gp, 120XP\\
-9&	3825gp	&1912gp 5sp, 153XP\\
+1st&	25gp	\\
+2nd&	150gp	\\
+3rd&	375gp	\\
+4th&	700gp	\\
+5th&	1125gp	\\
+6th&	1650gp	\\
+7th&	2275gp	\\
+8th&	3000gp	\\
+9th&	3825gp	\\
 \hline
 \end{tabular}
-\scriptsize
-\begin{enumerate}
- \item Any matrix that contains a spell with an experience point cost costs an additional 5 GP for each point of XP required.
- \item Any matrix that contains a spell with an experience point cost also has that experience cost in addition to that noted here.
-\end{enumerate}
-\end{table*}
+\end{center}
+Some matrices have higher caster levels than the minimum spell level. Such matrices have a cost increase of 25 gp $\times$ spell level per additional caster level above the minimum. For example, a \nameref{Spell:Fireball} matrix crafted at caster level 5th would have a market price of 150 gp [base cost] + 2 [CL adjustment] $\times$ 2 [spell level] $\times$ 25 = 250 gp (Or simply 2 $\times$ 5 $\times$ 25 GP, as indicated by the \nameref{Feat:ImbueMatrix} feat).
+
+Any matrix that stores a spell with an experience point cost costs an additional 5 GP for each point of XP the spell requires.
 \paragraph{Foolproof Matrices}
 \label{Item:FoolproofMatrices}
-Some matrices are ``foolproof''. These cost twice the amount indicated on the \nameref{tab:Matrices} table, but are usable by anyone, regardless of class, ability scores, and level.
+Some matrices are ``foolproof''. These cost twice the amount indicated above, but are usable by anyone, regardless of class, ability scores, and level.
 Using such a matrix requires no special skill, they are use-activated rather than spell completion items.
 It is always obvious how to use a Foolproof Matrix.
 
@@ -163,15 +160,13 @@ Most Foolproof Matrices are potions or oils.
 \subsection{Scrolls}
 \label{Item:Scrolls}
 More than a mundane inscription, a scroll is a magical item that, when read by a character with the appropriate knowledge, bestows complete information on how to cast a certain spell (or collection of spells) upon the reader.
-% A stored spell can be used only once. Using a scroll is
-% basically like casting a spell.\footnote{Instead of activating a scroll directly, 
-% it is possible to use the knowledge contained on it to cast the spell using the caster's own spell point reserve.}
 
 \paragraph{Physical Description:} A scroll is a heavy sheet of fine vellum or high-quality paper. 
 An area about 8 1/2 inches wide and 11 inches long is sufficient to hold one spell. 
-The sheet is reinforced at the top and bottom with strips of leather slightly longer than the sheet is wide. 
-A scroll holding more than one spell has the same width (about 8 1/2 inches) but is an extra foot or so long for each extra spell. 
-Scrolls that hold three or more spells are usually fitted with reinforcing rods at each end rather than simple strips of leather. 
+The sheet is reinforced at the top and bottom with strips of leather slightly longer than the sheet is wide.  
+A scroll holding more than one spell has the same width but is an extra foot or so long for each extra spell. 
+Scrolls that hold three or more spells are usually fitted with reinforcing rods at each end rather than simple strips of leather.
+
 A scroll has AC 9, 1 hit point, hardness 0, and a break DC of 8.
 
 To protect it from wrinkling or tearing, a scroll is rolled up from both ends to form a double cylinder. 
@@ -189,37 +184,14 @@ Once the scroll is deciphered, the character becomes aware of all the spells sto
 Deciphering a scroll requires one minute of study (or one standard action, if \nameref{sec:Cantrips} are used).
 A failed check to decipher a scroll may be retried once per day.
 
-% \paragraph{Activation:} To activate a scroll, a caster must have deciphered
-% it, as described above. 
-% Once the scroll has been deciphered, it is treated as a
-% spell completion item, except as noted below.
-% 
-% Using a scroll's stored spell after deciphering it requires holding
-% it and reading its inscription (a which requires the same kind of action as casting the spell ordinarily). 
-% Activating a scroll is subject to disruption just as
-% casting a spell normally would be.
-% Additionally, the user must meet the following requirements.
-% \begin{list}{\labelitemi}{\leftmargin=1em}
-%  \item The user must have the spell on his class list.
-%  \item The user must have the requisite key ability score.
-% \end{list}
-% If the user meets these requirements and has a caster level at least equal
-% to the spell's caster level, he can automatically cast the stored spell
-% without a check. 
-% If he meets both requirements but his own level is lower than
-% the scroll's caster level, she has to make a caster level check
-% (1d20 + user's level), against a DC equal to the scroll's caster level
-% +1 to cast the spell successfully. On a failure, the user must succeed on a
-% DC 5 Wisdom check to avoid a mishap (see below). A natural roll of 1 on this
-% check is always a failure.
-
 \paragraph{Activation:} 
 After deciphering the scroll, the spellcasting character must choose one of the spells available on the scroll and read it.
 As part of reading the spell, make a \nameref{sec:Spellcraft} check  (DC 15 + the spell's level) to see if the spell will be correctly cast. 
 If the spell is not on the caster's class list, he automatically fails this check.
 This check requires one full round, which provokes attacks of opportunity.
 
-Upon successfully making the check, the character can attempt to cast that spell normally on his next turn, even if he doesn't know it (assuming he has spell points left for the day). 
+Upon successfully making the check, the character can attempt to cast that spell normally on his next turn (including paying the associate spell point cost), even if he doesn't know it.
+ 
 He retains the ability to cast the selected spell for only 1 round. 
 If he doesn't cast the spell, fails the Spellcraft check, or casts a different spell, 
 he loses his chance to cast that spell unless the source is read again.
@@ -228,31 +200,28 @@ he loses his chance to cast that spell unless the source is read again.
 A spell successfully cast from a scroll works exactly as if cast normally. 
 Assume the scroll's caster level is always the minimum level required to cast the spell for the character who wrote the scroll, unless the creator specifically desires otherwise.
 
-\begin{table*}
-\caption{Scrolls}
-\label{tab:Scrolls}
-\centering
-\begin{tabular}{|c|r|r|}
+\paragraph{Cost:}
+The price of scrolls, broken down by spell levels, is as follows:
+\begin{center}
+\begin{tabular}{|c|r|}
 \hline
-\textbf{Spell point cost}&\textbf{Market Price}$^1$&\textbf{Cost to Create}$^2$\\
+\textbf{Spell point cost}&\textbf{Market Price}\\
 \hline
-1&	1000gp	&500gp, 40XP\\
-3&	4000gp	&2000gp, 160XP\\
-5&	9000gp	&4500gp, 360XP\\
-7&	16000gp	&8000gp, 640XP\\
-9&	25000gp	&12500gp, 1000XP\\
-11&	36000gp	&18000gp, 1440XP\\
-13&	49000gp	&24500gp, 1960XP\\
-15&	64000gp	&32000gp, 2560XP\\
-17&	81000gp	&40500gp, 3240XP\\
+1st&	1000gp\\
+2nd&	4000gp\\
+3rd&	9000gp\\
+4th&	16000gp\\
+5th&	25000gp\\
+6th&	36000gp\\
+7th&	49000gp\\
+8th&	64000gp\\
+9th&	81000gp\\
 \hline
 \end{tabular}
-\scriptsize
-\begin{enumerate}
- \item Any scroll that has a spell with an experience point cost written on it costs an additional 5 GP for each point of XP spent.
- \item Any scroll that has a spell with an experience point cost written on it also has an XP cost in addition to that noted here.
-\end{enumerate}
-\end{table*}
+\end{center}
+Some matrices have higher caster levels than the minimum spell level. Such matrices have a cost increase of 25 gp $\times$ spell level per additional caster level above the minimum. For example, a \nameref{Spell:Fireball} matrix crafted at caster level 5th would have a market price of 150 gp [base cost] + 2 [CL adjustment] $\times$ 2 [spell level] $\times$ 25 = 250 gp (Or simply 2 $\times$ 5 $\times$ 25 GP, as indicated by the \nameref{Feat:ImbueMatrix} feat).
+
+Any matrix that stores a spell with an experience point cost costs an additional 5 GP for each point of XP the spell requires.
 \subsection{Rings}
 \subsubsection{Animal Friendship}
 \label{Item:AnimalFriendship}
@@ -712,29 +681,21 @@ can weigh up to 1/4 pound. Occasionally, a wand is decorated with carvings or
 inscribed runes. A typical wand has AC 7, 7 hit
 points, a hardness of 8, and a break DC of 18.
 
-\paragraph{Activation:} Wands use the spell trigger activation method, so casting a
-spell from a wand is usually a standard action that does not provoke attacks of
-opportunity. (If the spell being cast has a casting time longer than 1
-standard action, however, it takes that long to cast the spell from a
-wand.) The user must have the spell on his class list, even if he knows the
-command word. Additionally, to activate a wand, a character must hold it in
-hand and point it in the general direction of the target or area to be affected.
-Wands are normally created at the minimum caster level required to cast
-the spell, and spells that can be augmented are not augmented when stored in a
-wand. A wand's wielder cannot augment the spell contained within the wand.
-However, wands can be created at a higher caster level than required to
-cast the spell. In this case, the wand that holds an augmentable spell is
-augmented, to the limit of the caster level and the spell's augmentation
-maximums, if any. The caster level of a wand cannot be more than five
-higher than the minimum caster level to use the spell it contains.
+\paragraph{Activation:} Wands use the spell trigger activation method. Casting a spell from a wand requires the same action as casting the spell normally. 
+The user must have the spell on his class list, even if he knows the command word. 
+Additionally, to activate a wand, a character must hold it in hand and point it in the general direction of the target or area to be affected.
+Wands are normally created at the minimum caster level required to cast the spell it contains, thus, spells that can be augmented are usually not augmented when stored in a wand. 
+However, wands can be created at a higher caster level than required to cast the spell. 
+In this case, the wand that holds an augmentable spell is augmented, to the limit of the caster level and the spell's augmentation maximums, if any. 
+%The caster level of a wand cannot be more than five higher than the minimum caster level to use the spell it contains.
 
-\begin{table*}
-\caption{Wands}
-\label{tab:Wands}
-\centering
+A wand's wielder cannot augment the spell contained within the wand or apply a metamagic to it.
+
+\paragraph{Cost:} The following table summarizes the market price of standard wands at their minimum caster level.
+\begin{center}
 \begin{tabular}{|c|r|}
 \hline
-\textbf{Spell Level}$^1$&\textbf{Market Price}$^2$\\
+\textbf{Spell Level}&\textbf{Market Price}\\
 \hline
 1st&750gp\\
 2nd&4500gp\\
@@ -747,12 +708,10 @@ higher than the minimum caster level to use the spell it contains.
 9th&114750gp\\
 \hline
 \end{tabular}
-\scriptsize
-\begin{enumerate}
- \item Some wands have higher caster levels than the minimum spell level, which gives them commensurately higher costs.
- \item Any wand that stores a spell with an experience point cost also has an XP cost in addition to that noted here.
-\end{enumerate}
-\end{table*}
+\end{center}
+Some wands have higher caster levels than the minimum spell level. Such wands have a cost increase of 750 gp $\times$ spell level per additional caster level above the minimum. For example, a \nameref{Spell:Fireball} wand crafted at caster level 5th would have a market price of 4500 gp [base cost] + 2 [CL adjustment] $\times$ 2 [spell level] $\times$ 750 = 7500 gp (Or simply 2 $\times$ 5 $\times$ 750 GP, as indicated by the \nameref{Feat:CraftWand} feat).
+
+Any wand that stores a spell with an experience point cost costs an additional 250 GP for each point of XP the spell requires (5GP per point of XP per charge).
 \subsection{Wondrous Items}
 \subsubsection{Amulet of the Planes}
    \textbf{Price:} 35000gp
