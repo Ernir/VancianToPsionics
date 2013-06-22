@@ -1,4 +1,3 @@
-
 % Generic spell block statistic lines
 
 \newcommand{\Level}[1]{\\ \textbf{Level:} #1}
@@ -6,13 +5,36 @@
 \newcommand{\CastingTime}[1]{\\ \textbf{Casting Time:} #1}
 \newcommand{\Range}[1]{\\ \textbf{Range:} #1}
 \newcommand{\Target}[1]{\\ \textbf{Target:} #1}
+\newcommand{\Area}[1]{\\ \textbf{Area:} #1}
 \newcommand{\Duration}[1]{\\ \textbf{Duration:} #1}
 \newcommand{\SavingThrow}[1]{\\ \textbf{Saving Throw:} #1}
 \newcommand{\SR}[1]{\\ \textbf{Spell Resistance:} #1}
+\newcommand{\SRno}{\\ \textbf{Spell Resistance:} No}
+\newcommand{\SRyes}{\\ \textbf{Spell Resistance:} Yes}
 \newcommand{\SP}[1]{\\ \textbf{Spell Points:} #1}
 
 % Spell ranges
 
+\newcommand{\PersonalRange}{Personal}
+\newcommand{\TouchRange}{Touch}
 \newcommand{\CloseRange}{Close (25 ft. + 5 ft./2 levels)}
 \newcommand{\MediumRange}{Medium (100 ft. + 10 ft./level)}
-\newcommand{\MediumRange}{Long (400 ft. + 40 ft./level)}
+\newcommand{\LongRange}{Long (400 ft. + 40 ft./level)}
+\newcommand{\UnlimitedRange}{Unlimited}
+
+% Spell durations
+
+\newcommand{\InstantaneousDuration}{Instantaneus}
+\newcommand{\OneMinLevelDuration}[1][]{1 min./level #1}
+\newcommand{\TenMinLevelDuration}[1][]{10 min./level #1}
+\newcommand{\OneHourLevelDuration}[1][]{1 hour/level #1}
+\newcommand{\PermanentDuration}{Permanent}
+\newcommand{\DismissibleSpell}{(D)}
+
+% One-column environment definitons for multicol - not floating!
+
+\makeatletter
+\newenvironment{tableonecolumn}{\begin{center}\def\@captype{table}}{\end{center}}
+
+\newenvironment{figureonecolumn}{\begin{center}\def\@captype{figure}}{\end{center}}
+\makeatother
