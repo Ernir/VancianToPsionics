@@ -2421,11 +2421,9 @@ If a creature fails its saving throw against this spell (and thereby suffering t
 may infect others, as indicated in the entries for each individual disease. 
 Those secondary
 targets use the disease's normal save DC, rather than the save DC for this spell.
-\begin{table*}
+\begin{tableonecolumn}
 \label{tab:Contagion}
 \caption{Contagion diseases}
-\small
-\centering
 \begin{tabular}{|l|l|l|}
 \hline
 Disease&Damage\\ 
@@ -2440,7 +2438,8 @@ Slimy doom&1d4 Con*\\
 \hline
 \end{tabular}
 
-*See the disease's description for additional effects.\end{table*}
+*See the disease's description for additional effects.
+\end{tableonecolumn}
 
 \paragraph{Augment:} You can augment this spell in one of the following ways:
 \begin{enumerate}
@@ -4300,11 +4299,11 @@ Necromancy [Evil]
 
 Each round, you may target a single living creature, striking it with waves of evil power.
 Depending on the target's HD, this attack has as many as three effects. See the \nameref{tab:Eyebite} table for information on which effects apply.
+The effects are concurrent.
 
-\begin{table*}
+\begin{tableonecolumn}
 \caption{Eyebite}
 \label{tab:Eyebite}
-\begin{center}
 \begin{tabular}{|l|l|}
 \hline
 HD&Effect\\
@@ -4313,10 +4312,8 @@ HD&Effect\\
 9 or less&Panicked, sickened\\
 4 or less&Comatose, panicked, sickened\\
 \hline
-\multicolumn{2}{l}{The effects are concurrent.}
 \end{tabular}\\
-\end{center}
-\end{table*}
+\end{tableonecolumn}
 The effects are:
 
 \textbf{Sickened:} Sudden pain and fever sweeps over the subject's body, rendering it \emph{sickened}.
@@ -5953,10 +5950,10 @@ It takes full damage if its armor is affected or if it is holding, touching, wea
 
 On the first round of the spell, the metal becomes uncomfortable to touch but deals no damage. The same effect also occurs on the last round of the spell's duration. During the second (and also the next-to-last) round, it causes pain and damage. In the third, fourth, and fifth rounds, the metal is searing hot or freezing cold, causing more damage, as shown on the table.
 
-\begin{table*}
+\begin{tableonecolumn}
 \label{tab:HeatChillMetal}
 \caption{Heat/Chill Metal}
-\begin{center}
+
 \begin{tabular}{|c|l|l|}
 \hline
 Round&Metal Temperature&Damage\\
@@ -5968,8 +5965,8 @@ Round&Metal Temperature&Damage\\
 7&Warm/Cold&None\\
 \hline
 \end{tabular}
-\end{center}
-\end{table*}
+
+\end{tableonecolumn}
 
 Any cold intense enough to damage a creature affected by heated metal negates fire damage from the spell (and vice versa) on a point-for-point basis, as does fire damage dealt to a creature affected by chilled metal.
 
@@ -8667,11 +8664,9 @@ Order&Color&Effect of color\\
 	&	&Sent to a randomly determined plane, as if by\\
 	&	& an unaugmented \nameref{Spell:PlaneShift} spell (Will negates)\\
 \hline
+\multicolumn{3}{p{10cm}}{\small $^1$ The violet effect makes the special effects of the other six colors redundant, but these six effects are included here because certain magic items can create prismatic effects one color at a time, and spell resistance might render some colors ineffective (see above).}
 \end{tabular}
 \end{center}
-\begin{enumerate}
- \item The violet effect makes the special effects of the other six colors redundant, but these six effects are included here because certain magic items can create prismatic effects one color at a time, and spell resistance might render some colors ineffective (see above).
-\end{enumerate}
 \end{table*}
 
 % The wall can be destroyed, color by color, in consecutive order, by various magical effects; 
@@ -9212,10 +9207,9 @@ To determine the race of the creature's new body, roll on the \nameref{tab:Reinc
 %For nonhumanoid creatures, a similar table of creatures of the same type should be created. 
 Whatever the result, a Reincarnate spell can never result in a creature's level adjustment or number of hit dice
 (aside from level loss, see above) changing.
-\begin{table*}
+\begin{tableonecolumn}
 \caption{Reincarnate}
 \label{tab:Reincarnate}
-\begin{center}
 \begin{tabular}{|l|l|}
 \hline
 d\%&Incarnation\\
@@ -9229,8 +9223,7 @@ $\leq$5&Caster's race\\
 91+&GM's choice\\
 \hline
 \end{tabular}
-\end{center}
-\end{table*}
+\end{tableonecolumn}
 To determine the ability scores of a reincarnated creature, eliminate its old racial adjustments to ability scores,
 and add the racial adjustments of its new race (including mental ability scores).
 The reincarnated creature gains all abilities associated with its new form, 
@@ -9649,14 +9642,13 @@ but different direction is applied to the subject for the same duration.
 This approach is recommended only if someone at the table has a talent for on-the-fly vector calculus.}
 If you cause the creature to fall at an angle, 
 refer to the \nameref{tab:ReverseGravity} table for a reference on the vertical and horizontal distances the subject falls.
-\begin{table*}
+\begin{tableonecolumn}
 \caption{Reverse Gravity Angle Examples}
 \label{tab:ReverseGravity}
-\begin{center}
 \begin{tabular}{|r|r|r|}
 \hline
-Angle$^*$&Horizontal&Maximum\\
-&distance$^{*}$&height$^{**}$\\
+Angle$^1$&Horizontal&Maximum\\
+&distance$^2$&height$^2$\\
 \hline
  0$^\circ$&500 feet&  0 feet\\
 15$^\circ$&485 feet&130 feet\\
@@ -9666,11 +9658,10 @@ Angle$^*$&Horizontal&Maximum\\
 75$^\circ$&130 feet&485 feet\\
 90$^\circ$&  0 feet&500 feet\\
 \hline
-\multicolumn{3}{p{5cm}}{\scriptsize *An angle with respect to the ground the creature was standing on.}\\
-\multicolumn{3}{p{5cm}}{\scriptsize **With respect to the ground the creature was standing on.}
+\multicolumn{3}{p{5cm}}{\small $^1$ An angle with respect to the ground the creature was standing on.}\\
+\multicolumn{3}{p{5cm}}{\small $^2$ With respect to the ground the creature was standing on.}
 \end{tabular}
-\end{center}
-\end{table*}
+\end{tableonecolumn}
 A creature always falls straight down after travelling 500' in this fashion.
 
 \paragraph{Augment:} For every 2 additional spell points you spend, this spell affects an additional creature within range.
