@@ -1,21 +1,22 @@
 \documentclass[a4paper,10pt]{article}
+
+%% Encoding declaration %%
 \usepackage[T1]{fontenc}
 \usepackage[utf8]{inputenc}
-\usepackage{scalefnt}
-\usepackage[top=0.9in, bottom=1in, left=0.9in, right=0.9in]{geometry}
-\usepackage{multirow}
-\usepackage[table]{xcolor}
-\usepackage{amsmath}
-\usepackage{textcomp}
-\usepackage{multicol}
-\usepackage{graphicx}
-\usepackage{tabularx}
-\usepackage{titlesec}
-%\usepackage{stfloats}
-%\usepackage{parskip}
-%\usepackage{helvetica}
+
+%% Page style and appearance %%
+\usepackage[top=0.9in, bottom=1in, left=0.9in, right=0.9in]{geometry} %Margin setup
+\usepackage{multicol} %Main multicolumn handling
+\usepackage{titlesec} %For manipulating rubber lengths in headings
+\usepackage{multirow} %Row spanning in tables
 \usepackage{times} %Times font
-\usepackage{tikz}
+
+%% Additional symbols %%
+\usepackage{amsmath} %For those few mathematical formulas
+\usepackage{textcomp} %For those few degree and other odd symbols
+
+%% Additional functionality %%
+\usepackage{tikz} %sreservoir's AMF picture
 \usepackage[pdftex,bookmarks=true,colorlinks=true,linkcolor=blue,pdfauthor={Eirikur Ernir Thorsteinsson},pdftitle={From Vancian to Psionic}]{hyperref}
 \usepackage[all]{hypcap}
 
@@ -59,7 +60,7 @@ Between Beta 1.11 and 1.12
 \end{titlepage}
 \section{Table of Contents}
 \setlength{\columnsep}{0.5in}
-\begin{multicols}{2}
+\begin{multicols}{2} % TODO change to 3-column layout
 \scriptsize
 \tableofcontents
 \listoftables
@@ -69,7 +70,7 @@ Between Beta 1.11 and 1.12
 \newpage
 \begin{multicols}{2}
 
-\part{The Spellcasting System}
+\part{The Spellcasting System} % TODO move this down one level
 The most fundamental part of converting a spellcasting system must be to change the base mechanics themselves. The following chapter deals with translating the underlying \emph{Psionic system} to use magical terminology.
 \input{IntroPsi.tex} \newpage
 
