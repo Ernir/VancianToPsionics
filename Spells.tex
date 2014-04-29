@@ -7064,7 +7064,7 @@ so nobody can eavesdrop from outside. Those inside can see out normally.
 Divination (scrying) spells cannot perceive anything within the area, 
 and those within are immune to \nameref{Spell:ReadThoughts}. 
 The ward prevents speech between those inside and those outside (because it blocks sound), 
-but it does not prevent other communication, such as a sending or message spell, 
+but it does not prevent other communication, such as a \nameref{Spell:Sending} spell, 
 or telepathic communication.%, such as that between a wizard and her familiar.
 
 The spell does not prevent creatures or objects from moving into and out of the area.
@@ -10021,30 +10021,39 @@ You could, however, not try to fire an arrow at a creature trapped in a \nameref
 \subsubsection{Sending}
 \label{Spell:Sending}
 Divination
-\\ \textbf{Level:} Knowledge 4, Planes 4, Sor/Wiz 5
+\\ \textbf{Level:} Knowledge 2, Planes 2, Sor/Wiz 3
 \\ \textbf{Components:} V, S
 \\ \textbf{Casting Time:} 10 minutes
-\\ \textbf{Range:} See text
-\\ \textbf{Target:} One creature
+\\ \textbf{Range:} 1 mile/level
+\\ \textbf{Target:} One creature; OR \textbf{Area:} 10' radius spread
 \\ \textbf{Duration:} 1 round; see text
 \\ \textbf{Saving Throw:} None
 \\ \textbf{Spell Resistance:} No
-\\ \textbf{Spell Points:} Knowledge 7, Planes 7, Sor/Wiz 9
+\\ \textbf{Spell Points:} Knowledge 3, Planes 3, Sor/Wiz 5
 
 \emph{''Okay, let's make this concise.``}
 
-You contact a particular creature with which you are familiar and send a short message of twenty-five words\footnote{as measured in the real-world language used at the gaming table.} or less to the subject.
-The subject recognizes you if it knows you. 
-It can answer in like manner immediately. 
-A creature with an Intelligence score as low as 1 can understand the sending, though the subject's ability to react is limited as normal by its Intelligence score. 
-Even if the sending is received, the subject is not obligated to act upon it in any manner.
+% You contact a particular creature with which you are familiar and send a short message of twenty-five words\footnote{as measured in the real-world language used at the gaming table.} or less to the subject.
 
-If the creature in question is not on the same plane of existence as you are, there is a 5\% chance that the sending does not arrive. 
-(Local conditions on other planes may worsen this chance considerably. Deities can entirely block sendings from being sent or received on their home planes.) 
+You send a short message of twenty-five words or less\footnote{as measured in the real-world language used at the gaming table.}. You send the message to a specific location that is familiar to you, to a particular creature with which you are familiar, or to the location of such a creature.
 
-\paragraph{Augment:} You can augment this spell in one or both of the following ways:
+If you send the message to a location, the message sounds at the location. It is spoken softly, in your voice.
+If you send the message to a specific creature, the message is spoken inside the creature's head, heard only by that creature.
+
+The subject recognizes you if it knows your voice. 
+
+% A creature with an Intelligence score as low as 1 can understand the sending, though the subject's ability to react is limited as normal by its Intelligence score. 
+% Even if the sending is received, the subject is not obligated to act upon it in any manner.
+
+% If the creature in question is not on the same plane of existence as you are, there is a 5\% chance that the sending does not arrive. 
+% (Local conditions on other planes may worsen this chance considerably. Deities can entirely block sendings from being sent or received on their home planes.) 
+
+\paragraph{Augment:} You can augment this spell in one or more of the following ways:
 \begin{enumerate}
  \item If you spend 2 additional spell points, you can cast this spell as a Standard action.
+ \item If you spend 2 additional spell points, the spell's range changes to Unlimited. It can reach any familiar creature or location on the same plane.
+ \item If you spend 3 additional spell points, the spell's range changes to Unlimited and can reach other planes of existence. There is a 5\% chance that the sending gets lost when crossing planar boundaries. (Local conditions on other planes may worsen this chance considerably. Deities can entirely block sendings from being sent or received on their home planes.)
+ \item If you spend 2 additional spell points, a recipient of the spell can immediately give you a reply, as if he had cast the Sending himself (using the same augments). You can not reply to his reply without another casting of Sending. The reply always targets your person, not your area. In the case of multiple recipients, all recipients can attempt to contribute to the reply, but the reply as a whole is still limited to 25 words.
  \item For every additional spell point you spend, you can send a message one word longer.
 \end{enumerate}
 
