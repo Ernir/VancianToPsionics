@@ -1990,7 +1990,7 @@ No target of the spell can be more than 15 feet from another target of the spell
 
 \subsubsection{Chain Lightning}
 \label{Spell:ChainLightning}
-Evocation [see text]
+Evocation [Electricity]
 \\ \textbf{Level:} Air 6, Evoker 6
 \\ \textbf{Components:} V, S
 \\ \textbf{Casting Time:} 1 standard action
@@ -2004,27 +2004,15 @@ Evocation [see text]
 \emph{A discharge of energy explodes from your fingertips towards the monster, and from that monster to the next, and on until the whole group is howling in pain.}
 
 The arc of energy unerringly strikes one creature or object within range, then arcs to up to 10 other targets.
-You choose an energy type at the time of casting.
 
-Every target hit by the arc takes 11d6 points of damage, but can attempt a Reflex saving throw for half damage. 
+Every target hit by the arc takes 11d6 points of electricity damage, but can attempt a Reflex saving throw for half damage. 
 
 You choose secondary targets as you like, but they must all be within 30 feet of the primary target, and no target can be struck more than once. 
 You can choose to affect fewer secondary targets than the maximum.
 
-The name of the spell refers to the lightning form of the spell.
-Causing electrical energy to arc between targets is considered more intuitive than doing the same trick with other energy types according to most spellcasters, resulting in that form being the one being most quickly mastered by most.
-\begin{list}{\labelitemi}{\leftmargin=1em}
- \item Cold: An arc of this energy type deals +1 point of damage per die. 
- The saving throw to reduce damage from a cold arc is a Fortitude save instead of a Reflex save.
- \item Electricity: An arc of this energy type provides a +2 bonus to the save DC
- and a +2 bonus on caster level checks for the purpose of overcoming spell resistance.
- \item Fire: An arc of this energy type deals +1 point of damage per die.
- \item Sonic: An arc of this energy type deals -1 point of damage per die and ignores an object's hardness.
-\end{list}
-This spell's descriptor is the same as the type of energy you selected. 
+The crackling energy is piercing and hard to dodge. The spell has a saving throw DC 2 higher than that of an ordinary spell of its level, and grants a +2 bonus on caster level checks for the purpose of overcoming spell resistance.
 
-\paragraph{Augment:} For every additional spell point you spend, 
-this spell's damage increases by one die (d6), and you can select an additional secondary target.
+\paragraph{Augment:} For every additional spell point you spend, this spell's damage increases by one die (d6), and you can select an additional secondary target.
 % \subsubsection{Chill Touch}
 % \label{Spell:ChillTouch}
 % Necromancy
@@ -2254,7 +2242,7 @@ When casting this spell, select a single language you do not know. For the durat
 \end{enumerate}
 \subsubsection{Cone of Cold} 
 \label{Spell:ConeOfCold}
-Evocation [See text]
+Evocation [Cold]
 \\ \textbf{Level:} Evoker 5, Water 5
 \\ \textbf{Components:} V, S
 \\ \textbf{Casting Time:} 1 standard action
@@ -2265,27 +2253,12 @@ Evocation [See text]
 \\ \textbf{Spell Resistance:} Yes
 \\ \textbf{Spell Points:} 9
 
-\emph{A blast of energy originates at your hand and extends outward in a cone.}
+\emph{A blast of freezing energy originates at your hand and extends outward in a cone.}
 
-At the time of casting, you choose between cold, electricity, fire, or sonic damage.
-All creatures in the area take 9d6 points of damage, and are \emph{slowed} (as if by the \nameref{Spell:Slow} spell) for one round.
+All creatures in the area take 9d6+9 points of cold damage, and are \emph{slowed} (as if by the \nameref{Spell:Slow} spell) for one round.
 A successful reflex save negates the slowing effect and halves the damage.
 
-The name of the spell refers to the cold version of the spell, which was the form of the spell originally discovered.
-Although other forms of the spell were later discovered, ''Cone of Cold'' remains as its name.
-\begin{list}{\labelitemi}{\leftmargin=1em}
- \item Cold: A blast of this energy type deals +1 point of damage per die. 
- \item Electricity: A blast of this energy type provides a +2 bonus to the save DC
- and a +2 bonus on caster level checks for the purpose of overcoming spell resistance.
- \item Fire: A blast of this energy type deals +1 point of damage per die.
- The saving throw to reduce damage from a fire blast is a Fortitude save instead of a Reflex save.
- \item Sonic: A blast of this energy type deals -1 point of damage per die and ignores an object's hardness.
-\end{list}
-
-This spell's descriptor is the same as the type of energy you selected. 
-
-\paragraph{Augment:} For every additional spell point you spend, 
-this spell's damage increases by one die (d6).
+\paragraph{Augment:} For every additional spell point you spend, this spell's damage increases by 1d6+1.
 \subsubsection{Confusion}
 \label{Spell:Confusion}
 Enchantment (Compulsion) [Mind-Affecting]
@@ -4170,6 +4143,87 @@ This spell's descriptor matches the type of energy you imbue the projectiles wit
 you can instead select from one of the following enhancements:
 \emph{Flaming Burst}, \emph{Icy Burst}, and \emph{Shocking Burst}.
 
+\subsubsection{Energy Ball}
+\label{Spell:EnergyBall}
+Evocation [see text]
+\\ \textbf{Level:} Sor/Wiz 2
+\\ \textbf{Components:} V, S
+\\ \textbf{Casting Time:} 1 standard action
+\\ \textbf{Range:} Long (400 ft. + 40 ft./level)
+\\ \textbf{Area:} 20-ft.-radius burst
+\\ \textbf{Duration:} Instantaneous
+\\ \textbf{Saving Throw:} Reflex half or Fortitude half; see text
+\\ \textbf{Spell Resistance:} Yes
+\\ \textbf{Spell Points:} 3
+
+\emph{If the explosion didn't solve your problem, try a bigger one.}
+
+An Energy Ball spell is an explosion of energy that detonates with a low roar and deals 3d6 points of damage to every creature within the area. 
+Unattended objects also take this damage. 
+
+You choose between cold, electricity, fire, or sonic damage at the time of casting.
+If the damage caused to an interposing barrier shatters or breaks through it, the Ball may continue beyond the barrier if the area permits; 
+otherwise it stops at the barrier just as any other spell effect does. 
+
+You point your finger and determine the range (distance and height) at which the Ball is to burst. 
+A glowing, pea-sized bead streaks from the pointing digit and, unless it impacts upon a material body or solid barrier prior to attaining the prescribed range, 
+blossoms into the Ball at that point. (An early impact results in an early detonation.)
+
+\begin{list}{\labelitemi}{\leftmargin=1em}
+ \item Cold: A burst of this energy type deals +1 point of damage per die. 
+ The saving throw to reduce damage from a cold burst is a Fortitude save instead of a Reflex save.
+ \item Electricity: A burst of this energy type provides a +2 bonus to the save DC
+ and a +2 bonus on caster level checks for the purpose of overcoming spell resistance.
+ \item Fire: A burst of this energy type deals +1 point of damage per die.
+ \item Sonic: A burst of this energy type deals -1 point of damage per die and ignores an object's hardness.
+\end{list}
+The spell has all side effects you would normally expect a flash of energy to produce - fire causes small, flammable objects to catch fire, cold causes exposed bodies of water to get a thin coating of ice, and so on.
+The explosion also creates significant pressure, which has effects of its own. 
+Light, unattended objects are hurled away from the blast radius, and glass windows may break.
+
+This spell's descriptor is the same as the type of energy you selected. 
+
+\paragraph{Augment:} For every additional spell point you spend, this spell's damage increases by one die (d6).
+
+\subsubsection{Energy Bolt}
+\label{Spell:EnergyBolt}
+Evocation [see text]
+\\ \textbf{Level:} Sor/Wiz 2
+\\ \textbf{Components:} V, S
+\\ \textbf{Casting Time:} 1 standard action
+\\ \textbf{Range:} 120 ft.
+\\ \textbf{Area:} 120-ft. line
+\\ \textbf{Duration:} Instantaneous
+\\ \textbf{Saving Throw:} Reflex half or Fortitude half; see text
+\\ \textbf{Spell Resistance:} Yes
+\\ \textbf{Spell Points:} 3
+
+\emph{''Fancy spells are good and all, but there's something to be said about just lancing out with energy.``}
+
+You release a powerful stroke of energy that deals 3d6 points of damage to every creature within the area. The bolt begins at your fingertips.
+Unattended objects also take this damage.
+
+You choose between cold, electricity, fire, or sonic damage at the time of casting.
+If the damage caused to an interposing barrier shatters or breaks through it, the bolt may continue beyond the barrier if the spell's range permits; otherwise, it stops at the barrier just as any other spell effect does.
+
+\begin{list}{\labelitemi}{\leftmargin=1em}
+ \item Cold: A bolt of this energy type deals +1 point of damage per die. 
+ The saving throw to reduce damage from a cold bolt is a Fortitude save instead of a Reflex save.
+ \item Electricity: A bolt of this energy type provides a +2 bonus to the save DC
+ and a +2 bonus on caster level checks for the purpose of overcoming spell resistance.
+ \item Fire: A bolt of this energy type deals +1 point of damage per die.
+ \item Sonic: A bolt of this energy type deals -1 point of damage per die and ignores an object's hardness.
+\end{list}
+The spell has all side effects you would normally expect a flash of energy to produce - electricity or fire can melt metals with a low melting point, such as lead, gold, copper, silver, or bronze, and so on.
+
+This spell's descriptor is the same as the type of energy you selected.
+
+\paragraph{Augment:} You can augment this spell in one or both of the following ways:
+\begin{enumerate}
+ \item For every additional spell point you spend, this spell's damage increases by one die (d6).
+ \item For every additional spell point you spend, this spell's range and length of the area increases by 10'.
+\end{enumerate}
+
 \subsubsection{Enervation}
 \label{Spell:Enervation}
 Necromancy
@@ -4535,52 +4589,34 @@ Transmutation [Evil]
 \emph{The subject grows large batlike wings.}
 
 This spell functions as the \nameref{Spell:Fly} spell (including its augmentation option), except as noted here, and that the flight is due to physical wings the subject grows (which matters for effects like those caused by tanglefoot bags).
+
 \subsubsection{Fireball}
 \label{Spell:Fireball}
-Evocation [see text]
+Evocation [Fire]
 \\ \textbf{Level:} Evoker 2
 \\ \textbf{Components:} V, S
 \\ \textbf{Casting Time:} 1 standard action
 \\ \textbf{Range:} Long (400 ft. + 40 ft./level)
-\\ \textbf{Area:} 20-ft.-radius burst
+\\ \textbf{Area:} 20-ft.-radius spread
 \\ \textbf{Duration:} Instantaneous
-\\ \textbf{Saving Throw:} Reflex half or Fortitude half; see text
+\\ \textbf{Saving Throw:} Reflex half
 \\ \textbf{Spell Resistance:} Yes
 \\ \textbf{Spell Points:} 3
 
-\emph{If the application of Fireball did not solve your problem, you failed to apply it in sufficient amounts.}
+\emph{If the explosion didn't solve your problem, try a bigger one.}
 
-A fireball spell is an explosion of energy that detonates with a low roar and deals 3d6 points of damage to every creature within the area. 
-Unattended objects also take this damage. 
+A Fireball is a more specialized form of the \nameref{Spell:EnergyBall} spell, favored by Evokers. It deals 3d6+3 points of fire damage to every creature within the area. Unattended objects also take this damage. 
 
-You choose between cold, electricity, fire, or sonic damage at the time of casting.
-If the damage caused to an interposing barrier shatters or breaks through it, the fireball may continue beyond the barrier if the area permits; 
-otherwise it stops at the barrier just as any other spell effect does. 
+Unlike Energy Ball, Fireball is a spread, turning corners and negating many forms of cover.
 
-You point your finger and determine the range (distance and height) at which the fireball is to burst. 
-A glowing, pea-sized bead streaks from the pointing digit and, unless it impacts upon a material body or solid barrier prior to attaining the prescribed range, 
-blossoms into the fireball at that point. (An early impact results in an early detonation.)
+Like Energy Ball, you point your finger and determine the range (distance and height) at which the Fireball is to explode. 
+A glowing, pea-sized bead streaks from the pointing digit and, unless it impacts upon a material body or solid barrier prior to attaining the prescribed range, blossoms into the Fireball at that point. (An early impact results in an early detonation.)
 
-The name of the spell refers to the fire version of the spell, which was the form of the spell originally discovered.
-Although other forms of the spell were later unearthed, ''Fireball'' remains as its name.
-\begin{list}{\labelitemi}{\leftmargin=1em}
- \item Cold: A burst of this energy type deals +1 point of damage per die. 
- The saving throw to reduce damage from a cold burst is a Fortitude save instead of a Reflex save.
- \item Electricity: A burst of this energy type provides a +2 bonus to the save DC
- and a +2 bonus on caster level checks for the purpose of overcoming spell resistance.
- \item Fire: A burst of this energy type deals +1 point of damage per die.
- \item Sonic: A burst of this energy type deals -1 point of damage per die and ignores an object's hardness.
-\end{list}
-The spell has all side effects you would normally expect a flash of energy to produce - fire causes small, flammable objects to catch fire, cold causes exposed bodies of water to get a thin coating of ice, and so on.
-The explosion also creates significant pressure, which has effects of its own. 
-Light, unattended objects are hurled away from the blast radius, and glass windows may break.
+The spell has all side effects you would normally expect a flash of fire to produce. The explosion also creates significant pressure, which has effects of its own. Light, unattended objects are hurled away from the blast radius, and glass windows may break.
 
-This spell's descriptor is the same as the type of energy you selected. 
+\paragraph{Augment:} For every additional spell point you spend, this spell's damage increases by 1d6+1.
 
-\paragraph{Augment:} For every additional spell point you spend, this spell's damage increases by one die (d6).
-
-\emph{Special:} Fireballs are extraordinarily hard to dodge. The base saving throw DC against a Fireball spell is 
-10 + the number of spell points spent on the spell and its augments + your key ability modifier, 
+\emph{Special:} Fireballs, nearly filling the affected area, are extraordinarily hard to dodge. The base saving throw DC against a Fireball spell is 10 + the number of spell points spent on the spell and its augments + your key ability modifier, 
 rather than as described in the section on \nameref{sec:SavingThrow}s.
 \subsubsection{Fire Seeds}
 \label{Spell:FireSeeds}
@@ -6752,48 +6788,34 @@ A full round spent stabilizing allows the creature to begin again at -1.
 \end{enumerate}
 \subsubsection{Lightning Bolt}
 \label{Spell:LightningBolt}
-Evocation [see text]
+Evocation [Electricity]
 \\ \textbf{Level:} Evoker 2
 \\ \textbf{Components:} V, S
 \\ \textbf{Casting Time:} 1 standard action
 \\ \textbf{Range:} 120 ft.
 \\ \textbf{Area:} 120-ft. line
 \\ \textbf{Duration:} Instantaneous
-\\ \textbf{Saving Throw:} Reflex half or Fortitude half; see text
+\\ \textbf{Saving Throw:} Reflex half
 \\ \textbf{Spell Resistance:} Yes
 \\ \textbf{Spell Points:} 3
 
-\emph{Uuunlimited power!}
+\emph{``Uuunlimited power!''}
 
-You release a powerful stroke of electrical energy that deals 3d6 points of damage to every creature within the area. The bolt begins at your fingertips.
-Unattended objects also take this damage. 
+Lightning Bolt is a more specialized form of the \nameref{Spell:EnergyBolt} spell, favored by Evokers.
+You release a powerful stroke of energy that deals 3d6 points of electricity damage to every creature within the area. 
+The bolt begins at your fingertips. Unattended objects also take this damage.
 
-You choose between cold, electricity, fire, or sonic damage at the time of casting.
-If the damage caused to an interposing barrier shatters or breaks through it, the bolt may continue beyond the barrier if the spell's range permits; otherwise, it stops at the barrier just as any other spell effect does.
+If the damage caused to an interposing barrier shatters or breaks through it, the bolt may continue beyond the barrier if the spell's range permits; otherwise, it stops at the barrier just as any other spell effect does. The spell has all side effects you would normally expect a flash of energy to produce
 
-The name of the spell refers to the electricity version of the spell, which was the form of the spell originally discovered.
-Although other forms of the spell were later unearthed, ''Lightning Bolt'' remains as its name.
-\begin{list}{\labelitemi}{\leftmargin=1em}
- \item Cold: A bolt of this energy type deals +1 point of damage per die. 
- The saving throw to reduce damage from a cold bolt is a Fortitude save instead of a Reflex save.
- \item Electricity: A bolt of this energy type provides a +2 bonus to the save DC
- and a +2 bonus on caster level checks for the purpose of overcoming spell resistance.
- \item Fire: A bolt of this energy type deals +1 point of damage per die.
- \item Sonic: A bolt of this energy type deals -1 point of damage per die and ignores an object's hardness.
-\end{list}
-The spell has all side effects you would normally expect a flash of energy to produce - electricity or fire can melt metals with a low melting point, such as lead, gold, copper, silver, or bronze, and so on.
+The crackling energy is piercing and hard to dodge. The spell has a saving throw DC 2 higher than that of an ordinary spell of its level, and grants a +2 bonus on caster level checks for the purpose of overcoming spell resistance.
 
-This spell's descriptor is the same as the type of energy you selected. 
+Any living creature that fails a saving throw against Lightning Bolt is \emph{sickened} by muscle spasms for one round.
 
 \paragraph{Augment:} You can augment this spell in one or both of the following ways:
 \begin{enumerate}
  \item For every additional spell point you spend, this spell's damage increases by one die (d6).
  \item For every additional spell point you spend, this spell's range and length of the area increases by 10'.
 \end{enumerate}
-
-\emph{Special:} Lightning Bolts are extraordinarily hard to dodge. The base saving throw DC against a Lightning Bolt spell is 
-10 + the number of spell points spent on the spell and its augments + your key ability modifier, 
-rather than as described in the section on \nameref{sec:SavingThrow}s.
 
 \subsubsection{Life Link}
 \label{Spell:LifeLink}
@@ -10482,7 +10504,7 @@ The touched weapon deals damage as if it were one size category larger than it r
 \subsubsection{Shout}
 \label{Spell:Shout}
 Evocation [Sonic]
-\\ \textbf{Level:} Bard 4, Sor/Wiz 4
+\\ \textbf{Level:} Evoker 4, Bard 4
 \\ \textbf{Components:} V
 \\ \textbf{Casting Time:} 1 standard action
 \\ \textbf{Range:} 30 ft.
