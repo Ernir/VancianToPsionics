@@ -36,7 +36,7 @@
 \renewcommand{\floatpagefraction}{0.7}
 \renewcommand{\dblfloatpagefraction}{0.7}
 
-\input{ErnirsMacros.tex}
+\input{Other/Macros.tex}
 
 \setcounter{secnumdepth}{-1} 
 \hyphenpenalty=5000
@@ -72,31 +72,32 @@ Beta 1.11b+
 
 \part{The Spellcasting System} % TODO move this down one level
 The most fundamental part of converting a spellcasting system must be to change the base mechanics themselves. The following chapter deals with translating the underlying \emph{Psionic system} to use magical terminology.
-\input{IntroPsi.tex} \newpage
+\input{Rules/MagicOverview.tex} \newpage
 
 \part{Races and Classes}
 As the base system is changed, races and classes must be adapted as well. The following three chapters deal with updating player races that deal with magic, the base classes, as well as the prestige classes presented in the \href{http://www.wizards.com/default.asp?x=d20/article/srd35}{d20 srd} to consistently work with the updated underlying system.
-\input{Races.tex} \newpage
-\input{ClassesPsi.tex} \newpage
+\input{Races/Races.tex} \newpage
+\input{Classes/Classes.tex} \newpage
 
 \part{Skills and Feats}
 Changing a d20 spellcasting system affects more than just the classes - a few skills and a multitude of feats are affected as well. The following two chapters focus on updating these aspects of the system.
-\input{SkillsPsi.tex} \newpage
-\input{FeatsPsi.tex}\newpage
+\input{Rules/Skills.tex} \newpage
+\input{Rules/Feats.tex}\newpage
+\input{Feats/Feats.tex}\newpage
 
 \part{Spells}
 What would a spellcasting overhaul be without overhauling the spells themselves? The following chapters present the fully reviewed spells and spell lists found in the \href{http://www.wizards.com/default.asp?x=d20/article/srd35}{d20 srd}, changed where appropriate to accommodate the changed system.
 
 The veteran d20 reader will find spells here he has never seen before here. While it was not the author's original intention to add a lot of new material to the core document, the extensive restructuring left gaping holes in many spell lists and character concepts. Hopefully, these additions will not be out of place in your campaign.
-\input{SpellListing.tex}
-\input{Spells.tex}\newpage
+\input{Lists/SpellListing.tex}
+\input{Spells/Spells.tex}\newpage
 
 \part{Creatures}
 Player characters are not the only creatures around - they interact with monsters and minions.
 
 This chapter includes examples of monsters converted from the \href{http://www.wizards.com/default.asp?x=d20/article/srd35}{d20 srd}, and a full conversion of all the kinds of magical minions PCs can collect. Converting all monsters from the d20 SRD is beyond the scope of this project.
-\input{MagicalCreatures.tex}\newpage
-\input{Monsters.tex}\newpage
+\input{Rules/MagicalCohorts.tex}\newpage
+\input{Monsters/Monsters.tex}\newpage
 
 \part{Items}
 Due to changes in the underlying magic system, many magic items must be updated.
@@ -105,12 +106,12 @@ Some magic items that replicate the effects of spells have been updated, others 
 Note that even if the rules text of a magic item that references a spell mechanic is unchanged, the rules text of the spell the item references may not be.
 
 Unless noted otherwise in this chapter, use the rules text presented in the \href{http://www.wizards.com/default.asp?x=d20/article/srd35}{d20 srd}. See \nameref{sec:MissingItems} for a summary on the changes from the d20 SRD.
-\input{MagicItems.tex}\newpage
+\input{Items/MagicItems.tex}\newpage
 
 \part{New Content}
 The previous chapters have dealt with converting what the \href{http://www.wizards.com/default.asp?x=d20/article/srd35}{d20 srd} has to offer - the next ones are devoted to content that is entirely the author's own. While some new content has crept in already, the point of those additions were to replace or augment existing options. The following content is what would, in a conventional distribution scheme, be delegated to a new splatbook. 
-\input{NewContent.tex}\newpage
+\input{New/New.tex}\newpage
 \part{End notes}
-\input{Ogl.tex}
+\input{Other/Ogl.tex}
 \end{multicols}
 \end{document}
