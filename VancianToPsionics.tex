@@ -9,6 +9,7 @@
 \usepackage{multicol} %Main multicolumn handling
 \usepackage{titlesec} %For manipulating rubber lengths in headings
 \usepackage{multirow} %Row spanning in tables
+\usepackage{enumitem} % List environments
 \usepackage{times} %Times font
 
 %% Additional symbols %%
@@ -38,6 +39,8 @@
 
 \input{Other/Macros.tex}
 
+\setlist[itemize]{leftmargin=1em}
+\setlist[enumerate]{leftmargin=1em}
 \setcounter{secnumdepth}{-1} 
 \hyphenpenalty=5000
 \interfootnotelinepenalty=10000
