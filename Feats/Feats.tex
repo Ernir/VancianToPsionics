@@ -4,18 +4,18 @@
 \label{tab:Feats}
 \makebox[\textwidth]{\resizebox{\textwidth}{!}{
 %\small
-\begin{tabular}{|p{0.28\textwidth}|p{0.3\textwidth}|p{0.42\textwidth}|}
-\hline
-\textbf{General Feats}&\textbf{Prerequisites}&\textbf{Benefit}\\
-\hline
+\begin{tabular}{p{0.28\textwidth}p{0.3\textwidth}p{0.42\textwidth}}
+\toprule
+\textbf{General Feats}&Prerequisites&Benefit\\
+\midrule
 \nameref{Feat:AnimalCompanion}&Access to the Animal Domain or Ranger level 1st&Gain Animal Companion\\
 \nameref{Feat:AugmentSummoning}&-&Creatures you summon are stronger and healthier.\\
 \nameref{Feat:Familiar}&Caster level 1st&Gain Familiar\\
 \nameref{Feat:MagicalSpark}&1st level only&Gain limited spellcasting ability\\
 \nameref{Feat:SpellstaffUser}&Caster level 1st&Gain Spellstaff\\
-\hline
-\textbf{Magical Feats}&\textbf{Prerequisites}&\textbf{Benefit}\\
-\hline
+\midrule
+\textbf{Magical Feats}&Prerequisites&Benefit\\
+\midrule
 \nameref{Feat:CarefulPush}&Pushing the Limits, caster level 5th&Negate damage from Pushing the Limits\\
 \nameref{Feat:CelestialSummons}&Knowledge (the planes) 4 ranks, good&Apply celestial template to your summoned monsters\\
 \nameref{Feat:ContinuedTraining}&Spellcraft 4 ranks&Caster level increases by 4, to a maximum of your character level\\
@@ -29,9 +29,9 @@
 \nameref{Feat:RapidRefocusing}&Wis 13, Concentration 7 ranks&Regain magical focus as move action\\
 \nameref{Feat:SpellstaffContainment}&Spellstaff User, caster level 3rd&Store second magical focus in your spellstaff\\
 \nameref{Feat:TurnUndead}&Cleric or Paladin level 1st, non-evil&Damage undead with power of your faith\\
-\hline
-\textbf{Metamagic Feats}&\textbf{Prerequisites}&\textbf{Benefit}\\
-\hline
+\midrule
+\textbf{Metamagic Feats}&Prerequisites&Benefit\\
+\midrule
 \nameref{Feat:BurrowingSpell}&-&Spells bypass barriers\\
 \nameref{Feat:ChainSpell}&-&Spell arcs to secondary targets\\
 \nameref{Feat:DelaySpell}&-&Delay the activation of spells\\
@@ -47,9 +47,9 @@
 \nameref{Feat:StillSpell}&-&Omit somatic component from spell\\
 \nameref{Feat:TwinSpell}&-&Cast spell twice\\
 \nameref{Feat:UnconditionalSpell}&-&Cast spell regardless of circumstances\\
-\hline
-\textbf{Item Creation Feats}&\textbf{Prerequisites}&\textbf{Benefit}\\
-\hline
+\midrule
+\textbf{Item Creation Feats}&Prerequisites&Benefit\\
+\midrule
 \nameref{Feat:CraftMagicArmsAndArmor}&Caster level 5th&You can create magic arms and armor\\
 \nameref{Feat:CraftRod}&Caster level 9th&You can create rods\\
 \nameref{Feat:CraftWand}&Caster level 5th&You can create wands\\
@@ -57,9 +57,9 @@
 \nameref{Feat:ForgeRing}&Caster level 7th&You can create magic rings\\
 \nameref{Feat:ImbueMatrix}&Caster level 1st&You can create matrices\\
 \nameref{Feat:ScribeScroll}&Caster level 1st&You can create scrolls\\
-\hline
-\textbf{Companion Feats}&\textbf{Prerequisites}&\textbf{Benefit}\\
-\hline
+\midrule
+\textbf{Companion Feats}&Prerequisites&Benefit\\
+\midrule
 \nameref{Feat:CerebralCompanion}&-&Companion gains intelligence close to your own\\
 \nameref{Feat:CompanionAlertness}&-&Companion grants and gains awareness bonuses\\
 \nameref{Feat:CompanionCommunication}&Master level 6th&Familiar can communicate with similar creatures\\
@@ -70,7 +70,7 @@
 \nameref{Feat:CompanionSpellResistance}&Master level 12th&Companion gains spell resistance\\
 \nameref{Feat:FamiliarSpellDelivery}&Master level 3rd&Familiar can deliver spells\\
 \nameref{Feat:FamiliarToughness}&-&Familiar gains more hit points\\
-\hline
+\bottomrule
 \end{tabular}}}
 \end{table*}
 \subsubsection{Animal Companion}
@@ -88,16 +88,6 @@ You form a bond with an animal that aids you in your quests.
 \paragraph{Benefit:}
 Each creature you conjure with any summon spell gains a +4 enhancement bonus to Strength and Constitution for the duration of the spell that summoned it.
 
-% % \subsubsection{Arcane Shot [Magical]}
-% % You can charge your ranged attacks with additional damage potential.
-% % 
-% % \paragraph{Prerequisite:} Point Blank Shot.
-% % 
-% % \paragraph{Benefit:} To use this feat, you must expend your magical focus. 
-% % Your ranged attack deals +2d6 points of damage. 
-% % You must decide whether or not to use this feat prior to making an attack. 
-% % If your attack misses, you still expend your magical focus.
-
 \subsubsection[Burrowing Spell]{Burrowing Spell [Metamagic]}
 \label{Feat:BurrowingSpell}
 Your spells sometimes bypass barriers.
@@ -114,25 +104,6 @@ If a spell requires line of sight (which includes most spells that affect a targ
 you cannot cast it as a burrowing spell unless you can somehow see the target.%, such as with clairvoyant sense.
 Using this feat increases the spell point cost of the spell by 2. The spell's total cost cannot exceed your caster level.
 
-% \subsubsection[Brew Potion]{Brew Potion [Item Creation]}
-% 
-% \paragraph{Prerequisite:}
-% Caster level 3rd.
-% 
-% \paragraph{Benefit:}
-% You can create a potion of any 3rd-level or lower spell that you know and that targets one or more creatures. 
-% Brewing a potion takes one day. 
-% When you create a potion, you set the caster level, 
-% which must be sufficient to cast the spell in question and no higher than your own level. 
-% The base price of a potion is its spell level $\times$ its caster level $\times$ 50 gp. 
-% To brew a potion, you must spend 1/25 of this base price in XP and use up raw materials costing one half this base price.
-% 
-% When you create a potion, you make any choices that you would normally make when casting the spell. 
-% Whoever drinks the potion is the target of the spell.
-% 
-% Any potion that stores a spell with a costly material component or an XP cost also carries a commensurate cost. 
-% In addition to the costs derived from the base price, 
-% you must expend the material component or pay the XP when creating the potion.
 \subsubsection[Careful Push]{Careful Push [Magical]}
 \label{Feat:CarefulPush}
 You can push spells with less cost to yourself.
@@ -307,16 +278,6 @@ Some wondrous items incur extra costs in material components or XP, as noted in 
 These costs are in addition to those derived from the item’s base price. 
 You must pay such a cost to create an item or to mend a broken one.
 
-% \subsubsection[]{Deep Impact [Magical]}
-% You can strike your foe with a melee weapon as if making a touch attack.
-% 
-% \paragraph{Prerequisite:} Str 13, Arcane Weapon, base attack bonus +5.
-% 
-% \paragraph{Benefit:} To use this feat, you must expend your magical focus. 
-% You can resolve your attack with a melee weapon as a touch attack. 
-% You must decide whether or not to use this feat prior to making an attack. 
-% If your attack misses, you still expend your magical focus.
-
 \subsubsection[Delay Spell]{Delay Spell [Metamagic]}
 \label{Feat:DelaySpell}
 You can cast spells that go off up to 5 rounds later.
@@ -391,13 +352,6 @@ You can cast an extended spell. An extended spell lasts twice as long as normal.
 A spell with a duration of concentration, instantaneous, or permanent is not affected by this feat.
 Using this feat does not increase the spell point cost of the spell.
 
-% \subsubsection{Fell Shot [Magical]}
-% You can strike your foe with a ranged weapon as if making a touch attack.
-% 
-% \paragraph{Prerequisite:} Dex 13, Point Blank Shot, Arcane Shot, base attack bonus +5.
-% 
-% \paragraph{Benefit:} To use this feat, you must expend your magical focus. You can resolve your ranged attack as a ranged touch attack.
-% You must decide whether or not to use this feat prior to making an attack. If your attack misses, you still expend your magical focus.
 \subsubsection[Forge Ring]{Forge Ring [Item Creation]}
 \label{Feat:ForgeRing}
 \paragraph{Prerequisite:} 
@@ -413,19 +367,6 @@ Doing so costs half the XP, half the raw materials, and half the time it would t
 Some magic rings incur extra costs in material components or XP, as noted in their descriptions. 
 You must pay such a cost to forge such a ring or to mend a broken one.
 
-% \subsubsection{Greater Arcane Shot [Magical]}
-% You can charge your ranged attacks with additional damage potential.
-% 
-% \paragraph{Prerequisite:} Point Blank Shot, Arcane Shot, base attack bonus +5.
-% 
-% \paragraph{Benefit:} When you use the Arcane Shot feat, your ranged attack deals an extra 4d6 points of damage instead of an extra 2d6 points.
-% 
-% \subsubsection{Greater Arcane Weapon [Magical]}
-% You can charge your melee weapon with additional damage potential.
-% 
-% \paragraph{Prerequisite:} Str 13, Arcane Weapon, base attack bonus +5.
-% 
-% \paragraph{Benefit:} When you use the Arcane Weapon feat, your attack with a melee weapon deals an extra 4d6 points of damage instead of an extra 2d6 points.
 \subsubsection{Familiar}
 \label{Feat:Familiar}
 You are the master of a small, intelligent animal that does your bidding.
@@ -545,11 +486,11 @@ See table \ref{tab:metamagicmath} for an example comparison.}
 \caption{A metamagic comparison}
 \label{tab:metamagicmath}
 \begin{center}
-\begin{tabular}{|c|c|c|c|c|c|}
-\hline
+\begin{tabular}{cccccc}
+\toprule
 SP  &Augment&Augment&Empowered&Maximized&Emp. \& Max.\\
 cost&dice   &average&average  &average  &average\\
-\hline
+\midrule
  1 &  1d6 &  3.5 &  -   &  -   &   -   \\ 
  2 &  2d6 &  7.0 &  -   &  -   &   -   \\ 
  3 &  3d6 & 10.5 &  5.2 &  -   &   -   \\ 
@@ -570,7 +511,7 @@ cost&dice   &average&average  &average  &average\\
 18 & 18d6 & 63.0 & 84.0 & 84.0 &  93.0 \\ 
 19 & 19d6 & 66.5 & 89.2 & 90.0 & 100.8 \\ 
 20 & 20d6 & 70.0 & 94.5 & 96.0 & 108.5 \\ 
-\hline
+\bottomrule
 \end{tabular}
 \end{center}
 
@@ -637,7 +578,6 @@ Caster level 1st.
 You can create \nameref{Item:Scrolls} of any spell that you know. 
 Scribing a scroll takes one day for each 1,000 gp in its base price. 
 The base price of a scroll is its spell level squared times 1000 gp.
-%The base price of a scroll is its spell level $\times$ its caster level $\times$ 25 gp.
 To scribe a scroll, you must spend 1/25 of this base price in XP and use up raw materials costing one-half of this base price.
 
 Any scroll that stores a spell with an XP cost also carries a commensurate cost. 

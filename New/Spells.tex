@@ -164,10 +164,10 @@ In addition to losing a level or point of constitution, the creature comes back 
 \label{tab:BalefulResurrection}
 \caption{Baleful Resurrection curses}
 \centering
-\begin{tabular}{|p{0.065\textwidth}|p{0.15\textwidth}|p{0.7\textwidth}|}
-\hline
+\begin{tabular}{p{0.065\textwidth}p{0.15\textwidth}p{0.7\textwidth}}
+\toprule
 d\%&  Curse name&  Curse description\\
-\hline
+\midrule
 1-13&Bloody cough& The creature occasionally coughs up blood, often with a horrid hacking sound. It takes a -3 penalty on Fortitude saves.\\
 14-25&Dead eyes& Most of the color drains out of the creature's eyes, making them resemble that of a corpse. It takes a -6 penalty on Spot checks, and gains the Light Blindness trait, as a Drow.\\
 26-38&Dead skin& The creature's skin turns pale and cold, and its sense of touch is greatly reduced. It takes a -3 penalty on Reflex saves.\\
@@ -176,7 +176,7 @@ d\%&  Curse name&  Curse description\\
 63-75&Social outcast& Intelligent creatures subconsciously dislike the subject. The initial attitude of all non-Evil non-player characters towards the subject is shifted one step towards hostile, and it takes a -6 penalty on Gather Information checks.\\
 76-87&Undeath's taint& The creature's brush with death has left it vulnerable to sacred energies. It is treated as an undead creature when caught in the area of a \nameref{Feat:TurnUndead} effect, although it only takes half damage (and may save to halve that damage again). In addition, Necromancy (Healing) spells only heal the creature of half their normal number of hit points.\\
 88-100&Wrong smell& Nonintelligent creatures dislike the subject. The initial response of all animals when encountering the subject is either try to flee or to attack it. It takes a -6 penalty on Handle Animal and Ride checks.\\
-\hline
+\bottomrule
 \end{tabular}
 \end{table*}
 
@@ -670,13 +670,13 @@ When such a save succeeds, the subject can suppress the images to the point wher
 longer interferes with his actions, effectively ending the spell.
 
 If desired, the GM can use the following table to determine the kind of vision the subject suffers:
-\begin{center}
-\small
-\begin{tabular}{|p{1cm}|p{5.4cm}|}
-\hline
-d\% & Vision\\
-result&\\
-\hline
+\begin{tableonecolumn}
+\caption{Random Visions}
+\label{tab:RandomVisions}
+\begin{tabular}{p{1cm}p{5.4cm}}
+\toprule
+d\% &Vision\\
+\midrule
 1-30 & Childhood memories\\
 31-60 & Memories regarding the subject's love life\\
 61-70 & Memory resulting in the character shouting out an embarrassing fact about himself\\
@@ -685,9 +685,10 @@ result&\\
 91-95 & A vision of the character's surroundings, distorted and confusing\\
 96-99 & A vision of the character, as seen from the caster's eyes\\
 100 & A truly useful vision of the future\\
-\hline
+\bottomrule
 \end{tabular}
-\end{center}
+\end{tableonecolumn}
+
 \paragraph{Augment:} For every 2 additional spell points you spend, the subject is stunned for one additional round of the
 spell's duration, rather than just the first. A successful will save in a subsequent round still ends the spell.
 
@@ -1319,19 +1320,20 @@ The relevant statistics of a shadow warrior are given on the \nameref{tab:Shadow
 \label{tab:ShadowWarriors}
 \caption{Shadow Warrior}
 \makebox[\textwidth]{
-\begin{tabular}{|l|l|}
-\hline
+\begin{tabular}{ll}
+\toprule
 \textbf{Size:}&Medium\\
-\textbf{Hit Points}&CL* $\times$ 2\\
-\textbf{Armor Class:}& 18 + KAM*, touch 10+ KAM*, flatfooted 18\\
+\textbf{Hit Points}&CL$^1$ $\times$ 2\\
+\textbf{Armor Class:}& 18 + KAM$^1$, touch 10+ KAM, flatfooted 18\\
 \textbf{Attack:}& -\\
 \textbf{Space/Reach:}& 5 ft./5 ft.\\
-\textbf{Special Attacks:}&Attack of opportunity: Longsword +CL* melee (1d8+KAM*) 19-20/x2\\
-\textbf{Saves:}&Fort +CL*, Ref +CL*, Will +CL*\\
-\hline
-\multicolumn{2}{l}{*Refers to the statistics of the one who cast the spell.}\\
-\multicolumn{2}{l}{KAM is the caster's key ability modifier, and CL is his caster level.}\\
+\textbf{Special Attacks:}&Attack of opportunity: Longsword +CL melee (1d8+KAM) 19-20/x2\\
+\textbf{Saves:}&Fort +CL, Ref +CL, Will +CL\\
+\bottomrule
 \end{tabular}}
+\begin{enumerate}
+ \item KAM is the caster's key ability modifier, and CL is his caster level.
+\end{enumerate}
 \end{table*}
 
 \paragraph{Augment:} For every additional spell point you spend, you gain an additional warrior when casting this spell.

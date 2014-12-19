@@ -20,14 +20,14 @@ The root has a bitter taste that is easily recognized by anyone who has experien
 \label{tab:Poisons}
 \caption{Poisons}
 \centering
-\begin{tabular}{|l|l|l|l|l|}
-\hline
+\begin{tabular}{lllll}
+\toprule
 \textbf{Poison}		&\textbf{Type}	&\textbf{Initial Damage}&\textbf{Secondary Damage}	&\textbf{Price}\\
-\hline
+\midrule
 Forkroot mash		&Ingested DC 14	&Caster level -1d2	&Unconsciousness		&100GP\\
 Forkroot powder		&Ingested DC 18	&Caster level -1d4	&Unconsciousness		&300GP\\
 Purified forkroot powder&Ingested DC 22	&Caster level -2d4	&Unconsciousness		&1000GP\\
-\hline
+\bottomrule
 \end{tabular}
 
 \end{table*}
@@ -66,10 +66,10 @@ Regardless of their physical appearance, the activation mechanics of matrices re
 \caption{Matrix appearances}
 \label{tab:MatrixAppearances}
 \centering
-\begin{tabular}{|l|l|l|}
-\hline
+\begin{tabular}{lll}
+\toprule
 \textbf{Spell name}&\textbf{Appearance}&\textbf{Usage example}\\
-\hline
+\midrule
 \nameref{Spell:AlignedProtection}&Scroll	&Read aloud\\
 \nameref{Spell:BlackTentacles}	&Severed tentacle&Thrown, grows on impact\\
 \nameref{Spell:CureWounds}	&Vial of oil 	&Smeared on wounds\\
@@ -77,7 +77,7 @@ Regardless of their physical appearance, the activation mechanics of matrices re
 \nameref{Spell:DivinePower}	&Skull		&Crushed in hand\\
 \nameref{Spell:Fireball}	&Glass bead	&Flies to target area and explodes\\
 \nameref{Spell:RemoveDisease}	&Potion		&Imbibed\\
-\hline
+\bottomrule
 \end{tabular}
 \end{table*}
 
@@ -127,10 +127,10 @@ otherwise.
 \begin{tableonecolumn}
 \caption{Matrix Costs}
 \label{tab:MatrixCosts}
-\begin{tabular}{|c|r|}
-\hline
+\begin{tabular}{cr}
+\toprule
 \textbf{Spell level}&\textbf{Market Price}\\
-\hline
+\midrule
 1st&	25gp	\\
 2nd&	150gp	\\
 3rd&	375gp	\\
@@ -140,7 +140,7 @@ otherwise.
 7th&	2275gp	\\
 8th&	3000gp	\\
 9th&	3825gp	\\
-\hline
+\bottomrule
 \end{tabular}
 \end{tableonecolumn}
 Some matrices have higher caster levels than the minimum spell level. Such matrices have a cost increase of 25 gp $\times$ spell level per additional caster level above the minimum. For example, a \nameref{Spell:Fireball} matrix crafted at caster level 5th would have a market price of 150 gp [base cost] + 2 [CL adjustment] $\times$ 2 [spell level] $\times$ 25 = 250 gp (Or simply 2 $\times$ 5 $\times$ 25 GP, as indicated by the \nameref{Feat:ImbueMatrix} feat).
@@ -207,10 +207,10 @@ The price of scrolls, broken down by spell levels, is as shown on the \nameref{t
 \begin{tableonecolumn}
 \caption{Scroll Costs}
 \label{tab:ScrollCosts}
-\begin{tabular}{|c|r|}
-\hline
+\begin{tabular}{cr}
+\toprule
 \textbf{Spell point cost}&\textbf{Market Price}\\
-\hline
+\midrule
 1st&	1000gp\\
 2nd&	4000gp\\
 3rd&	9000gp\\
@@ -220,7 +220,7 @@ The price of scrolls, broken down by spell levels, is as shown on the \nameref{t
 7th&	49000gp\\
 8th&	64000gp\\
 9th&	81000gp\\
-\hline
+\bottomrule
 \end{tabular}
 \end{tableonecolumn}
 
@@ -238,7 +238,7 @@ Any matrix that stores a spell with an experience point cost costs an additional
 
 While wearing this ring, you gain the \nameref{sec:WildEmpathy} class feature, as a 3rd-level Ranger. If you already have the class feature, you instead gain a +3 bonus on Wild Empathy checks.
 
-%\paragraph{Physical Description:} STUFF
+
 
 \paragraph{Prerequisites:} \nameref{Feat:ForgeRing}, \nameref{sec:WildEmpathy} class feature
 
@@ -447,8 +447,6 @@ A spellcaster can use a matrix to put a spell into the minor ring of spell stori
 
 The ring magically imparts to the wearer the names of all spells currently stored within it.
 
-%\paragraph{Physical Description:} STUFF
-
 \paragraph{Prerequisites:} \nameref{Feat:ForgeRing}, \nameref{Spell:ImbueWithSpellAbility}
 
 \paragraph{Cost to Create:} 9000gp, 720 XP
@@ -478,8 +476,6 @@ As a \nameref{Item:SpellStoringMinor}, except it holds up to nineteen spell poin
 
 Three times per day, the bearer of this ring can use \nameref{Spell:SpellTurning}, as the spell.
 
-%\paragraph{Physical Description:} STUFF
-
 \paragraph{Prerequisites:} \nameref{Feat:ForgeRing}, \nameref{Spell:SpellTurning}
 
 \paragraph{Cost to Create:} 49140gp, 3931 XP
@@ -492,8 +488,6 @@ Three times per day, the bearer of this ring can use \nameref{Spell:SpellTurning
 \\ \textbf{Weight:} -
 
 At will, the bearer of this ring can use \nameref{Spell:Telekinesis}, as the spell.
-
-%\paragraph{Physical Description:} STUFF
 
 \paragraph{Prerequisites:} \nameref{Feat:ForgeRing}, \nameref{Spell:Telekinesis}
 
@@ -641,10 +635,10 @@ If the rod's effect can't take place for some reason (such as due to the rod bei
 \caption{Rod of Wonder}
 \label{tab:RodOfWonder}
 \centering
-\begin{tabular}{|c|p{0.92\textwidth}|}
-\hline
+\begin{tabular}{lp{0.85\textwidth}}
+\toprule
 \textbf{d\%}&\textbf{Wondrous Effect}\\
-\hline
+\midrule
 01-05&\nameref{Spell:Slow} creature pointed at for 10 rounds (Will DC 16 negates).\\
 06-10&\nameref{Spell:FaerieFire}, centered on the target.\\
 11-15&Deludes wielder for 1 round into believing the rod functions as indicated by a second die roll (no save).\\
@@ -667,7 +661,7 @@ If the rod's effect can't take place for some reason (such as due to the rod bei
 91-95&Shimmering colors dance and play over a 40-ft.-by-30-ft. area in front of rod. Creatures therein are blinded for 1d6 rounds (Fortitude DC 15 negates).\\
 96-97&Wielder (50\% chance) or target (50\% chance) turns permanently blue, green, or purple (no save). A \nameref{Spell:RemoveCurse} spell can restore the creature's original color.\\
 98-100&\nameref{Spell:TransmuteFleshAndStone} on target, \emph{Flesh to Stone} if the target is a creature made of flesh, \emph{Stone to Flesh} if the target is an object made of stone or a creature that is already petrified.\\
-\hline
+\bottomrule
 \end{tabular}
 \end{table*}
 The powers of the rod are Spell-like abilities if they duplicate the effects of spells, Supernatural abilities otherwise.
@@ -702,10 +696,10 @@ A wand's wielder cannot augment the spell contained within the wand or apply a m
 \begin{tableonecolumn}
 \caption{Wand Costs}
 \label{tab:WandCosts}
-\begin{tabular}{|c|r|}
-\hline
+\begin{tabular}{cr}
+\toprule
 \textbf{Spell Level}&\textbf{Market Price}\\
-\hline
+\midrule
 1st&750gp\\
 2nd&4500gp\\
 3rd&11250gp\\
@@ -715,9 +709,10 @@ A wand's wielder cannot augment the spell contained within the wand or apply a m
 7th&68250gp\\
 8th&90000gp\\
 9th&114750gp\\
-\hline
+\bottomrule
 \end{tabular}
 \end{tableonecolumn}
+
 Some wands have higher caster levels than the minimum spell level. Such wands have a cost increase of 750 gp $\times$ spell level per additional caster level above the minimum. For example, a \nameref{Spell:Fireball} wand crafted at caster level 5th would have a market price of 4500 gp [base cost] + 2 [CL adjustment] $\times$ 2 [spell level] $\times$ 750 = 7500 gp (Or simply 2 $\times$ 5 $\times$ 750 GP, as indicated by the \nameref{Feat:CraftWand} feat).
 
 Any wand that stores a spell with an experience point cost costs an additional 250 GP for each point of XP the spell requires (5GP per point of XP per charge).
@@ -797,15 +792,15 @@ All types of magical restraints prevent the free casting of spells, such as by S
 \caption{Magical Restraints}
 \label{tab:MagicalRestraints}
 \centering
-\begin{tabular}{|c|c|r|r|}
-\hline
+\begin{tabular}{ccrr}
+\toprule
 \textbf{Restraint Type}&\textbf{SP Reduction}&\textbf{Market Price}&\textbf{Cost to Create}\\
-\hline
+\midrule
 Lesser&1&1000gp&500gp, 40XP\\
 Average&3&6000gp&3000gp, 240XP\\
 Greater&5&12000gp&6000gp, 480XP\\
 Damping&$\infty$&24000gp&12000gp, 960XP\\
-\hline
+\bottomrule
 \end{tabular}
 \end{table*}
 
@@ -851,10 +846,10 @@ cast a spell. See \nameref{sec:UsingStoredSpellPoints} for more information.
 \caption{Pearls of Power}
 \label{tab:PearlsOfPower}
 \centering
-\begin{tabular}{|c|r|r|}
-\hline
+\begin{tabular}{crr}
+\toprule
 \textbf{Maximum SP Storage}&\textbf{Market Price}&\textbf{Cost to Create}\\
-\hline
+\midrule
 1&	1000gp	&500gp, 40XP\\
 3&	4000gp	&2000gp, 160XP\\
 5&	9000gp	&4500gp, 360XP\\
@@ -864,7 +859,7 @@ cast a spell. See \nameref{sec:UsingStoredSpellPoints} for more information.
 13&	49000gp	&24500gp, 1960XP\\
 15&	64000gp	&32000gp, 2560XP\\
 17&	81000gp	&40500gp, 3240XP\\
-\hline
+\bottomrule
 \end{tabular}
 \end{table*}
 
@@ -994,11 +989,11 @@ The effects of each symbol is detailed below. See also \nameref{tab:Symbols}.
 \label{tab:Symbols}
 \centering
 \makebox[\textwidth]{
-\begin{tabular}{|l|l|l|c|c|l|}
-\hline
+\begin{tabular}{lllccl}
+\toprule
 \textbf{Symbol}&\textbf{Market}&\textbf{Cost to}&\textbf{Save DC}&\textbf{Caster}&\textbf{Associated}\\
 &\textbf{Price}&\textbf{Create}&&\textbf{Level}&\textbf{Spell}\\
-\hline
+\midrule
 Fire &		100gp	&50gp, 4XP	&19&7&Fireball\\
 Sleep&		1000gp	&500gp, 40XP	&22&9&Sleep\\
 Pain&		1000gp	&500gp, 40XP	&22&9&Crushing Despair\\
@@ -1008,7 +1003,7 @@ Stunning&	5000gp	&2500gp, 200XP	&25&13&Daze\\
 Weakness&	5000gp	&2500gp, 200XP	&25&13&Ray of Enfeeblement\\
 Insanity&	5000gp	&2500gp, 200XP	&27&15&Confusion\\
 Death&		5000gp	&2500gp, 200XP	&27&15&Finger of Death\\
-\hline
+\bottomrule
 \end{tabular}}
 \end{table*}
 \emph{Note:} Symbols are a form of magic traps. 

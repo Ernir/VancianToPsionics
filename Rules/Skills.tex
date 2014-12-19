@@ -23,7 +23,7 @@ you must add the level of the spell you are trying to cast to the appropriate Co
 \centering
 \caption{Concentration}
 \label{tab:Concentration}
-\begin{tabular}{|p{0.3\textwidth}|p{0.7\textwidth}|}
+\begin{tabular}{p{0.3\textwidth}p{0.7\textwidth}}
 \hline
 \textbf{Concentration DC$^1$}&\textbf{Distraction}\\
 \hline
@@ -78,11 +78,10 @@ You can identify spells and magic effects. The DCs for Spellcraft checks relatin
 \centering
 \caption{Spellcraft}
 \label{tab:Spellcraft}
-%\resizebox{\textwidth}{!}{
-\begin{tabular}{|p{0.3\textwidth}|p{0.7\textwidth}|}
-\hline
+\begin{tabular}{p{0.3\textwidth}p{0.7\textwidth}}
+\toprule
 \textbf{DC}&\textbf{Task}\\
-\hline
+\midrule
 10 + spell points spent on spell&Identify a spell being cast. (You must see or hear the spell's verbal or somatic components.) No action required. No retry.\\
 10 + spell level&Research original spell.\\
 10 + hardness + thickness in feet&Bypass barrier with \nameref{Feat:BurrowingSpell} feat.\\
@@ -96,9 +95,8 @@ You can identify spells and magic effects. The DCs for Spellcraft checks relatin
 25 &Identify a potion. Requires 1 minute. No retry.\\
 30 &Identify the effects of a \nameref{Spell:PlanarBinding} spell when subjected to it. No action required. No retry.\\
 30 or higher&Understand a strange or unique magical effect, such as the effects of a magic stream. Time required varies. No retry.\\
-\hline
+\bottomrule
 \end{tabular}
-%}
 \normalsize
 \end{table*}
 \subsubsection{Action}
@@ -131,11 +129,10 @@ You must consciously choose which requirement to emulate. That is, you must know
 \caption{Use Magic Device}
 \small
 \label{tab:UseMagicDevice}
-%\resizebox{\textwidth}{!}{
-\begin{tabular}{|l|l|}
-\hline
+\begin{tabular}{ll}
+\toprule
 \textbf{DC}&\textbf{Task}\\
-\hline
+\midrule
 25&Activate blindly\\
 25+spell level&Decipher a written spell\\
 20+caster level&Use a matrix\\
@@ -143,9 +140,8 @@ You must consciously choose which requirement to emulate. That is, you must know
 20&Emulate a class feature\\
 25&Emulate an ability score\\
 30&Emulate an alignment\\
-\hline
+\bottomrule
 \end{tabular}
-%}
 \normalsize
 \end{table*}
 \paragraph{Activate Blindly:}

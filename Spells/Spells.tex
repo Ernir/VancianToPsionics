@@ -2043,30 +2043,20 @@ On rare occasions, this divination may be blocked by a direct intervention of de
 \caption{Contact Other Plane}
 \label{tab:ContactOtherPlane}
 \makebox[\textwidth]{
-%\begin{tabular}{|p{5cm}p{2.3cm}p{1.2cm}p{1.2cm}p{1.2cm}p{1.3cm}|}
-\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}|llllll|}
-\hline
-\multirow{2}{*}{Plane Contacted}	&Avoid Int/Cha	&True		&Don't		&\multirow{2}{*}{Lie$^4$}&Random\\
-		&Decrease$^1$	&Answer$^2$	&Know$^3$	&	&Answer$^5$\\
-\hline
-Elemental Plane&DC 7/1 week&01-34&35-62&63-83&84-100\\
-\qquad (appropriate)$^6$&(DC 7/1 week)&(01-68)&(69-75)&(76-98)&(99-100)\\
-Positive/Negative Energy Plane&DC 8/1 week&01-39&40-65&66-86&87-100\\
-Astral Plane&DC 9/1 week&01-44&45-67&68-88&89-100\\
-Outer Plane, demideity&DC 10/2 weeks&01-49&50-70&71-91&92-100\\
-Outer Plane, lesser deity&DC 12/3 weeks&01-60&61-75&76-95&96-100\\
-Outer Plane, intermediate deity&DC 14/4 weeks&01-73&74-81&82-98&99-100\\
-Outer Plane, greater deity&DC 16/5 weeks&01-88&89-90&91-99&100\\
-\hline
-%May Knuth forgive me for the hack that is about to take place...
-% \multicolumn{6}{p{\textwidth}}{\small $^1$You must succeed on an key ability modifier check against this DC to avoid a decrease in Intelligence and Charisma. 
-% If the check fails, your Intelligence and Charisma scores each fall to 8 for the stated duration, 
-% and you become unable to cast spells. If you lose Intelligence and Charisma, no answer is received.}\\
-% \multicolumn{6}{p{\textwidth}}{\small $^2$You get a true, one-word answer. Questions that cannot be answered in this way are answered randomly.}\\
-% \multicolumn{6}{p{\textwidth}}{\small $^3$The entity tells you that it doesn't know.}\\
-% \multicolumn{6}{p{\textwidth}}{\small $^4$The entity intentionally lies to you.}\\
-% \multicolumn{6}{p{\textwidth}}{\small $^5$The entity tries to lie but doesn't know the answer, so it makes one up.}\\
-% \multicolumn{6}{p{\textwidth}}{\small $^6$The entries in parentheses are for questions that pertain to the appropriate Elemental Plane.}\\
+\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}llllll}
+\toprule
+Plane Contacted			&Avoid Int/Cha	&True		&Don't		&Lie$^4$	&Random\\
+				&Decrease$^1$	&Answer$^2$	&Know$^3$	&		&Answer$^5$\\
+\midrule
+Elemental Plane			&DC 7/1 week	&01-34		&35-62		&63-83		&84-100\\
+\qquad (appropriate)$^6$	&(DC 7/1 week)	&(01-68)	&(69-75)	&(76-98)	&(99-100)\\
+Positive/Negative Energy Plane	&DC 8/1 week	&01-39		&40-65		&66-86		&87-100\\
+Astral Plane			&DC 9/1 week	&01-44		&45-67		&68-88		&89-100\\
+Outer Plane, demideity		&DC 10/2 weeks	&01-49		&50-70		&71-91		&92-100\\
+Outer Plane, lesser deity	&DC 12/3 weeks	&01-60		&61-75		&76-95		&96-100\\
+Outer Plane, intermediate deity	&DC 14/4 weeks	&01-73		&74-81		&82-98		&99-100\\
+Outer Plane, greater deity	&DC 16/5 weeks	&01-88		&89-90		&91-99		&100\\
+\bottomrule
 \end{tabular*}}
 \begin{enumerate}
  \small
@@ -2079,7 +2069,6 @@ and you become unable to cast spells. If you lose Intelligence and Charisma, no 
  \item The entity tries to lie but doesn't know the answer, so it makes one up.
  \item The entries in parentheses are for questions that pertain to the appropriate Elemental Plane.
 \end{enumerate}
-
 \end{table*}
 
 \subsubsection{Contagion}
@@ -2121,10 +2110,10 @@ targets use the disease's normal save DC, rather than the save DC for this spell
 \begin{tableonecolumn}
 \label{tab:Contagion}
 \caption{Contagion diseases}
-\begin{tabular}{|l|l|l|}
-\hline
+\begin{tabular}{lll}
+\toprule
 Disease&Damage\\ 
-\hline
+\midrule
 Blinding sickness&1d4 Str*\\ 
 Cackle fever&1d6 Wis\\ 
 Filth fever&1d3 Dex and 1d3 Con\\ 
@@ -2132,7 +2121,7 @@ Mindfire&1d4 Int\\
 Red ache&1d6 Str\\ 
 Shakes&1d8 Dex\\ 
 Slimy doom&1d4 Con*\\ 
-\hline
+\bottomrule
 \end{tabular}
 
 *See the disease's description for additional effects.
@@ -2340,16 +2329,16 @@ You can call forth weather appropriate to the climate and season of the area you
 \caption{Control Weather}
 \label{tab:ControlWeather}
 \begin{center}
-\begin{tabular}{|l|l|}
-\hline
+\begin{tabular}{ll}
+\toprule
 Season &Possible Weather\\
-\hline
+\midrule
 Spring &Tornado, thunderstorm, sleet storm, or hot weather\\
 Summer &Torrential rain, heat wave, or hailstorm\\
 Autumn &Hot or cold weather, fog, or sleet\\
 Winter &Frigid cold, blizzard, or thaw\\
 Late winter &Hurricane-force winds or early spring (coastal area)\\
-\hline
+\bottomrule
 \end{tabular}
 \end{center}
 \end{table*}
@@ -3057,15 +3046,15 @@ How long the signs of the undead creature passing remain depends on its strength
 \label{tab:DetectUndead}
 \caption{Detect Undead}
 \centering
-\begin{tabular}{|lll|}
-\hline
+\begin{tabular}{lll}
+\toprule
 HD&Strength&Duration\\
-\hline
+\midrule
 1 or lower&Faint&1d6 rounds\\
 2-4&Moderate&1d6 minutes\\
 5-10&Strong&1d6$\times$10 minutes\\
 11 or higher&Overwhelming& 1d6 days\\
-\hline
+\bottomrule
 \end{tabular}
 \end{table*}
 The spell can penetrate barriers, but 1 foot of stone, 
@@ -3980,14 +3969,14 @@ The effects are concurrent.
 \begin{tableonecolumn}
 \caption{Eyebite}
 \label{tab:Eyebite}
-\begin{tabular}{|l|l|}
-\hline
+\begin{tabular}{ll}
+\toprule
 HD&Effect\\
-\hline
+\midrule
 10 or more&Sickened\\
 9 or less&Panicked, sickened\\
 4 or less&Comatose, panicked, sickened\\
-\hline
+\bottomrule
 \end{tabular}\\
 \end{tableonecolumn}
 The effects are:
@@ -6020,16 +6009,16 @@ On the first round of the spell, the metal becomes uncomfortable to touch but de
 \label{tab:HeatChillMetal}
 \caption{Heat/Chill Metal}
 
-\begin{tabular}{|c|l|l|}
-\hline
+\begin{tabular}{cll}
+\toprule
 Round&Metal Temperature&Damage\\
-\hline
+\midrule
 1&Warm/Cold&None\\
 2&Hot/Icy&1d4 points\\
 3-5&Searing/Freezing&2d4 points\\
 6&Hot/Icy&1d4 points\\
 7&Warm/Cold&None\\
-\hline
+\bottomrule
 \end{tabular}
 
 \end{tableonecolumn}
@@ -8375,17 +8364,17 @@ This, most basic form of the spell is referred to as Power Word: Blind. See the 
 \label{tab:PowerWord}
 \caption{Power Word durations}
 \begin{center}
-\begin{tabular}{|l|c|c|c|}
-\hline
+\begin{tabular}{lccc}
+\toprule
 Target's hit&Power Word&Power Word&Power Word\\
 Points&Blind&Stun&Kill\\
-\hline
+\midrule
 $<$50&Permanent&4d4 rounds&Instantaneous\\
 51-100&1d4+1 minutes&2d4 rounds&Instantaneous\\
 101-150&1d4+1 minutes&1d4 rounds&-\\
 151-200&1d4+1 rounds&-&-\\
 200$<$&-&-&-\\
-\hline
+\bottomrule
 \end{tabular}
 \end{center}
 \end{table*}
@@ -8518,22 +8507,19 @@ See the \nameref{tab:PrismaticSpray} table for descriptions of the individual be
 \caption{Prismatic Spray}
 \label{tab:PrismaticSpray}
 \begin{center}
-\begin{tabular}{|c|lp{8cm}|}%damn hack...
-\hline
-1d8&Beam Color&Effect\\
-\hline
-1&Red&20 points fire damage (Reflex half)\\
-2&Orange&40 points acid damage (Reflex half)\\
-3&Yellow&80 points electricity damage (Reflex half)\\
-4&Green&Poison (Kills; Fortitude partial, take 1d6 points\\
-&& of Constitution damage instead on a successful save)\\
-5&Blue&Turned to stone, as if by a \nameref{Spell:TransmuteFleshAndStone} spell (Fortitude negates)\\
-6&Indigo&Permanently confused, as if by an augmented\\
-&&\nameref{Spell:Confusion} spell (Will negates)\\
-7&Violet&Sent to a randomly determined plane, as if by\\
-&& an unaugmented \nameref{Spell:PlaneShift} spell (Will negates)\\
-8&\multicolumn{2}{l|}{Struck by two rays; roll twice more, ignoring any ``8`` results.}\\
-\hline
+\begin{tabular}{clp{8cm}}%damn hack...
+\toprule
+1d8	&Beam Color&Effect\\
+\midrule
+1	&Red			&20 points fire damage (Reflex half)\\
+2	&Orange			&40 points acid damage (Reflex half)\\
+3	&Yellow			&80 points electricity damage (Reflex half)\\
+4	&Green			&Poison (Kills; Fortitude partial, take 1d6 points of Constitution damage instead on a successful save)\\
+5	&Blue			&Turned to stone, as if by a \nameref{Spell:TransmuteFleshAndStone} spell (Fortitude negates)\\
+6	&Indigo			&Permanently confused, as if by an augmented \nameref{Spell:Confusion} spell (Will negates)\\
+7	&Violet			&Sent to a randomly determined plane, as if by an unaugmented \nameref{Spell:PlaneShift} spell (Will negates)\\
+8	&Struck by two rays	&Roll twice more, ignoring any ``8`` results.\\
+\bottomrule
 \end{tabular}
 \end{center}
 \end{table*}
@@ -8573,10 +8559,10 @@ the order in which they appear and their effects on creatures trying to attack y
 \caption{Prismatic Wall}
 \label{tab:PrismaticWall}
 \begin{center}
-\begin{tabular}{|c|lp{8cm}|}
-\hline
+\begin{tabular}{clp{8cm}}
+\toprule
 Order&Color&Effect of color\\
-\hline
+\midrule
 1st	&Red	&Stops nonmagical ranged weapons.\\
 	&	&20 points fire damage (Reflex half).\\
 2nd	&Orange	&Stops magical ranged weapons.\\
@@ -8584,19 +8570,19 @@ Order&Color&Effect of color\\
 3rd	&Yellow	&Stops poisons, gases, and petrification.\\
 	&	&80 points electricity damage (Reflex half)\\
 4th	&Green	&Stops breath weapons.\\
-	&	&Poison (Kills; Fortitude partial, take 1d6 points\\
-	&	&of Constitution damage instead on a successful save)\\
+	&	&Poison (Kills; Fortitude partial, take 1d6 points of Constitution damage instead on a successful save)\\
 5th	&Blue	&Stops Divination and mental attacks.\\
 	&	&Turned to stone, as if by a \nameref{Spell:TransmuteFleshAndStone} spell (Fortitude negates)\\
 6th	&Indigo	&Stops all spells.\\
-	&	&Permanently \emph{confused}, as if by an augmented\\
-	&	&\nameref{Spell:Confusion} spell (Will negates)\\
+	&	&Permanently \emph{confused}, as if by an augmented \nameref{Spell:Confusion} spell (Will negates)\\
 7th	&Violet	&Energy field destroys all objects and effects.$^1$\\
-	&	&Sent to a randomly determined plane, as if by\\
-	&	& an unaugmented \nameref{Spell:PlaneShift} spell (Will negates)\\
-\hline
-\multicolumn{3}{p{10cm}}{\small $^1$ The violet effect makes the special effects of the other six colors redundant, but these six effects are included here because certain magic items can create prismatic effects one color at a time, and spell resistance might render some colors ineffective (see above).}
+	&	&Sent to a randomly determined plane, as if by an unaugmented \nameref{Spell:PlaneShift} spell (Will negates)\\
+\bottomrule
 \end{tabular}
+\begin{enumerate}
+ \small
+ \item The violet effect makes the special effects of the other six colors redundant, but these six effects are included here because certain magic items can create prismatic effects one color at a time, and spell resistance might render some colors ineffective (see above).
+\end{enumerate}
 \end{center}
 \end{table*}
 
@@ -9135,25 +9121,24 @@ Constructs, elementals, outsiders, and undead creatures can't be raised.
 The spell cannot bring back a creature that has died of old age.
 
 To determine the race of the creature's new body, roll on the \nameref{tab:Reincarnate} table.
-%For a humanoid creature, the new incarnation is determined using reincarnate table. 
-%For nonhumanoid creatures, a similar table of creatures of the same type should be created. 
+
 Whatever the result, a Reincarnate spell can never result in a creature's level adjustment or number of hit dice
 (aside from level loss, see above) changing.
 \begin{tableonecolumn}
 \caption{Reincarnate}
 \label{tab:Reincarnate}
-\begin{tabular}{|l|l|}
-\hline
-d\%&Incarnation\\
-\hline
-$\leq$5&Caster's race\\
-6-10&Target's choice (other than old race)\\
-11-40&Same as old race\\
-41-50&Related race (GM's adjucation)\\
-51-60&Decidedly unrelated race (GM's adjucation)\\
-61-90&Roll randomly among races in the setting\\
-91+&GM's choice\\
-\hline
+\begin{tabular}{ll}
+\toprule
+d\%	&Incarnation\\
+\midrule
+$\leq$5	&Caster's race\\
+6-10	&Target's choice (other than old race)\\
+11-40	&Same as old race\\
+41-50	&Related race (GM's adjucation)\\
+51-60	&Decidedly unrelated race (GM's adjucation)\\
+61-90	&Roll randomly among races in the setting\\
+91+	&GM's choice\\
+\bottomrule
 \end{tabular}
 \end{tableonecolumn}
 To determine the ability scores of a reincarnated creature, eliminate its old racial adjustments to ability scores,
@@ -9541,22 +9526,25 @@ refer to the \nameref{tab:ReverseGravity} table for a reference on the vertical 
 \begin{tableonecolumn}
 \caption{Reverse Gravity Angle Examples}
 \label{tab:ReverseGravity}
-\begin{tabular}{|r|r|r|}
-\hline
-Angle$^1$&Horizontal&Maximum\\
-&distance$^2$&height$^2$\\
-\hline
- 0$^\circ$&500 feet&  0 feet\\
-15$^\circ$&485 feet&130 feet\\
-30$^\circ$&435 feet&250 feet\\
-45$^\circ$&355 feet&355 feet\\
-60$^\circ$&250 feet&435 feet\\
-75$^\circ$&130 feet&485 feet\\
-90$^\circ$&  0 feet&500 feet\\
-\hline
-\multicolumn{3}{p{5cm}}{\small $^1$ An angle with respect to the ground the creature was standing on.}\\
-\multicolumn{3}{p{5cm}}{\small $^2$ With respect to the ground the creature was standing on.}
+\begin{tabular}{rrr}
+\toprule
+Angle$^1$	&Horizontal	&Maximum\\
+		&distance$^2$	&height$^2$\\
+\midrule
+ 0$^\circ$	&500 feet	&  0 feet\\
+15$^\circ$	&485 feet	&130 feet\\
+30$^\circ$	&435 feet	&250 feet\\
+45$^\circ$	&355 feet	&355 feet\\
+60$^\circ$	&250 feet	&435 feet\\
+75$^\circ$	&130 feet	&485 feet\\
+90$^\circ$	&  0 feet	&500 feet\\
+\bottomrule
 \end{tabular}
+\begin{enumerate}
+ \item An angle with respect to the ground the creature was standing on.
+ \item With respect to the ground the creature was standing on.
+\end{enumerate}
+
 \end{tableonecolumn}
 A creature always falls straight down after travelling 500' in this fashion.
 
@@ -9754,25 +9742,27 @@ If the save succeeds, you can't attempt to scry on that subject again for 24 hou
 \caption{Scrying save modifiers}
 \label{tab:Scrying}
 \begin{center}
-\begin{tabular}{|l|c|}
-\hline
+\begin{tabular}{lc}
+\toprule
 Knowledge & Will Save Modifier$^1$\\
-\hline
+\midrule
 None$^2$&+10\\
 Secondhand (you have heard of the subject)&+5\\
 Firsthand (you have met the subject)&+0\\
 Familiar (you know the subject well)&-5\\
-\hline
+\midrule
 Connection&Will Save Modifier\\
-\hline
+\midrule
 Likeness or picture&-2\\
 Possession or garment&-4\\
 Body part, lock of hair, bit of nail, etc.&-10\\
 Subject is on another plane&+5\\
-\hline
-\multicolumn{2}{l}{\small $^1$Modifiers are cumulative.}\\
-\multicolumn{2}{l}{\small $^2$You must have some sort of connection to a creature you have no knowledge of.}\\
+\bottomrule
 \end{tabular}
+\begin{enumerate}
+ \item Modifiers are cumulative.
+ \item You must have some sort of connection to a creature you have no knowledge of.
+\end{enumerate}
 \end{center}
 \end{table*}
 
@@ -10754,15 +10744,15 @@ a resonating field is created. Roll randomly on the \nameref{tab:SpellTurning} t
 \label{tab:SpellTurning}
 \caption{Spell Turning}
 \begin{center}
-\begin{tabular}{|c|l|}
-\hline
+\begin{tabular}{cl}
+\toprule
 d\%&Effect\\
-\hline
+\midrule
 01-70&Spell drains away without effect.\\
 71-80&Spell affects both of you equally, at full effect.\\
 81-97&Both turning effects are rendered nonfunctional for 1d4 minutes.\\
 98-100&Both of you go through a rift to a randomly determined plane.\\
-\hline
+\bottomrule
 \end{tabular}
 \end{center}
 \end{table*}
@@ -11620,16 +11610,16 @@ Refer to the following information for definitions of the terms on the table.
 \caption{Teleport destinations}
 \begin{center}
 \makebox[\textwidth]{
-\begin{tabular}{|l|l|l|l|l|}
-\hline
+\begin{tabular}{lllll}
+\toprule
 Familiarity&On Target&Off Target&Similar Area&Mishap\\
-\hline
+\midrule
 Very familiar&01-97&98-99&100&-\\
 Studied carefully&01-94&95-97&98-99&100\\
 Seen casually&01-88&89-94&95-98&99-100\\
 Viewed once&01-76&77-88&89-96&97-100\\
 False destination (1d20+80)&-&-&81-92&93-100\\
-\hline
+\bottomrule
 \end{tabular}}
 \end{center}
 \end{table*}
@@ -12882,18 +12872,18 @@ described on the \nameref{tab:WordOfGod} table. This includes you, if you are no
 \label{tab:WordOfGod}
 \caption{Word of God}
 \makebox[\textwidth]{
-\begin{tabular}{|l|cccc|l|}
-\hline
-&\multicolumn{4}{c|}{Alignment selected}&\\
+\begin{tabular}{lccccl}
+\toprule
+&\multicolumn{4}{c}{Alignment selected}&\\ \cmidrule(r){2-5}
 $\leq$HD&Chaotic&Evil&Good&Law&Duration\\
 &(Word of Chaos)&(Blasphemy)&(Holy Word)&(Dictum)&\\
-\hline
+\midrule
 14&Unaffected&Unaffected&Unaffected&Unaffected&N/A\\
 13&Deafened&Deafened&Deafened&Deafened&Permanent\\
 9-12&Stunned (1d3)&Blinded (2d4)&Nauseated (1d4)&Dazed (1d3)&Rounds, see entry\\
 4-8&Paralyzed&Paralyzed&Paralyzed&Paralyzed&1d10 minutes\\
 3&Killed&Killed&Killed&Killed&Instantaneous\\
-\hline
+\bottomrule
 \end{tabular}}
 \end{table*}
 

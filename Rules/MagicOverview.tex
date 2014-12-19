@@ -224,11 +224,11 @@ The results of this equation are summarized on the \nameref{tab:BonusSpellPoints
 \caption{Ability Modifiers and Bonus Spell Points}
 \label{tab:BonusSpellPoints}
 \makebox[\textwidth]{\resizebox{\textwidth}{!}{
-\begin{tabular}{|p{0.06\textwidth}|*{19}{p{0.025\textwidth}}p{0.03\textwidth}|}
-\hline
-Ability&\multicolumn{20}{c|}{Bonus Spell Points (by Caster Level)}\\
+\begin{tabular}{p{0.06\textwidth}*{19}{p{0.025\textwidth}}p{0.03\textwidth}}
+\toprule
+Ability&\multicolumn{20}{c}{Bonus Spell Points (by Caster Level)}\\
 Score&	1st&	2nd&	3rd&	4th&	5th&	6th&	7th&	8th&	9th&	10th&	11th&	12th&	13th&	14th&	15th&	16th&	17th&	18th&	19th&	20th\\
-\hline
+\midrule
 10-11&	0&	0&	0&	0&	0&	0&	0&	0&	0&	0&	0&	0&	0&	0&	0&	0&	0&	0&	0&	0\\
 12-13&	0&	1&	1&	2&	2&	3&	3&	4&	4&	5&	5&	6&	6&	7&	7&	8&	8&	9&	9&	10\\
 14-15&	1&	2&	3&	4&	5&	6&	7&	8&	9&	10&	11&	12&	13&	14&	15&	16&	17&	18&	19&	20\\
@@ -245,7 +245,7 @@ Score&	1st&	2nd&	3rd&	4th&	5th&	6th&	7th&	8th&	9th&	10th&	11th&	12th&	13th&	14th
 36-37&	6&	13&	19&	26&	32&	39&	45&	52&	58&	65&	71&	78&	84&	91&	97&	104&	110&	117&	123&	130\\
 38-39&	7&	14&	21&	28&	35&	42&	49&	56&	63&	70&	77&	84&	91&	98&	105&	112&	119&	126&	133&	140\\
 40-41&	7&	15&	22&	30&	37&	45&	52&	60&	67&	75&	82&	90&	97&	105&	112&	120&	127&	135&	142&	150\\
-\hline
+\bottomrule
 \end{tabular}}}
 \end{table*}
 \subsubsection{Daily Spell Point Acquisition:}
@@ -780,23 +780,23 @@ The terms “object” and “harmless” mean the same thing for spell resistan
 \subsubsection{Spell Points}
 All spells have a Spell Points line, indicating the spell's cost. This is the minimum number of spell points that must be paid in order to cast the spell.
 The spellcasting character class tables show how many spell points a character has access to each day, depending on level.
-A spell's cost is determined by its spell level, as shown on the Spell Points by Spell Level table. %table \ref{tab:SpellPointsBySpellLevel}. 
+A spell's cost is determined by its spell level, as shown on the \nameref{tab:SpellPointsBySpellLevel} table. 
 Every spell's cost is noted in its description for ease of reference.
-\begin{center}
-\resizebox{7cm}{!}{
-\begin{tabular}{|l|*{9}{c|}}
-\multicolumn{10}{c}{\textbf{Spell Points by Spell Level}}\\
-\hline
+\begin{tableonecolumn}
+\caption{Spell Points by Spell Level}
+\label{tab:SpellPointsBySpellLevel}
+\begin{tabular}{l*{9}{c}}
+\toprule
 \textbf{Level}&1&2&3&4&5&6&7&8&9\\
-\hline
+\midrule
 \textbf{Cost}&1&3&5&7&9&11&13&15&17\\
-\hline
-\end{tabular}}
-\end{center}
+\bottomrule
+\end{tabular}
+\end{tableonecolumn}
 
 \paragraph{Spell Point Limit:} 
 The spell point cost mentioned in each spell's description is the minimum number of spell points needed to cast the spell. 
-You can, if you wish, spend more than this minimum number on a spell, usually to increase the spell's saving throwDC, or to use an augment the spell may have.
+You can, if you wish, spend more than this minimum number on a spell, usually to increase the spell's saving throw DC, or to use an augment the spell may have.
 The maximum number of points you can spend on a spell (for any reason) is equal to your caster level (the fundamental rule of magic).
 
 \paragraph{XP Cost (XP):} On the same line that the spell point cost of a spell is indicated, the spell's experience point cost, if any, is noted. Particularly powerful effects entail an experience point cost to you. No spell or power can restore XP lost in this manner. You cannot spend so much XP that you lose a level, so you cannot cast a spell with an XP cost unless you have enough XP to spare. However, you can, on gaining enough XP to attain a new level, use those XP for casting a spell rather than keeping them and advancing a level. The XP are expended when you cast the spell, whether or not the casting succeeds.
