@@ -17,11 +17,11 @@ The Ranger's class skills (and the key ability for each skill) are Climb (Str), 
 \caption{The Ranger}
 \label{tab:Ranger}
 \makebox[\textwidth]{
-\begin{tabular}{|l|l|c|c|c|l|c|c|c|}
-\hline
-&&\textbf{Fort}&\textbf{Ref}&\textbf{Will}&&&\textbf{Spells}&\textbf{Max}\\
-\textbf{Level}&\textbf{BAB}&\textbf{save}&\textbf{save}&\textbf{save}&\textbf{Special}&\textbf{SP/day}&\textbf{known}&\textbf{level}\\
-\hline
+\begin{tabular}{llccclccc}
+\toprule
+	&	&	&	&	&					&\multicolumn{3}{c}{Spellcasting}\\ \cmidrule(r){7-9}
+Level	&BAB	&Fort 	&Ref 	&Will 	&Special				&SP/day	&Known&Max level\\
+\midrule
 1st &+1			&+2 &+2 &+0	&Combat Style, Favored			&0&1&1st\\
     &			&&&		&Enemy, Wild Empathy			&&&\\
 2nd &+2 		&+3 &+2 &+0 	&Bonus Feat				&1 &2 &1st\\
@@ -48,41 +48,7 @@ The Ranger's class skills (and the key ability for each skill) are Climb (Str), 
 \hline
 \end{tabular}}
 \end{table*}
-% \begin{table*}
-% \caption{The Ranger}
-% \label{tab:Ranger}
-% \makebox[\textwidth]{
-% \begin{tabular}{|l|l|c|c|c|l|c|c|c|}
-% \hline
-% \multirow{2}{*}{\textbf{Level}}&\multirow{2}{*}{\textbf{BAB}}&\textbf{Fort}&\textbf{Ref}&\textbf{Will}&\multirow{2}{*}{\textbf{Special}}&\multirow{2}{*}{\textbf{SP/day}}&\textbf{Spells}&\textbf{Max}\\
-% &&\textbf{save}&\textbf{save}&\textbf{save}&&&\textbf{known}&\textbf{level}\\
-% \hline
-% \multirow{2}{*}{1st} &\multirow{2}{*}{+1}			&\multirow{2}{*}{+2} &\multirow{2}{*}{+2} &\multirow{2}{*}{+0} 	&Combat Style, Favored 			&\multirow{2}{*}{0} &\multirow{2}{*}{1} &\multirow{2}{*}{1st}\\
-%     &			&   &	&	&Enemy, Wild Empathy			&  &  &\\
-% 2nd &+2 		&+3 &+2 &+0 	&Bonus Feat				&1 &2 &1st\\
-% \multirow{2}{*}{3rd} &\multirow{2}{*}{+3} 		&\multirow{2}{*}{+3} &\multirow{2}{*}{+3} &\multirow{2}{*}{+1} 	&Intuition, Pass without		&\multirow{2}{*}{3} &\multirow{2}{*}{3} &\multirow{2}{*}{1st}\\ 
-%     &			&   &	&	&Trace					&  &  &\\
-% 4th &+4 		&+4 &+4 &+1 	&-					&5 &4 &2nd\\
-% 5th &+5 		&+4 &+4 &+1 	&Favored Enemy				&7 &5 &2nd\\
-% \multirow{2}{*}{6th} &\multirow{2}{*}{+6/+1} 		&\multirow{2}{*}{+5} &\multirow{2}{*}{+5} &\multirow{2}{*}{+2} 	&Bonus Feat, Improved	&\multirow{2}{*}{11} &\multirow{2}{*}{6} &\multirow{2}{*}{2nd}\\
-%     &			&   &	&	&Combat Style				&   &  &\\
-% 7th &+7/+2 		&+5 &+5 &+2 	&-					&15 &7 &3rd\\
-% 8th &+8/+3 		&+6 &+6 &+2 	&Camouflage				&19 &8 &3rd\\
-% 9th &+9/+4 		&+6 &+6 &+3 	&Favored Enemy				&23 &9 &3rd\\
-% 10th &+10/+5		&+7 &+7 &+3 	&Bonus Feat				&27 &10 &4th\\
-% 11th &+11/+6/+1		&+7 &+7 &+3 	&Combat Style Mastery			&35 &11 &4th\\
-% 12th &+12/+7/+2 	&+8 &+8 &+4 	&-					&43 &12 &4th\\
-% 13th &+13/+8/+3 	&+8 &+8 &+4 	&Favored Enemy				&51 &13 &5th\\
-% 14th &+14/+9/+4 	&+9 &+9 &+4 	&Bonus Feat				&59 &14 &5th\\
-% 15th &+15/+10/+5	&+9 &+9 &+5 	&Hide in Plain Sight			&67 &15 &5th\\
-% 16th &+16/+11/+6/+1 	&+10 &+10 &+5 	&-					&79 &16 &6th\\
-% 17th &+17/+12/+7/+2 	&+10 &+10 &+5 	&Favored Enemy				&91 &17 &6th\\
-% 18th &+18/+13/+8/+3 	&+11 &+11 &+6 	&Bonus Feat				&103 &18 &6th\\
-% 19th &+19/+14/+9/+4 	&+11 &+11 &+6 	&-					&115 &19 &6th\\
-% 20th &+20/+15/+10/+5	&+12 &+12 &+6 	&Bonus Feat				&127 &20 &6th\\
-% \hline
-% \end{tabular}}
-% \end{table*}
+
 \subsubsection{Class Features}
 All the following are class features of the Ranger.
 
@@ -126,16 +92,13 @@ It applies fully even against creatures that are immune to critical hits or have
 At 5th level and again at Ranger levels 9th, 13th and 17th, the Ranger may select an additional favored enemy from those given on the table. 
 In addition, at each such interval, the bonus on skill checks against all your favored enemies (including the one just selected) increases by 2, and the bonus damage increases by one die (d6).
 
-If the Ranger chooses humanoids or outsiders as a favored enemy, he must also choose an associated subtype, as indicated on the table. 
-If a specific creature falls into more than one category of favored enemy, the Ranger's bonuses do not stack; he simply uses whichever bonus is higher.
-
 \begin{tableonecolumn}
 \caption{Ranger Favored Enemies}
 \label{tab:RangerFE}
-\begin{tabular}{|l|l|}
-\hline
+\begin{tabular}{ll}
+\toprule
 Type (Subtype)&Type (Subtype)\\
-\hline
+\midrule
 Aberration&Humanoid(reptilian)\\
 Animal&Magical Beast\\
 Construct&Monstrous Humanoid\\
@@ -152,9 +115,12 @@ Humanoid (gnome)&Outsider (water)\\
 Humanoid (halfling)&Plant\\
 Humanoid (human)&Undead\\
 Humanoid (orc)&Vermin\\
-\hline
+\bottomrule
 \end{tabular}
 \end{tableonecolumn}
+
+If the Ranger chooses humanoids or outsiders as a favored enemy, he must also choose an associated subtype, as indicated on the table. 
+If a specific creature falls into more than one category of favored enemy, the Ranger's bonuses do not stack; he simply uses whichever bonus is higher.
 
 \paragraph[Wild Empathy]{Wild Empathy (Ex):}
 \label{sec:WildEmpathy}

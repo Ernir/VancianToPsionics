@@ -4,6 +4,24 @@
 - Avatar, elven Hierophant
 \end{quote}
 A Hierophant is a divine spellcaster who has begun to understand the bonds between himself and his power source on a more fundamental level than most.
+
+\begin{table*}
+\centering
+\caption{The Hierophant}
+\label{tab:Hierophant}
+\makebox[\textwidth]{
+\begin{tabular}{llcccll}
+\toprule
+Level	&BAB	&Fort 	&Ref 	&Will 	&Special		&Spellcasting\\
+\midrule
+1st	&+0	&+0	&+0	&+2	&Special Ability	&+1 level of existing class\\
+2nd	&+1	&+0	&+0	&+3	&Special Ability	&+1 level of existing class\\
+3rd	&+1	&+1	&+1	&+3	&Special Ability	&+1 level of existing class\\
+4th	&+2	&+1	&+1	&+4	&Special Ability	&+1 level of existing class\\
+5th	&+2	&+1	&+1	&+4	&Special Ability	&+1 level of existing class\\
+\bottomrule
+\end{tabular}}
+\end{table*}
 \paragraph{Hit Die:} d8
 \paragraph{Requirements:}
 To qualify to become a Hierophant, a character must fulfill all the following criteria.
@@ -13,24 +31,7 @@ To qualify to become a Hierophant, a character must fulfill all the following cr
 \paragraph{Class Skills}
 The Hierophant's class skills (and the key ability for each skill) are Concentration (Con), Craft (Int), Diplomacy (Cha), Heal (Wis), Knowledge (arcana) (Int), Knowledge (religion) (Int), Profession (Wis), and Spellcraft (Int).
 \paragraph{Skill Points at each level:} 4 + Int modifier.
-\begin{table*}
-\centering
-\caption{The Hierophant}
-\label{tab:Hierophant}
-\makebox[\textwidth]{
-\begin{tabular}{|l|l|c|c|c|c|l|}
-\hline
-\textbf{Level}&\textbf{BAB}&\textbf{Fort}&\textbf{Ref}&\textbf{Will}&\textbf{Special}&\textbf{Spellcasting}\\
-\hline
-1st	&+0	&+0	&+0	&+2	&Special Ability	&+1 level of existing class\\
-2nd	&+1	&+0	&+0	&+3	&Special Ability	&+1 level of existing class\\
-3rd	&+1	&+1	&+1	&+3	&Special Ability	&+1 level of existing class\\
-4th	&+2	&+1	&+1	&+4	&Special Ability	&+1 level of existing class\\
-5th	&+2	&+1	&+1	&+4	&Special Ability	&+1 level of existing class\\
-\hline
-\end{tabular}
-}
-\end{table*}
+
 \subsubsection{Class Features}
 All the following are Class Features of the Hierophant prestige class.
 
@@ -49,11 +50,14 @@ Effectively, these spell points are spent on ``fueling'' the Special Ability.
 \subparagraph{Blast Infidel (Su):}
 A Hierophant can use negative energy spells to their maximum effect on creatures with an alignment opposed to the Hierophant. (See the table below for a list of which alignments are opposed to each alignment.) 
 Any spell with a description that involves inflicting or channeling negative energy cast on a creature of the opposed alignment works as if under the effects of a \nameref{Feat:MaximizeSpell} feat (without using additional spell points or requiring the expenditure of the Hierophant's magical focus).
-\begin{center}
-\begin{tabular}{|p{3cm}|p{3.4cm}|}
-\hline
-\textbf{Hierophant Alignment}&\textbf{Opposed Alignment}\\
-\hline
+
+\begin{tableonecolumn}
+\caption{Blast Infidel}
+\label{tab:BlastInfidel}
+\begin{tabular}{p{2.4cm}p{4cm}}
+\toprule
+Hierophant Alignment&Opposed Alignment\\
+\midrule
 Lawful good&		Chaotic evil\\
 Neutral good&		Neutral evil\\
 Chaotic good&		Lawful evil\\
@@ -63,10 +67,15 @@ Chaotic neutral&	Lawful neutral\\
 Lawful evil&		Chaotic good\\
 Neutral evil&		Neutral good\\
 Chaotic evil&		Lawful good\\
-\hline
-\multicolumn{2}{p{6.4cm}}{\scriptsize $^1$A neutral Hierophant chooses one of these alignments to be the one that he opposes for the purposes of this special ability.}
+\bottomrule
 \end{tabular}
-\end{center}
+{\scriptsize
+\begin{enumerate}
+ \item A neutral Hierophant chooses one of these alignments to be the one that he opposes for the purposes of this special ability.
+\end{enumerate}
+}
+\end{tableonecolumn}
+
 Learning this Special Ability removes 11 spell points from the Hierophant's pool.
 
 \subparagraph{Divine Reach (Su):}

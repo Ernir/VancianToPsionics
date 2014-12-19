@@ -34,7 +34,7 @@
 % One-column environment definitons for multicol - not floating!
 
 \makeatletter
-\newenvironment{tableonecolumn}{\begin{center}\def\@captype{table}}{\end{center}}
+\newenvironment{tableonecolumn}{\begin{minipage}{6.4cm}\begin{center}\def\@captype{table}}{\end{center}\end{minipage}}
 
-\newenvironment{figureonecolumn}{\begin{center}\def\@captype{figure}}{\end{center}}
+\newenvironment{figureonecolumn}{\begin{minipage}{6.4cm}\begin{center}\def\@captype{figure}}{\end{center}\end{minipage}}
 \makeatother

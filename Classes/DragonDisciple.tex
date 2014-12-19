@@ -4,6 +4,30 @@
 - Kalas, human (by birth) Dragon Disciple
 \end{quote}
 A Dragon Disciple is a dragon-descended spellcaster realizing the power of his heritage.
+\begin{table*}
+\centering
+\caption{The Dragon Disciple}
+\small
+\label{tab:DragonDisciple}
+\makebox[\textwidth]{
+\begin{tabular}{llcccll}
+\toprule
+Level	&BAB	&Fort 	&Ref 	&Will 	&Special					&Spellcasting\\
+\midrule
+1st	&+0	&+2	&+0	&+2	&Natural armor (+1)				&+1 level of existing class\\
+2nd	&+1	&+3	&+0	&+3	&Ability boost (Str +2), claws and bite		&+1 level of existing class\\
+3rd	&+2	&+3	&+1	&+3	&Breath weapon					&+1 level of existing class\\
+4th	&+3	&+4	&+1	&+4	&Ability boost (Str +2), natural armor(+2)	&+1 level of existing class\\
+5th	&+3	&+4	&+1	&+4	&Blindsense 30 ft.				&+1 level of existing class\\
+6th	&+4	&+5	&+2	&+5	&Ability boost (Con +2)				&+1 level of existing class\\
+7th	&+5	&+5	&+2	&+5	&Form of the Dragon, Natural armor (+3)		&+1 level of existing class\\
+8th	&+6	&+6	&+2	&+6	&Ability boost (Int +2)				&+1 level of existing class\\
+9th	&+6	&+6	&+3	&+6	&Wings						&+1 level of existing class\\
+10th	&+7	&+7	&+3	&+7	&Blindsense 60 ft., dragon apotheosis		&+1 level of existing class\\
+\bottomrule
+\end{tabular}}
+\normalsize
+\end{table*}
 \paragraph{Hit Die:} d12
 \paragraph{Requirements:}
 To qualify to become a Dragon Disciple, a character must fulfill all the following criteria.
@@ -17,32 +41,6 @@ The Dragon Disciple's class skills (and the key ability for each skill) are Conc
 Escape Artist (Dex), Gather Information (Cha), Intimidate (Cha), Knowledge (all skills, taken individually) (Int), 
 Listen (Wis), Profession (Wis), Search (Int), Speak Language (None), Spellcraft (Int), and Spot (Wis).
 \paragraph{Skill Points at each level:} 4 + Int modifier.
-\begin{table*}
-\centering
-\caption{The Dragon Disciple}
-\small
-\label{tab:DragonDisciple}
-\makebox[\textwidth]{
-\begin{tabular}{|l|l|c|c|c|l|l|}
-\hline
-\multirow{2}{*}{\textbf{Level}}&\multirow{2}{*}{\textbf{BAB}}&\textbf{Fort}&\textbf{Ref}&\textbf{Will}&\multirow{2}{*}{\textbf{Special}}&\textbf{Spell points/day and}\\
-&&\textbf{save}&\textbf{save}&\textbf{save}&&\textbf{max spell level}\\
-\hline
-1st	&+0	&+2	&+0	&+2	&Natural armor (+1)				&+1 level of existing class\\
-2nd	&+1	&+3	&+0	&+3	&Ability boost (Str +2), claws and bite		&+1 level of existing class\\
-3rd	&+2	&+3	&+1	&+3	&Breath weapon					&+1 level of existing class\\
-4th	&+3	&+4	&+1	&+4	&Ability boost (Str +2), natural armor(+2)	&+1 level of existing class\\
-5th	&+3	&+4	&+1	&+4	&Blindsense 30 ft.				&+1 level of existing class\\
-6th	&+4	&+5	&+2	&+5	&Ability boost (Con +2)				&+1 level of existing class\\
-7th	&+5	&+5	&+2	&+5	&Form of the Dragon, Natural armor (+3)		&+1 level of existing class\\
-8th	&+6	&+6	&+2	&+6	&Ability boost (Int +2)				&+1 level of existing class\\
-9th	&+6	&+6	&+3	&+6	&Wings						&+1 level of existing class\\
-10th	&+7	&+7	&+3	&+7	&Blindsense 60 ft., dragon apotheosis		&+1 level of existing class\\
-\hline
-\end{tabular}
-}
-\normalsize
-\end{table*}
 \subsubsection{Class Features}
 All of the following are class features of the Dragon Disciple prestige class.
 
@@ -92,12 +90,14 @@ The DC of the breath weapon is 10 + class level + Con modifier.
 
 A line-shaped breath weapon is 5 feet high, 5 feet wide, and 60 feet long. A cone-shaped breath weapon is 30 feet long.
 
-\begin{center}
-\begin{tabular}{|p{3cm}|p{3.4cm}|}
-\multicolumn{2}{c}{\textbf{The Dragon Disciple Breath Weapon}}\\
-\hline
-\textbf{Dragon Variety}$^1$&\textbf{Breath Weapon}\\
-\hline
+\begin{tableonecolumn}
+%\centering
+\caption{The Dragon Disciple Breath Weapon}
+\label{tab:DragonDiscipleBreathWeapon}
+\begin{tabular}{ll}
+\toprule
+Dragon Variety$^1$&Breath Weapon\\
+\midrule
 Black		&Line of acid\\
 Blue		&Line of lightning\\
 Green		&Cone of corrosive gas (acid)\\
@@ -108,24 +108,22 @@ Bronze		&Line of lightning\\
 Copper		&Line of acid\\
 Gold		&Cone of fire\\
 Silver		&Cone of cold\\
-\hline
-\multicolumn{2}{p{6.4cm}}{\scriptsize $^1$Other varieties of Dragon Disciple are possible, using other dragon varieties as ancestors.}
+\bottomrule
 \end{tabular}
-\end{center}
+\begin{enumerate}
+ \item Other varieties of Dragon Disciple are possible, using other dragon varieties as ancestors.
+\end{enumerate}
+\end{tableonecolumn}
 
 \paragraph{Form of the Dragon:}
 At 7th level, the Dragon Disciple gains \nameref{Spell:FormDragon} as a bonus spell known.
-If he does not have the ability to learn or cast 6th level spells when he gains this ability,
-he learns it immediately when he can do so.
-If he already knows Form of the Dragon when reaching 7th level, 
-he can select another spell in its stead he would have qualified for at the time he learned Form of the Dragon.
+If he does not have the ability to learn or cast 6th level spells when he gains this ability, he learns it immediately when he can do so.
+If he already knows Form of the Dragon when reaching 7th level, he can select another spell in its stead he would have qualified for at the time he learned Form of the Dragon.
 \paragraph{Wings (Ex):}
 At 9th level, a Dragon Disciple grows a set of draconic wings. 
 He may now fly at a speed equal to his normal land speed, with average maneuverability.
 \paragraph{Dragon Apotheosis:}
 At 10th level, a Dragon Disciple's transformation is complete. His type changes to dragon, and gains the augmented subtype (as normal).
 This does not cause any loss of class features, despite the Dragon Disciple now no longer fulfilling the class preprequisites.
-%\footnote{Note that this would cause a Dragon Disciple to no longer qualify for the prestige class. However, losing PrC prerequisites after entering the class does not cause any loss of class features.}
 He gains +4 to Strength and +2 to Charisma.
-His natural armor bonus increases to +4, and he acquires low-light vision, 60-foot darkvision, 
-immunity to sleep and paralysis effects, and immunity to the energy type used by his breath weapon.
+His natural armor bonus increases to +4, and he acquires low-light vision, 60-foot darkvision, immunity to sleep and paralysis effects, and immunity to the energy type used by his breath weapon.
