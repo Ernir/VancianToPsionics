@@ -18,34 +18,33 @@ The Spellbreaker's class skills (and the key ability for each skill) are Balance
 \begin{table*}
 \caption{The Spellbreaker}
 \label{tab:Spellbreaker}
-%\rowcolors{1}{white}{lightgray}
 \makebox[\textwidth]{
-\begin{tabular}{|l|l|c|c|c|l|c|c|c|}
-\hline
-\multirow{2}{*}{\textbf{Level}}&\multirow{2}{*}{\textbf{BAB}}&\textbf{Fort}&\textbf{Ref}&\textbf{Will}&\multirow{2}{*}{\textbf{Special}}&\multirow{2}{*}{\textbf{SP cap}}&\textbf{Max}&\textbf{Spells}\\
-&&\textbf{save}&\textbf{save}&\textbf{save}&&&\textbf{level}&\textbf{Known}\\
-\hline
-1st  &+1 		&+2 &+0 &+2	&Siphon Energy, Spell Resistance	&0   &1st &2\\
-2nd  &+2 		&+3 &+0 &+3 	&Bonus Feat				&1   &1st &3\\
-3rd  &+3 		&+3 &+1 &+3 	&Leech Magic +1				&3   &1st &3\\
-4th  &+4 		&+4 &+1 &+4 	&Selective Resistance			&5   &1st &4\\
-5th  &+5 		&+4 &+1 &+4 	&Dispel Magic (standard)		&7   &2nd &5\\
-6th  &+6/+1 		&+5 &+2 &+5 	&Bonus Feat				&11  &2nd &6\\
-7th  &+7/+2 		&+5 &+2 &+5 	&Manipulate Magic			&15  &2nd &6\\
-8th  &+8/+3 		&+6 &+2 &+6 	&Leech Magic +2				&19  &2nd &7\\
-9th  &+9/+4 		&+6 &+3 &+6 	&Steal Control				&23  &3rd &8\\
-10th &+10/+5		&+7 &+3 &+7 	&Bonus Feat				&27  &3rd &8\\
-11th &+11/+6/+1		&+7 &+3 &+7 	&Antimagic Affinity			&35  &3rd &9\\
-12th &+12/+7/+2		&+8 &+4 &+8 	&-					&43  &3rd &10\\
-13th &+13/+8/+3		&+8 &+4 &+8 	&Dispel Magic (swift)			&51  &4th &11\\
-14th &+14/+9/+4		&+9 &+4 &+9 	&Bonus Feat				&59  &4th &11\\
-15th &+15/+10/+5	&+9 &+5 &+9 	&Arcane Vigor				&67  &4th &12\\
-16th &+16/+11/+6/+1	&+10&+5 &+10 	&Leech Magic +3				&79  &4th &13\\
-17th &+17/+12/+7/+2	&+10&+5 &+10 	&Disjunction				&91  &5th &14\\
-18th &+18/+13/+8/+3	&+11&+6 &+11 	&Bonus Feat				&103 &5th &14\\
-19th &+19/+14/+9/+4	&+11&+6 &+11 	&Dispel Magic (immediate)		&115 &5th &15\\
-20th &+20/+15/+10/+5	&+12&+6 &+12 	&Arcanist's Doom			&127 &5th &16\\
-\hline
+\begin{tabular}{llccclccc}
+\toprule
+	&	&	&	&	&					&\multicolumn{3}{c}{Spellcasting}\\ \cmidrule(r){7-9}
+Level	&BAB	&Fort 	&Ref 	&Will 	&Special				&SP/day	&Known&Max level\\
+\midrule
+1st  &+1 		&+2 &+0 &+2	&Siphon Energy, Spell Resistance	&0   &2 &1st \\
+2nd  &+2 		&+3 &+0 &+3 	&Bonus Feat				&1   &3 &1st \\
+3rd  &+3 		&+3 &+1 &+3 	&Leech Magic +1				&3   &3 &1st \\
+4th  &+4 		&+4 &+1 &+4 	&Selective Resistance			&5   &4 &1st \\
+5th  &+5 		&+4 &+1 &+4 	&Dispel Magic (standard)		&7   &5 &2nd \\
+6th  &+6/+1 		&+5 &+2 &+5 	&Bonus Feat				&11  &6 &2nd \\
+7th  &+7/+2 		&+5 &+2 &+5 	&Manipulate Magic			&15  &6 &2nd \\
+8th  &+8/+3 		&+6 &+2 &+6 	&Leech Magic +2				&19  &7 &2nd \\
+9th  &+9/+4 		&+6 &+3 &+6 	&Steal Control				&23  &8 &3rd \\
+10th &+10/+5		&+7 &+3 &+7 	&Bonus Feat				&27  &8 &3rd \\
+11th &+11/+6/+1		&+7 &+3 &+7 	&Antimagic Affinity			&35  &9 &3rd \\
+12th &+12/+7/+2		&+8 &+4 &+8 	&-					&43  &10&3rd \\
+13th &+13/+8/+3		&+8 &+4 &+8 	&Dispel Magic (swift)			&51  &11&4th \\
+14th &+14/+9/+4		&+9 &+4 &+9 	&Bonus Feat				&59  &11&4th \\
+15th &+15/+10/+5	&+9 &+5 &+9 	&Arcane Vigor				&67  &12&4th \\
+16th &+16/+11/+6/+1	&+10&+5 &+10 	&Leech Magic +3				&79  &13&4th \\
+17th &+17/+12/+7/+2	&+10&+5 &+10 	&Disjunction				&91  &14&5th \\
+18th &+18/+13/+8/+3	&+11&+6 &+11 	&Bonus Feat				&103 &14&5th \\
+19th &+19/+14/+9/+4	&+11&+6 &+11 	&Dispel Magic (immediate)		&115 &16&5th \\
+20th &+20/+15/+10/+5	&+12&+6 &+12 	&Arcanist's Doom			&127 &16&5th \\
+\bottomrule
 \end{tabular}}
 \end{table*}
 
