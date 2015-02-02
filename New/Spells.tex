@@ -202,7 +202,7 @@ d\%&  Curse name&  Curse description\\
 \end{tabular}
 \end{table*}
 
-A \nameref{Spell:Wish} or \nameref{Spell:Miracle} spell can remove the creature's curse. A normal \nameref{Spell:RemoveCurse} spell is effective only when cast by a caster of 11th level or higher. An \nameref{Spell:Atonement} spell can restore its original alignment (following the usual rules for the Atonement spell). The level/HD loss or Constitution loss can still not be repaired by any means.
+The curse can be lifted by normal effects capable of \nameref{sec:RemovingACurse}. A \nameref{Spell:RemoveCurse} spell is effective only when cast by a caster of 11th level or higher. An \nameref{Spell:Atonement} spell can restore its original alignment (following the usual rules for the Atonement spell). The level/HD loss or Constitution loss can still not be repaired by any means.
 
 A creature successfully raised with this spell becomes alive and stable at -9 hit points rather than with hit points equal to its HD. Any wounds and disease symptoms repaired as part of the resurrection process are only repaired to the absolute minimum functionality required to return the creature to life. Even if the creature's hit point total is fully restored, such wounds still leave scars, unless removed with the \nameref{Spell:Regenerate} spell. Creatures with visible scars from this process gain a +4 bonus in Intimidate checks, but suffer a -4 penalty on Diplomacy checks.
 
@@ -540,6 +540,7 @@ If the subject resists the spell with a successful Will save or you fail to over
 \paragraph{Augment:} For every additional spell point you spend, this spell can affect an additional target within range.
 
 \subsubsection{Dismantle Magic}
+\label{Spell:DismantleMagic}
 Abjuration
 \\ \textbf{Level:} Abjurer 1, Magic 1, Spellbreaker 1
 \\ \textbf{Casting Time:} 1 minute
@@ -859,7 +860,7 @@ Destroying the statue kills the creature.
 
 The transmuted creature is considered a Construct for the purposes of targeting it with spells and other abilities.
 
-An augmented \nameref{Spell:RemoveCurse} spell can restore the transmuted creature.
+An effect that removes a powerful curse (See \nameref{sec:RemovingACurse}) can restore a transmuted creature.
 
 Alternatively, you can affect a nonmagical object, or part of a larger nonmagical object distinctive enough to be considered an object in its own right (such as a doorknob or a wagon wheel).
 
@@ -914,7 +915,7 @@ For the duration of the spell, whenever you make a weapon attack (including natu
 
 \subsubsection{Inexorable Onset of Death}
 \label{Spell:InexorableOnsetOfDeath}
-Necromancy
+Necromancy [\nameref{sec:Curses}]
 \\ \textbf{Level:} Dread Knight 6
 \\ \textbf{Components:} V, S
 \\ \textbf{Casting Time:} 1 standard action
@@ -929,7 +930,7 @@ Necromancy
 
 The creature gains one negative level. One round later, and each round thereafter, it gains an additional negative level.
 
-The curse bestowed by this spell cannot be dispelled, but it can be removed with a \nameref{Spell:LimitedWish}, \nameref{Spell:Miracle}, \nameref{Spell:RemoveCurse}, or \nameref{Spell:Wish} spell.
+The curse bestowed by this spell cannot be dispelled, but see \nameref{sec:RemovingACurse}.
 
 \subsubsection{Insightful Strikes}
 \label{Spell:InsightfulStrikes}
@@ -1200,7 +1201,7 @@ If the travel would cause you to arrive in a place that is already occupied by a
 \paragraph{Augment:} If you spend 6 additional spell points, this spell does not allow a Will save.
 \subsubsection{Pox}
 \label{Spell:Pox}
-Necromancy
+Necromancy [\nameref{sec:Curses}]
 \\ \textbf{Level:} Dread Knight 1
 \\ \textbf{Components:} V, S
 \\ \textbf{Casting Time:} 1 standard action
@@ -1216,7 +1217,7 @@ Necromancy
 The subject instantaneously takes 2 points of Constitution damage.
 
 This damage is caused be huge, painful and hideous pustules that erupt all over the subject's skin. The pox is so disfiguring that creatures need to succeed on a DC 15 Spot check to even recognize the subject as itself.
-This part of the spell is permanent unless dismissed by the caster or removed with \nameref{Spell:RemoveCurse}, persisting even if the Constitution damage is healed.
+This part of the spell is permanent unless dismissed by the caster or the curse is broken (See: \nameref{sec:RemovingACurse}), persisting even if the Constitution damage is healed.
 
 Protections against magical diseases are effective against this spell.
 

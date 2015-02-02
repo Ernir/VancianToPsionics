@@ -1094,7 +1094,7 @@ or until it is raised (voluntarily) and killed again, whichever happens sooner.
 \emph{Experience cost:} 200XP.
 \subsubsection{Bane}
 \label{Spell:Bane}
-Enchantment (Compulsion) [Evil, Fear, Mind-Affecting]
+Enchantment (Compulsion) [\nameref{sec:Curses}, Evil, Fear, Mind-Affecting]
 \\ \textbf{Level:} Blackguard 1
 \\ \textbf{Components:} V, S
 \\ \textbf{Casting Time:} 1 standard action
@@ -1146,7 +1146,7 @@ The enhancement bonus provided by barkskin stacks with the target's natural armo
 \paragraph{Augment:} For every 2 additional spell points you spend, the enhancement bonus to the creature's natural armor increases by 1.
 \subsubsection{Bestow Curse}
 \label{Spell:BestowCurse}
-Necromancy
+Necromancy [\nameref{sec:Curses}]
 \\ \textbf{Level:} Blackguard 4, Evil 3, Luck 3, Sor/Wiz 4
 \\ \textbf{Components:} V, S
 \\ \textbf{Casting Time:} 1 standard action
@@ -1168,7 +1168,7 @@ You place a curse on the subject. Choose one of the following three effects.
 The GM may add additional, more unique options to this spell, 
 but they should be no more powerful than those described above (particularly when it comes to in-combat applications).
 
-The curse bestowed by this spell cannot be dispelled, but it can be removed with a \nameref{Spell:LimitedWish}, \nameref{Spell:Miracle}, \nameref{Spell:RemoveCurse}, or \nameref{Spell:Wish} spell.
+The curse bestowed by this spell cannot be dispelled, but see \nameref{sec:RemovingACurse}.
 
 \paragraph{Augment:} If you spend an additional 6 spell points, you can select from a different menu of options:
 \begin{enumerate}
@@ -1410,7 +1410,7 @@ Such a mundane plant receives no saving throw against this spell, it simply with
 regardless of health and size.
 \subsubsection{Blindness}
 \label{Spell:Blindness}
-Necromancy
+Necromancy [\nameref{sec:Curses}]
 \\ \textbf{Level:} Blackguard 2, Evil 2, Sor/Wiz 2
 \\ \textbf{Components:} V
 \\ \textbf{Casting Time:} 1 standard action
@@ -2524,7 +2524,7 @@ this spell suppresses any immunity to Fear effects the subject may have for the 
 (Note that Fear effects are still [Mind-Affecting] unless otherwise noted, which may render some creatures immune regardless.)
 \subsubsection{Crushing Onset of Age}
 \label{Spell:CrushingOnsetOfAge}
-Necromancy
+Necromancy [\nameref{sec:Curses}]
 \\ \textbf{Level:} Blackguard 6
 \\ \textbf{Components:} V, S
 \\ \textbf{Casting Time:} 1 standard action
@@ -2543,7 +2543,7 @@ The target suffers the appropriate physical ability score penalties for aging, b
 A venerable (naturally or not) target that fails its Fortitude save instantly dies. This is not a true death by old age, and the subject can thus be raised normally.
 
 %Assuming the creature survives, its true age category is restored when the spell ends.
-The age category advancement is instantaneous in nature, it is not reversed when the spell ends. A \nameref{Spell:RemoveCurse} spell can restore the creature's true age category, as can \nameref{Spell:LimitedWish}, \nameref{Spell:Miracle} or \nameref{Spell:Wish}.
+The age category advancement is instantaneous in nature, it is not reversed when the spell ends. A spell that breaks a curse (see: \nameref{sec:RemovingACurse}) can restore the creature's true age category.
 \subsubsection{Crushing the Essence}
 \label{Spell:CrushingTheEssence}
 Enchantment
@@ -2619,7 +2619,7 @@ and its target changes to ''One creature/level, no two of which can be more than
 \end{enumerate}
 \subsubsection{Cursed Blade}
 \label{Spell:CursedBlade}
-Necromancy [Evil]
+Necromancy [\nameref{sec:Curses}, Evil]
 \\ \textbf{Level:} Blackguard 1
 \\ \textbf{Components:} V, S
 \\ \textbf{Casting Time:} 1 standard action
@@ -2636,6 +2636,8 @@ Hit point damage inflicted by the weapon while the spell is in effect does not h
 The Fast Healing special ability cannot restore these hit points, although the Regeneration special ability can.
 
 Also, any caster attempting to magically cure damage inflicted by the weapon must succeed on a DC 15 caster level check, or the spell fails.
+
+The curse inflicted by the blade ends when the damage has been fully healed, or when subjected to any effect that removes a normal curse (See: \nameref{sec:RemovingACurse}). It can, however, not be dispelled.
 
 \paragraph{Augment:} You can augment this spell in one or both of the following ways:
 \begin{enumerate}
@@ -2867,7 +2869,7 @@ Death ward does not protect against other sorts of attacks even if those attacks
 \paragraph{Augment:} For every 3 additional spell points you spend, this spell can affect an additional creature.
 \subsubsection{Denial of Death's Embrace}
 \label{Spell:DenialOfDeathsEmbrace}
-Necromancy [Evil]
+Necromancy [\nameref{sec:Curses}, Evil]
 \\ \textbf{Level:} Blackguard 4
 \\ \textbf{Components:} V
 \\ \textbf{Casting Time:} 1 immediate action
@@ -3954,7 +3956,7 @@ the subject is shunted off to the nearest open space and takes 1d6 points of dam
 \end{enumerate}
 \subsubsection{Eyebite}
 \label{Spell:Eyebite}
-Necromancy [Evil]
+Necromancy [\nameref{sec:Curses}], Evil]
 \\ \textbf{Level:} Bard 6, Sor/Wiz 6
 \\ \textbf{Components:} V, S
 \\ \textbf{Casting Time:} 1 standard action
@@ -3988,7 +3990,7 @@ The effects are:
 
 \textbf{Sickened:} Sudden pain and fever sweeps over the subject's body, rendering it \emph{sickened}.
 A creature affected by this spell remains sickened for 10 minutes per caster level. 
-The effects cannot be negated by a remove disease or \nameref{Spell:Heal} spell, but a \nameref{Spell:RemoveCurse} is effective.
+The effects cannot be negated by a Remove Disease or \nameref{Spell:Heal} spell.
 
 \textbf{Panicked:} The subject becomes \emph{panicked} for 1d4 rounds. 
 Even after the panic ends, the creature remains shaken for 10 minutes per caster level, and 
@@ -3996,10 +3998,12 @@ it automatically becomes panicked again if it comes within sight of you during t
 This is a fear effect (it is possible to be immune to this part of the spell, while still being subject to the others normally).
 
 \textbf{Comatose:} The subject falls into a catatonic coma for 10 minutes per caster level. 
-During this time, it cannot be awakened by any means short of dispelling the effect or casting a \nameref{Spell:RemoveCurse} spell on it. 
+During this time, it cannot be awakened by any means short of removing the curse.
 This is not a sleep effect, and thus elves are not immune to it.
 
 The spell lasts for 1 round per three caster levels. You must spend a move action each round after the first to target a foe. 
+
+This spell can not be dispelled, but see \nameref{sec:RemovingACurse}.
 
 \paragraph{Augment:} You affect creatures more powerfully by spending additional spell points.
 For each additional spell point you spend, a creature of 1 HD more is affected by the Panicked and Comatose effects of the spell.
@@ -4146,7 +4150,7 @@ A creature that can cast arcane spells, such as a sorcerer or a wizard, takes a 
 
 \subsubsection{Fear}
 \label{Spell:Fear}
-Necromancy [Fear, Mind-Affecting]
+Necromancy [\nameref{sec:Curses}, Fear, Mind-Affecting]
 \\ \textbf{Level:} Bard 1, Blackguard 1, Death 1, Evil 1, Necromancer 1
 \\ \textbf{Components:} V, S
 \\ \textbf{Casting Time:} 1 standard action
@@ -5351,8 +5355,7 @@ Each day, another -2 penalty accumulates, up to a total of -8.
 No ability score can be reduced to less than 1 by this effect. 
 The ability score penalties are removed 24 hours after the subject resumes obeying the geas.
 
-A geas (and all ability score penalties) can be ended by 
-\nameref{Spell:LimitedWish}, \nameref{Spell:RemoveCurse}, \nameref{Spell:Miracle}, or \nameref{Spell:Wish}. \nameref{Spell:DispelMagic} does not affect a geas.
+A geas (and all ability score penalties) can not be dispelled, but it can be removed by any effect that would remove a \nameref{sec:Curses} (See: \nameref{sec:RemovingACurse}).
 
 Clerics and Paladins usually refer to this spell as \emph{Quest} rather than geas.
 
@@ -7289,7 +7292,7 @@ Since the place can be entered only through its special portal, outside conditio
 
 \subsubsection{Mark of Justice}
 \label{Spell:MarkOfJustice}
-Necromancy
+Necromancy [\nameref{sec:Curses}]
 \\ \textbf{Level:} Law 5, Paladin 4
 \\ \textbf{Components:} V, S
 \\ \textbf{Casting Time:} 10 minutes
@@ -7310,10 +7313,9 @@ The effect of the mark is identical with the effect of an unaugmented \nameref{S
 Since this spell takes 10 minutes to cast and involves writing on the target, 
 you can cast it only on a creature that is willing or restrained.
 
-Like the effect of bestow curse, a mark of justice cannot be dispelled, but it can be removed with a 
-\nameref{Spell:LimitedWish}, \nameref{Spell:Miracle}, \nameref{Spell:RemoveCurse}, or \nameref{Spell:Wish} spell. 
+A mark of justice cannot be dispelled, but it can be removed by any effect that would remove a \nameref{sec:Curses} (see \nameref{sec:RemovingACurse}). 
 Remove curse works only if its caster level is equal to or higher than your mark of justice caster level. 
-These restrictions apply regardless of whether the mark has activated.
+This restriction applies regardless of whether the mark has activated.
 
 \paragraph{Augment:} You can augment this spell in one or both of the following ways:
 \begin{enumerate}
@@ -7686,7 +7688,8 @@ Casting the spell takes 1 round. If the subject fails to save, you proceed with 
 
 A modified memory does not necessarily affect the subject's actions, particularly if it contradicts the creature's natural inclinations. An illogical modified memory is dismissed by the creature as a bad dream or a memory muddied by too much wine.
 
-The \nameref{Spell:DispelMagic} spell cannot remove a Modify Memory spell, but a \nameref{Spell:LimitedWish}, \nameref{Spell:Wish}, \nameref{Spell:Miracle} or an augmented \nameref{Spell:RemoveCurse} spell can. Once the spell is removed, the subject remembers his true memories, as well as the implanted or modified ones (if applicable), and can distinguish between the two with normal clarity.
+This spell can not be dispelled, but can be removed by any effect that would remove a \nameref{sec:Curses} (See: \nameref{sec:RemovingACurse}).
+Once the spell is removed, the subject remembers his true memories, as well as the implanted or modified ones (if applicable), and can distinguish between the two with normal clarity.
 
 The \nameref{Spell:DetectMagic} spell can reveal the active enchantment on the subject, as normal.
 In addition, anyone reading the subject's mind via the \nameref{Spell:ReadThoughts} spell or similar means can determine that the subject is under the influence of Modify Memory by making a DC 24 \ref{sec:Spellcraft} check (an application of the ``identify a spell that's already in place'' use of the skill). This check does not reveal what the Modify Memory spell accomplished, only its presence.
@@ -8159,7 +8162,7 @@ This bond does not allow you any sort of direct control over the creature, but d
 The spell does not end with your death. If you die before you dismiss the spell, the creature is trapped forever on the
 plane you called it to unless they find a way to end the spell (see below).
 
-A \nameref{Spell:Miracle}, \nameref{Spell:Wish}, or Augmented \nameref{Spell:RemoveCurse} spell ends this spell, sending the creature back to where it came from.
+This spell can not be dispelled, but an effect that breaks a powerful curse (See: \nameref{sec:RemovingACurse}) ends the spell, sending the creature back to where it came from.
 Creatures that can use a spell that can get them free usually do so at the earliest possible opportunity.
 
 You can never have more than planar binding spell active at once. If you start casting the spell a second time while 
@@ -9209,12 +9212,13 @@ Remove curse instantaneously removes all curses on an object or a creature.
 Remove curse does not remove the curse from a cursed shield, weapon, or suit of armor, although the spell typically enables the creature afflicted with any such cursed item to remove and get rid of it. 
 Certain special curses may not be countered by this spell or may be countered only by a caster of a certain level or higher.
 
-\paragraph{Augment:} If you spend 2 additional spell points, the spell can free victims from enchantments and transmutations in addition to curses.
-The spell can then reverse even an instantaneous effect.
+\paragraph{Augment:} If you spend 2 additional spell points, the spell can free victims from certain powerful spells (particularly enchantments and transmutations) in addition to curses.
+The spell can then reverse even an instantaneous effect. An effect that requires this augment will specify that it does.
+
 For each such effect, you make a caster level check (1d20 + caster level) against a DC of 11 + caster level of the effect.
 Success means that the creature is free of the spell, curse, or effect. For a cursed magic item, the DC is 25.
 
-If the spell to be removed is one that cannot be dispelled by \nameref{Spell:DispelMagic}, this spell works only if that spell was cast using fewer spell points than were spent on casting this spell.
+\paragraph{Special:} If the spell to be removed is one that cannot be dispelled by \nameref{Spell:DispelMagic}, this spell works only if that spell was cast using fewer spell points than were spent on casting this spell.
 \subsubsection{Remove Disease}
 \label{Spell:RemoveDisease}
 Necromancy (Healing)
