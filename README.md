@@ -1,9 +1,11 @@
 VancianToPsionics
 =================
 
-A Translation of d20 Vancian Spellcasting to Psionic Mechanics.
+The "Vancian to Psionics" project is a conversion of the standard (Vancian) system of magic used by version 3.5 of the Dungeons and Dragons role-playing game over to a different (Psionic) system.
 
-The project has a [discussion thread](http://www.giantitp.com/forums/showthread.php?194002-3-5-A-Translation-of-Vancian-Spellcasting-to-Psionic-Mechanics) on GitP.com and a tiny little [description page](http://ernir.net/vanciantopsionics/).
+The result is a .pdf with a current page count over 300.
+
+The project has a [discussion thread](http://www.giantitp.com/forums/showthread.php?194002-3-5-A-Translation-of-Vancian-Spellcasting-to-Psionic-Mechanics) on GitP.com.
 
 ## Thanks
 
