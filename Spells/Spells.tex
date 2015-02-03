@@ -274,8 +274,8 @@ Doing so is a ranged touch attack that does not provoke attacks of opportunity.
  \item \emph{Good:} Good water is referred to as holy water. 
  If studied closely, holy water appears to possess a slight inner luminescence.
  A direct hit by a flask of holy water nauseates an evil creature for 1d4 rounds unless it succeeds on a Fortitude save. 
- Undead creature and evil outsiders take a -4 penalty on the saving throw.
- This bypasses an undead creature's immunity to nausea and effects that require a fortitude save.
+ Undead creatures and evil outsiders take a -4 penalty on the saving throw.
+ This bypasses an undead creature's immunity to nausea and effects that require a Fortitude save.
  \item \emph{Evil:} Evil water is referred to as unholy water. 
  Unholy water never visibly reflects light, regardless of the surrounding brightness.
  A direct hit by a flask of unholy water blinds a good creature for 2d4 rounds unless it succeeds on a Fortitude save. 
@@ -290,6 +290,9 @@ Doing so is a ranged touch attack that does not provoke attacks of opportunity.
  Lawful outsiders take a -4 penalty on the saving throw.
 \end{itemize} 
 Each applicable creature within 5 feet of the point where the flask hits is subjected to the indicated condition for only 1 round, and gains a +4 bonus on the saving throw.
+
+\paragraph{Augment:} For every 2 additional spell points you spend, this spell affects an additional flask of water.
+
 \subsubsection{Alter Self}
 \label{Spell:AlterSelf}
 Transmutation
@@ -973,7 +976,7 @@ If such an attack allows a Reflex save for half damage, you take no damage on a 
 
 \paragraph{Augment:} For every 2 additional spell points you spend, this spell's damage increases by 1d6.
 
-\textbf{Special:} You can choose to create an Aura of Cold rather than an Aura of Flame. This changes the damage
+\paragraph{Special:} You can choose to create an Aura of Cold rather than an Aura of Flame. This changes the damage
 dealt by the spell to cold damage, the spell's descriptor to [cold], and the protection from attacks to one
 against fire-based attacks.
 \subsubsection{Awaken}
@@ -1428,7 +1431,6 @@ The subject becomes \emph{blind} or \emph{deaf}, or loses one special sense it m
 
 The name of the spell stems from its most common usage, as most humanoids rely on their sight more than any other sense.
 
-
 \subsubsection{Blink}
 \label{Spell:Blink}
 Conjuration (Teleportation)
@@ -1582,7 +1584,7 @@ Evocation [Fire]
 \\ \textbf{Casting Time:} 1 standard action
 \\ \textbf{Range:} Close (25 ft. + 5 ft./2 levels)
 \\ \textbf{Target:} One creature; see text
-\\ \textbf{Duration:} 5 rounds
+\\ \textbf{Duration:} 3 rounds
 \\ \textbf{Saving Throw:} None, Reflex negates; See text
 \\ \textbf{Spell Resistance:} Yes
 \\ \textbf{Spell Points:} 1
@@ -1592,6 +1594,8 @@ Evocation [Fire]
 A creature that takes fire damage while this spell is in effect magically catches on fire.
 One round after catching on fire, and once per round thereafter, the spell deals additional fire damage equal to one-half the fire damage that set it on fire in the first place.
 If a creature takes fire damage multiple times while the spell lasts, use one-half of the largest damage value.
+
+The fire can be put out by any normal means, such as rolling on the ground (Reflex save DC equal to the spell's normal DC) and jumping into water.
 
 \paragraph{Augment:} For every additional spell point you spend, this spell lasts for an additional round.
 \subsection{'C' Spells}
@@ -2137,7 +2141,7 @@ Slimy doom&1d4 Con*\\
  See the disease's description for additional effects.
 \end{enumerate}
 
-\textbf{Special:} If the setting includes nonmagical diseases other than those outlined here,
+\paragraph{Special:} If the setting includes nonmagical diseases other than those outlined here,
 those should be available through Contagion as well.
 \subsubsection{Contingency}
 \label{Spell:Contingency}
@@ -2590,7 +2594,7 @@ An undead creature can apply spell resistance, and can attempt a Will save to ta
 
 \paragraph{Augment:} For every additional spell point you spend, the spell cures an additional 2 points of damage.
 
-\textbf{Special:} Clerics and Paladins automatically know this spell. They need not select it as one of their spells known.
+\paragraph{Special:} Clerics and Paladins automatically know this spell. They need not select it as one of their spells known.
 \subsubsection{Cure Wounds}
 \label{Spell:CureWounds}
 Necromancy (Healing)
@@ -2614,7 +2618,7 @@ An undead creature can apply spell resistance, and can attempt a Will save to ta
 \paragraph{Augment:} You can augment this spell in one or both of the following ways:
 \begin{enumerate}
  \item For every 2 additional spell points you spend, the spell cures an additional 1d8 points of damage.
- \item If you spend 8 additional spell points, the spell's range increases to ''Close (25 ft. + 5 ft./2 levels)``, 
+ \item If you spend 8 additional spell points, the spell's range increases to Close (25 ft. + 5 ft./2 levels), 
 and its target changes to ''One creature/level, no two of which can be more than 30 ft. apart``.
 \end{enumerate}
 \subsubsection{Cursed Blade}
@@ -2964,6 +2968,8 @@ You can determine the exact type of disease or poison with a DC 20 Heal check.
 To identify a poison, character with the Craft (alchemy) skill may try a DC 20 Craft (alchemy) check if the Heal check fails.
 
 The spell can penetrate barriers, but 1 foot of stone, 1 inch of common metal, a thin sheet of lead, or 3 feet of wood or dirt blocks it.
+
+\paragraph{Augment:} For each additional spell point you spend, the spell affects an additional target or an additional 5' cube. The cubes must form a continuous area.
 \subsubsection{Detect Scrying}
 \label{Spell:DetectScrying}
 Divination
@@ -3566,7 +3572,7 @@ This adds the [Death] descriptor to the spell, in addition to the [Mind-Affectin
 \subsubsection{Dweomer Blockade}
 \label{Spell:DweomerBlockade}
 Abjuration
-\\ \textbf{Level:} Blackguard 6
+\\ \textbf{Level:} Abjurer 6, Blackguard 6
 \\ \textbf{Components:} V, S
 \\ \textbf{Casting Time:} 1 standard action
 \\ \textbf{Range:} Medium (100 ft. + 10 ft./level)
@@ -4209,8 +4215,7 @@ The spell has all side effects you would normally expect a flash of fire to prod
 
 \paragraph{Augment:} For every additional spell point you spend, this spell's damage increases by 1d6+1.
 
-\emph{Special:} Fireballs, nearly filling the affected area, are extraordinarily hard to dodge. The base saving throw DC against a Fireball spell is 10 + the number of spell points spent on the spell and its augments + your key ability modifier, 
-rather than as described in the section on \nameref{sec:SavingThrow}s.
+\emph{Special:} Fireballs, nearly filling the affected area, are extraordinarily hard to dodge. The base saving throw DC against a Fireball spell is 10 + the number of spell points spent on the spell and its augments + your key ability modifier, rather than as described in the section on \nameref{sec:SavingThrow}s.
 \subsubsection{Fire Seeds}
 \label{Spell:FireSeeds}
 Conjuration (Creation) [Fire]
@@ -4420,8 +4425,12 @@ The disk winks out of existence when the spell duration expires.
 The disk also winks out if you or the disk attempt to move beyond range or if you try to take the disk more than 3 feet away from the surface beneath it. 
 When the disk winks out, whatever it was supporting falls to the surface beneath it.
 
-\paragraph{Augment:} If you spend an additional 6 spell points, you can command the disk to move vertically as well as horizontally, and the limit of
+\paragraph{Augment:} You can augment this spell in one or both of the following ways:
+\begin{enumerate}
+ \item If you spend an additional 6 spell points, you can command the disk to move vertically as well as horizontally, and the limit of
 the disk not being able to move more than 3 feet from the ground no longer applies.
+ \item For every 2 additional spell points you spend, the disk increases in size by 1 ft. and its total weight limit increases by 25\%.
+\end{enumerate}
 
 \subsubsection{Fly}
 \label{Spell:Fly}
@@ -5735,7 +5744,8 @@ It causes protected flames, such as those of lanterns, to dance wildly and has a
 
 In addition to the effects noted, a gust of wind can do anything that a sudden blast of wind would be expected to do. It can create a stinging spray of sand or dust, fan a large fire, overturn delicate awnings or hangings, heel over a small boat, and blow gases or vapors to the edge of its range.
 
-%\paragraph{Augment:} For every 2 additional spell points you spend, this spell's save DC increases by 1.
+\paragraph{Augment:} For every additional spell point you spend, this wind speed increases by 5 mph.
+
 \subsection{'H' Spells}
 
 \paragraph{Augment:} For every additional spell point you spend, you may attack an additional target within range as part of the full-round action.
@@ -5777,7 +5787,7 @@ near its new (and unexpected) location, cast a spell, or perform a ranged attack
 
 The reversed movement provokes attacks of opportunity as normal.
 
-%\paragraph{Augment:} STUFF
+\paragraph{Augment:} For every 2 additional spell points you spend, this spell can affect an additional target within range. No two targets can be more than 30 ft. apart.
 
 \subsubsection{Hallucinatory Terrain}
 \label{Spell:HallucinatoryTerrain}
@@ -5806,7 +5816,7 @@ Still, it can't disguise, conceal, or add creatures
 \end{enumerate}
 \subsubsection{Halt Undead}
 \label{Spell:HaltUndead}
-Necromancy [see text]
+Necromancy 
 \\ \textbf{Level:} Sor/Wiz 3
 \\ \textbf{Target:} One undead creature
 \\ \textbf{Saving Throw:} Will negates (intelligent undead only); see text
@@ -5814,15 +5824,11 @@ Necromancy [see text]
 \emph{The vampire stops dead in its tracks, frozen like a statue.}
 
 This spell functions like \nameref{Spell:HoldPerson}, except as noted here.
-When an augment allows this spell to be used against a non-undead creature, this spell gains the Mind-Affecting descriptor.
 
 A nonintelligent undead creature receives no saving throw against this spell.
 
-\paragraph{Augment:} You can augment this spell in one or both of the following ways:
-\begin{enumerate}
- \item If you spend 4 additional spell points, the spell can affect any kind of creature.
- \item For every 2 additional spell points you spend, the spell can target an additional creature within range.
-\end{enumerate}
+\paragraph{Augment:} For every 2 additional spell points you spend, the spell can target an additional creature within range.
+
 \subsubsection{Hand of Force}
 \label{Spell:HandOfForce}
 Evocation [Force]
@@ -5831,7 +5837,7 @@ Evocation [Force]
 \\ \textbf{Casting Time:} 1 standard action
 \\ \textbf{Range:} Medium (100 ft. + 10 ft./ level)
 \\ \textbf{Target:} One object at a time
-\\ \textbf{Duration:} 1 round/level
+\\ \textbf{Duration:} 1 min./level
 \\ \textbf{Saving Throw:} None; see text
 \\ \textbf{Spell Resistance:} No
 \\ \textbf{Spell Points:} 7
@@ -6233,11 +6239,16 @@ Conjuration (Creation) [Cold]
 
 \emph{Great magical hailstones pound down.} 
 
-For the spell's duration, every creature in the area takes 3d6 points of bludgeoning damage and 2d6 points of cold damage. 
+For the spell's duration, every creature in the area takes 2d6 points of cold damage and 3d6 points of damage directly from the impacts.
 A -4 penalty applies to each Listen check made within the ice storm's effect, and all land movement within its area is at half speed. 
 At the end of the duration, the hail disappears, leaving no aftereffects (other than the damage dealt).
 
-\paragraph{Augment:} For every 2 additional spell points you spend, you gain an additional, non-overlapping cylinder of ice you can place anywhere within spell range.
+\paragraph{Augment:} This spell can be augmented in one or both of the following ways:
+\begin{enumerate}
+ \item For every 2 additional spell points you spend, you gain an additional, non-overlapping cylinder of ice you can place anywhere within spell range.
+ \item For every 3 additional spell points you spend, the physical and cold damage dealt by the spell is increased by 1d6 each.
+\end{enumerate}
+
 \subsubsection{Identify}
 \label{Spell:Identify}
 Divination
@@ -6362,7 +6373,7 @@ Evocation
 \\ \textbf{Casting Time:} 1 standard action
 \\ \textbf{Range:} Close (25 ft. + 5 ft./2 levels)
 \\ \textbf{Targets:} One corporeal creature; see text
-\\ \textbf{Duration:} 1 round/level
+\\ \textbf{Duration:} 4 rounds
 \\ \textbf{Saving Throw:} Fortitude negates
 \\ \textbf{Spell Resistance:} Yes
 \\ \textbf{Spell Points:} 17
@@ -6373,6 +6384,9 @@ Each round, at the end of your turn, you cause one targeted creature within rang
 At any point during the spell's duration, you can take a move action to switch the effect over to a new target. (Usually done if the spell's original target dies, or moves out of range.)
 
 Implosion has no effect on creatures in gaseous form or on incorporeal creatures.
+
+\paragraph{Augment:} For every 2 additional spell points you spend, this spell's duration is increased by 1 round.
+
 \subsubsection{Imprisonment}
 \label{Spell:Imprisonment}
 Abjuration
@@ -6500,13 +6514,8 @@ Nothing can fool the hand - it sticks with the selected opponent in spite of dar
 The hand does not pursue an opponent, however.
 
 An interposing hand is 10 feet long and about that wide with its fingers outstretched. 
-% It has as many hit points as you do when you're undamaged, and its AC is 20 (-1 size, +11 natural). 
-% It takes damage as a normal creature, but most magical effects that don't cause damage do not affect it.
-% 
-% The hand never provokes attacks of opportunity from opponents. 
 
-It cannot push through a \nameref{Spell:WallOfForce} or enter an \nameref{Spell:AntimagicField}, 
-but it suffers the full effect of a \nameref{Spell:PrismaticWall} or \nameref{Spell:PrismaticSphere}. %The hand makes saving throws as its caster.
+It cannot push through a \nameref{Spell:WallOfForce} or enter an \nameref{Spell:AntimagicField}, but it suffers the full effect of a \nameref{Spell:PrismaticWall} or \nameref{Spell:PrismaticSphere}.
 
 As an object of force, it is impervious to most forms of attack, but a \nameref{Spell:Disintegrate} or a successful \nameref{Spell:DispelMagic} spell destroys it.
 
@@ -6514,6 +6523,8 @@ Any creature weighing 2,000 pounds or less that tries to push past the hand is s
 The hand cannot reduce the speed of a creature weighing more than 2,000 pounds, but it still affects the creature's attacks.
 
 Directing the spell to a new target is a move action.
+
+\paragraph{Augment:} For every additional spell point you spend, the spell can affect a creature 250 pounds heavier.
 \subsubsection{Invisibility}
 \label{Spell:Invisibility}
 Illusion (Glamer)
@@ -6576,7 +6587,7 @@ Anything invisible becomes visible while in the area, the invisibility effects b
 \paragraph{Augment:} You can augment this spell in one or both of the following ways:
 \begin{enumerate}
 \item If you spend 6 additional spell points, the sphere suppresses all Illusion (glamer) spells within the area in addition to invisibility effects.
-\item If you spend 8 additional spell points and 500XP, the duration of this spell becomes Permanent rather than Concentration.
+\item If you spend 8 additional spell points and 500XP, the duration of this spell becomes Permanent rather than 1 min./level.
 \end{enumerate}
 % \subsubsection{Invocation of the Deity's Favor}
 % \label{Spell:InvocationOfTheDeitysFavor}
@@ -7152,8 +7163,11 @@ A missile of magical energy darts forth from your fingertip and strikes its targ
 The missile strikes unerringly, even if the target is in melee combat or has less than total cover or total concealment. 
 Specific parts of a creature can't be singled out. Inanimate objects are not damaged by the spell.
 
-\paragraph{Augment:} For every 2 additional spell points you spend, you gain an additional missile.
-
+\paragraph{Augment:} This spell can be augmented in one or both of the following ways:
+\begin{enumerate}
+ \item For every additional spell point you spend, you gain an additional missile. You may spend no more than five additional spell points in this way - further augmentation requires use of the second augment.
+ \item For every 2 additional spell points you spend, you gain an additional missile.
+\end{enumerate}
 If you shoot multiple missiles, you can have them strike a single creature or several creatures, no two of which can be more than 15' apart.
 A single missile can strike only one creature. You must designate targets before you check for spell resistance or roll damage.
 \subsubsection{Magic Stone}
@@ -7362,7 +7376,7 @@ The matter cannot have great intrinsic value, such as darkwood or poison.
 The volume of the item created cannot exceed 1 cubic foot per caster level. 
 You must succeed on an appropriate skill check to make a complex item.
 
-%\textbf{Special:} You must have a tiny piece of matter of the same sort of item you plan to create with minor creation on hand when casting the spell.
+%\paragraph{Special:} You must have a tiny piece of matter of the same sort of item you plan to create with minor creation on hand when casting the spell.
 
 \paragraph{Augment:} If you spend an additional 6 spell points, you can also create an object of mineral nature: stone, crystal, metal, or the like.
 It can still not be of a valuable nature.
@@ -7441,12 +7455,12 @@ Evocation
 
 \emph{The most spectacular display of an evoker's art imaginable is the evocation of a meteor - the ultimate weapon of destruction.}
 
-The meteor strikes down one round after the spell is cast, dealing 24d6 points of damage to everything within the affected area on impact.
+The meteor strikes down one round after the spell is cast, dealing 24d6 points of damage to everything within the affected area on impact. Half the damage is fire damage, the other half a direct result of the impact.
+
 Although the meteor explodes in a burst, it has immense penetrating power, only obstacles that are not destroyed by the meteor provide cover against it.
 Creatures that survive the blast must make a reflex save or be \emph{stunned} for 1d4 rounds.
 
-A meteor can only be cast outdoors. If a meteor is aimed to end up indoors (or in other locales where the sky is not in plain view, such as in a cave),
-the meteor strikes the topmost surface straight above the intended point of impact.
+A meteor can only be cast outdoors. If a meteor is aimed to end up indoors (or in other locales where the sky is not in plain view, such as in a cave), the meteor strikes the topmost surface straight above the intended point of impact.
 
 If the meteor strikes the surface of the earth, a cloud of dust rises in the area for 2d4 rounds.
 The dust is treated as nonmagical fog.
@@ -8377,11 +8391,11 @@ This, most basic form of the spell is referred to as Power Word: Blind. See the 
 Target's hit&Power Word&Power Word&Power Word\\
 Points&Blind&Stun&Kill\\
 \midrule
-$<$50&Permanent&4d4 rounds&Instantaneous\\
+50 or less&Permanent&4d4 rounds&Instantaneous\\
 51-100&1d4+1 minutes&2d4 rounds&Instantaneous\\
 101-150&1d4+1 minutes&1d4 rounds&-\\
 151-200&1d4+1 rounds&-&-\\
-200$<$&-&-&-\\
+201 or more&-&-\\
 \bottomrule
 \end{tabular}
 \end{center}
@@ -8459,7 +8473,7 @@ This is done as part of the same free action.
 % 
 % Any actual change to an object (beyond just moving, cleaning, or soiling it) persists only 1 hour.
 % 
-% \textbf{Special:} All Wizards know this spell. They need not select it as one of their spells known.
+% \paragraph{Special:} All Wizards know this spell. They need not select it as one of their spells known.
 \subsubsection{Prismatic Sphere}
 \label{Spell:PrismaticSphere}
 Abjuration
@@ -9193,6 +9207,9 @@ Necromancy (Healing)
 This spell cures blindness, deafness, or damage to or loss of any one special sense (such as scent, blindsight, blindsense, or tremorsense). 
 Whether the effect is normal or magical in nature does not matter.
 The spell does not restore ears or eyes that have been lost, but it repairs them if they are damaged.
+
+\paragraph{Augment:} For every 2 additional spell points you spend, this spell can affect an additional creature.
+
 \subsubsection{Remove Curse}
 \label{Spell:RemoveCurse}
 Abjuration
@@ -9212,11 +9229,15 @@ Remove curse instantaneously removes all curses on an object or a creature.
 Remove curse does not remove the curse from a cursed shield, weapon, or suit of armor, although the spell typically enables the creature afflicted with any such cursed item to remove and get rid of it. 
 Certain special curses may not be countered by this spell or may be countered only by a caster of a certain level or higher.
 
-\paragraph{Augment:} If you spend 2 additional spell points, the spell can free victims from certain powerful spells (particularly enchantments and transmutations) in addition to curses.
+\paragraph{Augment:} This spell can be augmented in one or both of the following ways:
+\begin{enumerate}
+ \item For every 2 additional spell points you spend, this spell can affect an additional creature.
+ \item If you spend 2 additional spell points, the spell can free victims from certain powerful spells (particularly enchantments and transmutations) in addition to curses.
 The spell can then reverse even an instantaneous effect. An effect that requires this augment will specify that it does.
 
 For each such effect, you make a caster level check (1d20 + caster level) against a DC of 11 + caster level of the effect.
 Success means that the creature is free of the spell, curse, or effect. For a cursed magic item, the DC is 25.
+\end{enumerate}
 
 \paragraph{Special:} If the spell to be removed is one that cannot be dispelled by \nameref{Spell:DispelMagic}, this spell works only if that spell was cast using fewer spell points than were spent on casting this spell.
 \subsubsection{Remove Disease}
@@ -9239,6 +9260,8 @@ The spell also kills parasites, including green slime and others.
 Certain special diseases may not be countered by this spell or may be countered only by a caster of a certain level or higher.
 
 \emph{Note:} Since the spell's duration is instantaneous, it does not prevent reinfection after a new exposure to the same disease at a later date.
+
+\paragraph{Augment:} For every 2 additional spell points you spend, this spell can affect an additional creature.
 \subsubsection{Remove Fear}
 \label{Spell:RemoveFear}
 Abjuration
@@ -9258,7 +9281,7 @@ The subject gains immunity to fear effects.
 
 \paragraph{Augment:} You can augment this spell in one or both of the following ways:
 \begin{enumerate}
- \item For every three additional spell points you spend, this spell can affect an additional creature.
+ \item For every 2 additional spell points you spend, this spell can affect an additional creature.
  \item If you spend 2 additional spell points, the spell's duration increases to 10 minutes per level.
 \end{enumerate}
 \subsubsection{Remove Paralysis}
@@ -9282,8 +9305,7 @@ The spell does not restore ability scores reduced by penalties, damage, or drain
 
 \paragraph{Augment:} You can augment this spell in one or both of the following ways:
 \begin{enumerate}
- \item For every two additional spell points you spend, this spell can affect an additional creature.
-No two recipients of the spell may be more than 30' apart. 
+ \item For every two additional spell points you spend, this spell can affect an additional creature. No two recipients of the spell may be more than 30' apart. 
  \item If you spend 10 additional spell points, you can heal mundane paralysis.
 \end{enumerate}
 \subsubsection{Repair}
@@ -10418,8 +10440,9 @@ You can slay any one living creature.
 You must succeed on a melee touch attack to touch the subject, and it can avoid death with a successful Fortitude save. 
 If it succeeds, it instead takes 3d6 points of damage +1 point per caster level.
 
-\paragraph{Augment:} You can augment this spell in one or both of the following ways:
+\paragraph{Augment:} You can augment this spell in one or more of the following ways:
 \begin{enumerate}
+ \item For every 2 additional spell points you spend, this spell deals an additional die (d6) of damage on a successful save.
  \item For every 3 additional spell points you spend, you can use this touch attack an additional time.
  \item If you spend 4 additional spell points, the remains (but the equipment and possessions) of any creature killed by this spell are instantly and utterly destroyed, leaving no trace of the victim.
  The only way to restore life to a character whose remains have been destroyed in this manner is to use the seventh augment of the \nameref{Spell:RaiseDead} spell, or to use a carefully worded \nameref{Spell:Wish} spell or a \nameref{Spell:Miracle} spell to restore the body.
@@ -11832,6 +11855,8 @@ Choose one at the time of casting.
 
 This spell's effect may make it impossible for the target to cast some or all of its spells, 
 if the requisite ability score drops below the minimum required to cast spells of that level.
+
+\paragraph{Augment:} For every 3 additional spell points you spend, the ability damage inflicted by this spell increases by 1.
 \subsubsection{Transformation}
 \label{Spell:Transformation}
 Transmutation (Polymorph)
