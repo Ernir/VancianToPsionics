@@ -21,7 +21,7 @@ Other statistics change, or are replaced entirely, as outlined below.
  \subitem \textbf{Hit Points:} Animal companions gain hit points as characters do, gaining the maximum possible number of hit points at first HD, 
  and rolling thereafter.
  \item \textbf{Size:} An animal companion grows in size according to its advancement table.
- \item \textbf{Base Attack Bonus and Base Saving Throws:} Recalculate with respect to the animal companion's new number of hit dice (see ``hit dice`` above). 
+ \item \textbf{Base Attack Bonus and Base Saving Throws:} Recalculate with respect to the animal companion's new number of hit dice (see ``hit dice'' above). 
  Animals use the moderate Base Attack Bonus progression, as Clerics do. They have good fortitude and reflex saving throws.
  \item \textbf{Special Qualities:} An animal companion gains the Evasion ability, as the Rogue class feature.
  \item \textbf{Ability Scores:} An animal companion retains its own Strength, Dexterity, and Constitution scores. 
@@ -93,7 +93,7 @@ These changes include the benefits of the (modified) celestial template that is 
  \subitem \textbf{Hit Points:} Celestial mounts gain hit points as characters do, gaining the maximum possible number of hit points at first HD, 
  and rolling thereafter.
  \item \textbf{Size:} A celestial mount's size never changes as a result of gaining additional hit dice, even if the base creature's advancement table would indicate otherwise.
- \item \textbf{Base Attack Bonus and Base Saving Throws:} Recalculate with respect to the celestial mount's new number of hit dice (see ``hit dice`` above). 
+ \item \textbf{Base Attack Bonus and Base Saving Throws:} Recalculate with respect to the celestial mount's new number of hit dice (see ``hit dice'' above). 
  Magical beasts use the best Base Attack Bonus progression, as Fighters do. They have good fortitude and reflex saving throws.
  \item \textbf{Special Attacks:} Once per day, a celestial mount can smite a creature.
  It gains a bonus on an attack roll equal to its charisma modifier, and a bonus on the following damage roll equal to its HD.
@@ -167,7 +167,7 @@ An animal that becomes a familiar retains the appearance, size, speeds, base nat
  \item \textbf{Type:} A familiar becomes a magical beast, losing its previous type and subtypes and all benefits associated with them, and gaining all benefits of the magical beast type, with the specific exception
  of a magical beast's 60' Darkvision. This may change what kind of spells can affect the creature.
  \item \textbf{Size:} A familiar's size never changes as a result of gaining additional hit dice, even if the base creature's advancement table would indicate otherwise.
- \item \textbf{Base Attack Bonus and Base Saving Throws:} Recalculate with respect to the familiar's new number of hit dice (see ``hit dice`` above). 
+ \item \textbf{Base Attack Bonus and Base Saving Throws:} Recalculate with respect to the familiar's new number of hit dice (see ``hit dice'' above). 
  Magical beasts use the best Base Attack Bonus progression, as Fighters do. They have good fortitude and reflex saving throws.
  \item \textbf{Special Qualities:} A familiar gains the Evasion ability, as the Rogue class feature.
  \item \textbf{Ability Scores:} A familiar retains its own Strength, Dexterity, and Constitution scores. Its Intelligence changes to 6, and its Wisdom and Charisma both change to 10.
@@ -192,7 +192,7 @@ The GM may place restrictions on what kind of familiars are available (or whethe
 based on the locale in which the ritual is cast.
 \subsubsection{Familiars and Death}
 Resurrecting or replacing a slain Familiar requires this same ritual as summoning one (including the material cost).
-This ``resurrection`` or replacement fully restores it, it does not have experience to lose as characters do, its abilities are a function of its master.
+This ``resurrection'' or replacement fully restores it, it does not have experience to lose as characters do, its abilities are a function of its master.
 
 If a spellcaster who is the master of a familiar dies, the familiar does not wink out of existance or lose the statistics it has gained due to being a familiar (unless it so wishes), 
 it retains the statistics it had at the time of its owner's death.
@@ -290,7 +290,25 @@ A Spellstaff cannot be attacked directly when held - a sunder attempt must be ma
 It can be used as a weapon, serving as a masterwork quality quarterstaff (one end masterwork).
 They can even receive enhancements as such, although this only affects their use as a weapon, not their normal statistics.
 
-\newpage
+\subsection{Vermin Companion}
+\label{sec:VerminCompanion}
+A vermin companion is the trusty sidekick of a character with the \nameref{Feat:VerminCompanion}.
+
+This vermin is a monstrous centipede, scorpion, or spider (or another monstrous vermin of similar power, at the GM's discretion).
+
+A vermin companion functions precisely as a \nameref{sec:AnimalCompanion} does, with the following exceptions:
+\begin{itemize}
+ \item Body and size: A vermin companion's base size depends on its number of hit dice. Use the base statistics of the largest monstrous vermin of the appropriate type whose unmodified number of hit dice is at most equal to the vermin companion's number of hit dice. For example, a spider companion with 1 HD is small (and uses the Monstrous Spider, Small statistics block), a spider companion with 2 hit dice is medium, a spider companion with 3 to 4 HD is large, and so on.
+ \item \textbf{Type:} Replace all references to the animal type with corresponding references to the vermin type.
+ \item \textbf{Ability Scores:} A vermin companion retains its own ability scores.
+ It does \emph{not} gain ability score increases as it gains additional hit dice. Use the base ability scores of a monstrous vermin of the creature's current size.
+ \item \textbf{Skills:} A vermin companion does not have any skill ranks. It retains any racial skill bonuses it may have. 
+ \item \texttt{Feats:} A vermin companion does not have any feats.
+\end{itemize}
+Vermin companions are non-intelligent. They can follow very simple instructions issued by their master (such as ``go over there'' and ``don't eat the horse''), but otherwise revert to their natural behaviour.
+
+Bonding a vermin companion involves finding the creature in question, and weaning it to the master's presence through 1 hour of interaction.
+
 \subsection{Variant: Generic Summoned Monsters}
 \label{sec:SummonedMonsters}
 A GM may decide that the original psionic approach\footnote{That is, collapsing all forms of ''summoning`` into the Astral Construct power} to summons is superior one. In such a case, remove all specific summoning spells (such as \nameref{Spell:SummonFireElemental} and \nameref{Spell:SummonVermin}) from all spell lists, replace them with an instance of the generic \nameref{Spell:SummonMonster} spell, and refer to the rules below.
