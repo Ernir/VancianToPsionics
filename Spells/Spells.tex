@@ -6944,7 +6944,7 @@ Divination
 \\ \textbf{Components:} V, S
 \\ \textbf{Casting Time:} 1 standard action
 \\ \textbf{Range:} Long (400 ft. + 40 ft./level)
-\\ \textbf{Area:} Circle, centered on you, with a radius of 400 ft. + 40 ft./level
+\\ \textbf{Area:} Sphere, centered on you, with a radius of 400 ft. + 40 ft./level
 \\ \textbf{Duration:} 1 min./level
 \\ \textbf{Saving Throw:} None
 \\ \textbf{Spell Resistance:} No
@@ -6952,21 +6952,23 @@ Divination
 
 \emph{You feel as if something were pulling your mind in a certain direction, and you know the spell has succeeded.}
 
-You sense the direction towards a well-known or clearly visualized object. The spell does not tell you the distance towards the 
-You can search for general items, in which case you locate the nearest one of its kind if more than one is within range. 
-Attempting to find a certain item requires a specific and accurate mental image; if the image is not close enough to the actual object, the spell fails. 
-You cannot specify a unique item unless you have observed that particular item firsthand (not through divination).
+You sense the direction (but not distance) towards a well-known or clearly visualized object.
 
-The spell is blocked by even a thin sheet of lead. Creatures cannot be found by this spell (but see augment, below). %Polymorph any object fools it.
+Your can search for both general items, in which case you locate the nearest one of its kind if more than one is within range, or for a certain or unique item.
+
+An object that is not well-known or clearly visualized can be found by having on hand a token object closely related to the one to be found. For example, a wooden splinter from a spear could be used to find the weapon itself.
+
+If your mental image is not clear enough or not close enough to the actual object, the spell fails. The same applies when using an insufficiently related token.
+
+The spell penetrates all normal barriers within range, but is blocked by even a thin sheet of lead or a body of running water. Creatures cannot be found by this spell (but see Augment, below). It can be fooled by \nameref{Spell:Nondetection} and polymorph spells.
 
 \paragraph{Augment:} You can Augment this spell in one or both of the following ways:
 \begin{enumerate}
- \item If you spend 4 extra spell points, the range of the spell (and thereby the radius of the circle) increases to 1 mile per level.
- \item If you spend 4 extra spell points, you can locate a familiar creature with this spell. 
- The spell can then locate a specific creature known to you or a creature of a specific kind (race or species). 
- It cannot find a creature of a certain type. 
+ \item If you spend 4 additional spell points, the range of the spell (and thereby the radius of the circle) increases to 1 mile per level.
+ \item If you spend 4 additional spell points, you can locate creatures with this spell, rather than only objects.
+ To use an item to find a creature the item must be a part of the creature itself (such as a lock of hair) or be of great personal importance to the creature (such as a prized wedding band). 
+ The spell can find a specific kind (race or species) of creature, but not a general type or subtype. 
  To find a kind of creature, you must have seen such a creature up close (within 30 feet) at least once.
- It can be fooled by \nameref{Spell:Nondetection} and polymorph spells.
 \end{enumerate}
 \subsection{'M' Spells}
 
@@ -9130,7 +9132,7 @@ The spell cannot bring back a creature that has died of old age.
 To determine the race of the creature's new body, roll on the \nameref{tab:Reincarnate} table.
 
 Whatever the result, a Reincarnate spell can never result in a creature's level adjustment or number of hit dice
-(aside from level loss, see above) changing.
+(aside from level loss, see above) changing.\\
 \begin{tableonecolumn}
 \caption{Reincarnate}
 \label{tab:Reincarnate}
@@ -9148,6 +9150,7 @@ $\leq$5	&Caster's race\\
 \bottomrule
 \end{tabular}
 \end{tableonecolumn}
+
 To determine the ability scores of a reincarnated creature, eliminate its old racial adjustments to ability scores,
 and add the racial adjustments of its new race (including mental ability scores).
 The reincarnated creature gains all abilities associated with its new form, 
