@@ -208,6 +208,27 @@ The curse can be lifted by normal effects capable of \nameref{sec:RemovingACurse
 
 A creature successfully raised with this spell becomes alive and stable at -9 hit points rather than with hit points equal to its HD. Any wounds and disease symptoms repaired as part of the resurrection process are only repaired to the absolute minimum functionality required to return the creature to life. Even if the creature's hit point total is fully restored, such wounds still leave scars, unless removed with the \nameref{Spell:Regenerate} spell. Creatures with visible scars from this process gain a +4 bonus in Intimidate checks, but suffer a -4 penalty on Diplomacy checks.
 
+\subsubsection{Bands of Air}
+\label{Spell:BandsOfAir}
+Evocation [Air]
+\\ \textbf{Level:} Air Specialization 3
+\\ \textbf{Components:} V, S
+\\ \textbf{Casting Time:} 1 standard action
+\\ \textbf{Range:} Medium (100 ft. + 10 ft./level)
+\\ \textbf{Target:} One creature
+\\ \textbf{Duration:} Concentration + 1 round/level; see text
+\\ \textbf{Saving Throw:} Reflex negates
+\\ \textbf{Spell Resistance:} Yes
+\\ \textbf{Spell Points:} 5
+
+\emph{The air itself solidifies to form an invisible trap}
+
+The subject must succeed on a Reflex save or be \emph{immobilized}.
+
+The subject remains \emph{immobilized} for as long as you concentrate. Should you cease concentrating, the subject may attempt to end the spell as a full-round action, either by breaking the bands (Strength DC 15) or slipping free (Escape Artist DC 15).
+
+\paragraph{Augment:} For every additional spell point you spend, the Strength or Escape Artist DC to escape increases by 1.
+
 \subsubsection{Banishing Weapon}
 \label{Spell:BanishingWeapon}
 Transmutation [see text]
@@ -312,7 +333,7 @@ The subject of this spell gains Blindsense out to 30'.
 \paragraph{Augment:} You can Augment the spell in one or both of the following ways:
 \begin{enumerate}
  \item For every additional spell point you spend, the range of the blindsense increases by 10'.
- \item If you spend two additional spell points, the spell's dueation increases to 10 minutes per level.
+ \item If you spend two additional spell points, the spell's duration increases to 10 minutes per level.
 \end{enumerate}
 
 \subsubsection{Bloodhound}
@@ -645,7 +666,7 @@ The damage dealt by this spell stacks with any other elemental damage your weapo
 
 \subsubsection{Elfcloak}
 \label{Spell:Elfcloak}
-Divination
+Transmutation
 \\ \textbf{Level:} Ranger 1
 \\ \textbf{Components:} V, S
 \\ \textbf{Casting Time:} 1 standard action
@@ -797,6 +818,29 @@ This does not affect the subjects' tactical movement speed.
 
 \paragraph{Augment:} For every 2 additional spell points you spend, this spell can affect an additional target.
 
+\subsubsection{Frozen Slick}
+\label{Spell:FrozenSlick}
+Evocation [Cold]
+\\ \textbf{Level:} Ice Specialization 1
+\\ \textbf{Components:} V, S
+\\ \textbf{Casting Time:} 1 standard action
+\\ \textbf{Range:} Close (25 ft. + 5 ft./2 levels) 
+\\ \textbf{Area:} A 10-ft. square of surface
+\\ \textbf{Duration:} 1 round/level (D)
+\\ \textbf{Saving Throw:} See spell text
+\\ \textbf{Spell Resistance:} No
+\\ \textbf{Spell Points:} 1
+
+\emph{You cover the ground with a sheet of ice, clear as the finest glass.} 
+
+Any creature in the area when this spell is cast must make a successful Reflex save or fall. This save is repeated on your turn each round that the creature remains within the area.  A creature can walk within or through the slick area at half normal speed with a DC 10 Balance check. Failure means it can't move that round (and must then make a Reflex save or fall), while failure by 5 or more means it falls (see the Balance skill for details).
+
+The spell has a particularly strong effect when cast on the surface of water, freezing its topmost layer. A creature of medium size or smaller can move across a surface of water so frozen, provided they succeed on the appropriate Balance check. The DC of the balance check increases by 5 if the sheet is not solidly anchored. Larger creatures trying to cross immediately break up the ice and sink through.
+
+Each 5' square of the ice formed by this spell has 3 hit points and hardness 5, break DC 15. A square of ice that has been broken up loses its slippery quality, or in the case of ice floating on the surface of water, becomes non-traversible again.
+
+\paragraph{Augment:} For every 2 additional spell points you spend, you can cover an additional 10' square with ice. Each square must be adjacent to another square.
+
 \subsection{'G' Spells}
 \subsubsection{Goldskin}
 \label{Spell:Goldskin}
@@ -816,10 +860,7 @@ The gold pieces are transferred on to your person. Extradimensional storage spac
 
 Should the attacker not have 7 gold pieces to spare, the attack deals no damage.
 
-\paragraph{Augment:} You can augment this spell in one or both of the following ways:
-\begin{enumerate}
- \item For every additional spell point spent, the attacker loses an additional gold piece per hit.
-\end{enumerate}
+\paragraph{Augment:} For every additional spell point spent, the attacker loses an additional gold piece per hit.
 
 \subsection{'H' Spells}
 \subsubsection{Hail of Arrows}
@@ -1042,6 +1083,61 @@ Transmutation [Good]
 A creature struck twice in the same round with a weapon imbued with this spell must make a Fortitude save or be stunned for 1d3 rounds.
 This effect is subject to spell resistance.
 
+\subsubsection{Mage Fist}
+\label{Spell:MageFist}
+Transmutation
+\\ \textbf{Level:} Force Specialization 2
+\\ \textbf{Components:} V, S
+\\ \textbf{Casting Time:} 1 standard action
+\\ \textbf{Range:} Close (25 ft. + 5 ft./2 levels)
+\\ \textbf{Target:} One object or one creature
+\\ \textbf{Duration:} Instantaneous
+\\ \textbf{Saving Throw:} None
+\\ \textbf{Spell Resistance:} Yes (object)
+\\ \textbf{Spell Points:} 3
+
+\emph{With a contemptuous flick of the mage's hand, the guard's feet went out from under him.}
+
+You apply an instantaneous telekinetic force to perform a simple maneuver, such as one that might be performed with a club.
+
+The force can perform a bull rush, a disarm, or a trip. It can also perform strength checks to break objects. When used to attack a creature or object directly, it deals damage as a club.
+
+Resolve these maneuvers as normal, except that you use your caster level in place of your base attack bonus (for disarm attempts and attacks), you use your key ability modifier in place of your Strength modifier or Dexterity modifier. The maneuvers don't provoke attacks of opportunity (except as normal for casting a spell), and a failed attempt doesn't allow a reactive attempt by the target (such as normally allowed on disarm or trip attempts). Rather than using your own size modifier, the force is treated as a medium-sized creature.
+
+No save is allowed against these attempts, but spell resistance and opposed checks apply normally.
+
+\paragraph{Augment:}
+For every 4 additional spell points you spend, the force is treated as a creature one size category larger, to a maximum of colossal.
+
+\subsubsection{Magewind}
+\label{Spell:Magewind}
+Evocation [Air]
+\\ \textbf{Level:} Air Specialization 1
+\\ \textbf{Components:} V, S
+\\ \textbf{Casting Time:} 1 minute
+\\ \textbf{Range:} 1 mile
+\\ \textbf{Area:} 1-mile radius sphere, centered on the caster
+\\ \textbf{Duration:} Concentration + 1 minute
+\\ \textbf{Saving Throw:} None
+\\ \textbf{Spell Resistance:} No
+\\ \textbf{Spell Points:} 1
+
+\emph{The mage closed her eyes in concentration, willing the wind to fill the sails.}
+
+You invoke a gentle change in the wind in the spell's affected area. The change gradually takes effect one minute after the spells's completion.
+
+The effect's area is a sphere, centered on the caster. This skill can only be used outdoors. The wind does not have a supernatural ability to penetrate shelter.
+
+At the time of casting, the caster decides how the wind will be affected. They have a choice of changing the wind's direction, or stopping the wind altogether. Only a \emph{Light Wind} or a \emph{Moderate Wind} can be invoked or affected by this Ritual, not winds of greater strength. Attempting to use this spell during a \emph{Strong Wind} or stronger has no effect.
+
+If two or more casters attempt to control the wind in conflicting ways, normal wind conditions apply in the overlapping area.
+
+\paragraph{Augment:} This spell can be augmented in one of the following ways:
+\begin{itemize}
+ \item If you spend 4 additional spell points, this spell can invoke or affect a \emph{Strong Wind}.
+ \item If you spend 8 additional spell points, this spell can invoke or affect a \emph{Severe Wind}.
+\end{itemize}
+
 \subsubsection{Mental Link}
 \label{Spell:MentalLink}
 Enchantment
@@ -1247,6 +1343,26 @@ Protections against magical diseases are effective against this spell.
 \emph{Special:} This spell immediately ends if the caster dies. 
 
 \subsection{'R' Spells}
+
+\subsubsection{Regal Bearing}
+\label{Spell:RegalBearing}
+Transmutation
+\\ \textbf{Level:} Paladin 2
+\\ \textbf{Components:} V, S
+\\ \textbf{Casting Time:} 1 standard action
+\\ \textbf{Range:} Personal
+\\ \textbf{Target:} You
+\\ \textbf{Duration:} 10 min./level (D); see text
+\\ \textbf{Spell Points:} 3
+
+\emph{Your back appears straighter and your teeth whiter.}
+
+You gain a +4 enhancement bonus on Bluff and Diplomacy checks, as well as on Disguise checks made to appear as someone of a higher social status.
+
+Once you have succeeded on using one of the bonused skill checks against a creature, you can discharge the spell as a standard action to target the creature with a \nameref{Spell:Command} effect, which functions identically to an unaugmented version of the spell. Doing this causes the Regal Bearing spell to end, though the Command effect continues to run its course for one round as normal. The save DC of the Command effect is equal to the save DC of the Regal Bearing spell.
+
+\paragraph{Augment:} For every two additional spell points you spend, the skill check bonuses granted by this spell increase by 1.
+
 \subsubsection{Repelling Light}
 \label{Spell:RepellingLight}
 Abjuration [Light]
@@ -1481,6 +1597,31 @@ Abjuration
 \emph{``You think you scare me? Give me your best shot!''}
 
 The spells of a spellcaster under the influence of this spell rebound back upon him, as if all creatures he targets were under a \nameref{Spell:SpellTurning} spell.
+
+\subsubsection{Spike Gravity}
+\label{Spell:SpikeGravity}
+Transmutation [Earth]
+\\ \textbf{Level:} Gravity Specialization 4
+\\ \textbf{Components:} V, S
+\\ \textbf{Casting Time:} 1 standard action
+\\ \textbf{Range:} Medium (100 ft. + 10 ft./level)
+\\ \textbf{Effect:} 20-ft. radius cylinder emanation 120-ft. high
+\\ \textbf{Duration:} 1 round/level
+\\ \textbf{Saving Throw:} Fortitude partial; see text
+\\ \textbf{Spell Resistance:} Yes
+\\ \textbf{Spell Points:} 5
+
+\emph{With a decisive motion, you bring your fist down, and the troops tumble to the ground.}
+
+Every creature standing on the ground within the affected area at the time of casting must immediately make a Fortitude saving throw or be knocked prone. Every creature flying within the area must make a Fortitude saving throw or stall as if it had failed to maintain a minimum forward speed. A creature must repeat this save when ending its movement within the affected area.
+
+The affected area is considered difficult terrain, and all fly speeds are reduced by half. It is impossible for a creature with a fly speed to take off within the affected area unless they have perfect maneuverability.
+
+Dwarves gain a +4 bonus on the Fortitude saves enforced by this spell. Creatures larger than medium take a -4 penalty for every size category above medium. Creatures smaller than medium gain a +4 bonus for every size category below medium.
+
+You are immune to the effects of your own Spike Gravity spell if you are standing on the ground.
+
+At the DM's option, this spell may also have certain side effects that could be expected when objects' weight is sharply and irregularly changed - poorly constructed bridges and buildings may collapse, and heavy objects may be more difficult to pick up.
 
 \subsubsection{Squirt}
 \label{Spell:Squirt}
