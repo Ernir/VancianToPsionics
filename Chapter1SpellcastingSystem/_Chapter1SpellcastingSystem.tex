@@ -1,3 +1,4 @@
+The most fundamental part of converting a spellcasting system must be to change the base mechanics themselves. The following chapter deals with translating the underlying \emph{Psionic system} to use magical terminology.
 
 \section{Magic Overview}
 \label{sec:MagicOverview}
@@ -20,7 +21,7 @@ Each spell has a specific effect. A spell known to a spellcasting character can 
 
 Magic has one fundamental rule. This most fundamental rule of magic is as follows:
 \begin{quote}
-\Large{The maximum number of spell points you can spend on a spell is equal to your caster level.}
+\Large The maximum number of spell points you can spend on a spell is equal to your caster level.
 \end{quote}
 Spell points and caster levels are explained in detail below.
 \subsection{Casting Spells}
@@ -197,8 +198,8 @@ Spellcasting characters fuel their abilities through a pool, or reserve, of spel
 Your spell point reserve is equal to your base spell points gained from your class\footnote{
 Individual class tables contain information on how many spell points are granted by that class. However, the mathematically inclined may be interested in the formulas behind the tables:
 \begin{itemize}
- \item The Bard has $\lfloor\frac{\text{level}^2}{2}\rfloor$ base SP/day.
- \item The Cleric and Wizard have $\lceil (\text{level}^2+\text{level}+1) \cdot \frac{3}{4}\rceil$ base SP/day.
+ \item The Bard has $\lfloor \text{level}/2 \rfloor$ base SP/day.
+ \item The Cleric and Wizard have $\lceil (\text{level}^2+\text{level}+1) \cdot 3/4 \rceil$ base SP/day.
  \item The Sorcerer has $\lceil \text{level}^2+\text{level}+1 \rceil$ base SP/day.
  \item The Paladin and Ranger progressions are not known to me, as they emulate the Psychic Warrior progression. Polynomial fitting has not been fruitful.
 \end{itemize}
@@ -792,6 +793,7 @@ All spells have a Spell Points line, indicating the spell's cost. This is the mi
 The spellcasting character class tables show how many spell points a character has access to each day, depending on level.
 A spell's cost is determined by its spell level, as shown on the \nameref{tab:SpellPointsBySpellLevel} table. 
 Every spell's cost is noted in its description for ease of reference.
+
 \begin{tableonecolumn}
 \caption{Spell Points by Spell Level}
 \label{tab:SpellPointsBySpellLevel}
@@ -803,6 +805,7 @@ Every spell's cost is noted in its description for ease of reference.
 \bottomrule
 \end{tabular}
 \end{tableonecolumn}
+
 
 \paragraph{Spell Point Limit:} 
 The spell point cost mentioned in each spell's description is the minimum number of spell points needed to cast the spell. 
